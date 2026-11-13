@@ -20,6 +20,8 @@ The model predicts individual differences in regulated state transitions, novel 
 
 ---
 
+> **Neuroscientific substrate hypothesis.** A replicated frontoparietal distinction provides a candidate route for the internal/external axis: **FPCN-A preferentially couples with the default network (internally directed and future-oriented processing), while FPCN-B preferentially couples with the dorsal attention network (externally directed and perceptual-task processing)**. The four entropy/MI computational branches, their Gf synthesis and the full homeostatic cusp remain Trident-G hypotheses rather than experimentally established equivalents of these networks (Dixon et al., 2018; Murphy et al., 2020; Nee, 2021; Yin et al., 2022).
+
 # 1. The explanatory problem and the proposed solution
 
 Traditional psychometric descriptions of fluid intelligence (Gf) and crystallised intelligence (Gc) identify important dimensions of performance, but do not by themselves specify how an intelligent *episode* is organised or how repeated episodes change future competence. A person can type, read, recall known procedures and recognise familiar patterns while simultaneously reasoning about a novel problem. Some components are fast and well learned; others demand active restructuring. The same episode may span milliseconds of sensory processing, seconds of working-memory coordination, minutes of problem solving, and the much longer interval over which the resulting lesson is consolidated.
@@ -106,6 +108,14 @@ $$
 
 Accordingly, $\xi_t=G_t-F_t^\star$. This is a hypothesis about how anticipated demand is formed; $\mathscr G$ is not psychometric $g$.
 
+### Candidate neural substrate for homeostatic/allostatic regulation
+
+**Evidence.** Human neuroimaging and nonhuman anatomical tract-tracing support a distributed allostatic–interoceptive system incorporating anterior/midcingulate and insular cortices, default-mode and salience-associated regions, with connections to autonomic and brainstem regulatory circuitry. Kleckner et al. (2017) combined anatomical priors with replicated human functional-connectivity analyses; Zhang et al. (2025) extended the anatomy with 7-Tesla fMRI (n = 90) and greater subcortical resolution. Sridharan, Levitin and Menon (2008) found evidence implicating right fronto-insular cortex in switching between executive and default-mode networks.
+
+**Trident-G hypothesis.** Salience, interoceptive and visceromotor circuitry contributes estimates of bodily/regulatory condition and the salience of mismatches, while control systems adjust engagement and policy selection. This offers a plausible *candidate substrate* for the \(F,F^\star,G,\eta,\chi\) control variables, but none of those scalar quantities is directly decoded or uniquely identified by the cited connectivity experiments. Anterior insula, ACC, LC–noradrenaline and striatum should not be assigned one-to-one to \(\xi\), \(\delta\) or \(F^\star\) without an explicit measurement model.
+
+**Possible measurements.** Simultaneously sample task performance, pupil/arousal measures, autonomic indices and source-resolved neural network dynamics where feasible. Model whether interoceptive/autonomic signals prospectively predict successful re-entry after perturbation; do not treat HRV, pupil diameter or a particular oscillatory exponent as a unique biomarker of \(F^\star\).
+
 ### A prediction-error-modulated tilt: connecting dopamine to cognitive control
 
 The original Trident-G account proposes that better-than-expected outcomes tend to reinforce effective policies, while worse-than-expected outcomes can suppress unsuccessful policies and prompt re-evaluation. That proposal has a substantial foundation in dopamine reward-prediction-error (RPE) research, but its extension to the mutual-information/entropy arms must remain a **separately testable hypothesis**.
@@ -190,6 +200,16 @@ The term $f_j$ represents local computation; $H_{jk}$ represents interactions; $
 
 Different modules can remain active at once, with different levels of autonomy and responsiveness. **An automated skill is not equivalent to a globally subcritical brain state**; automaticity is a functional property, while criticality is a dynamical property to be measured.
 
+## Neural evidence for modular autonomy and integration
+
+A network account is supported more directly than a strict cognitive-module-to-region correspondence. **Bertolero, Yeo and D'Esposito (2015)** examined 9,208 experiments spanning 77 cognitive tasks and found that activity in between-module connector regions increased with the number of recruited functions, whereas more local network nodes showed comparatively independent engagement. **Cole et al. (2013)** demonstrated that the frontoparietal network changes its brain-wide functional-connectivity configuration across tasks, consistent with flexible hubs that support adaptive control. These are observational and meta-analytic findings, not proof that a particular region is the unique Gf supervisor.
+
+A particularly close mechanistic precedent is **Murphy et al. (2020)**: using 2-back fMRI and diffusion data from 644 Human Connectome Project participants, they identified frontoparietal subdivisions preferentially aligned with DMN or DAN, related functional/structural coupling to working-memory performance, and explored the resulting dynamics with coupled oscillators. **Nee (2021)** further showed an external/present-to-internal/future control gradient in frontoparietal cortex, with an intermediate integrative zone associated with individual cognitive differences. These findings motivate a flexible, distributed recruitment architecture rather than a single central executive that simply turns whole networks on or off.
+
+**Learning modifies modular organisation:** Bassett et al. (2011) measured changing fMRI network communities across training of a motor sequence and found that flexibility of module allegiance in one session predicted learning in a subsequent session. This supports experience-dependent network reconfiguration, but does not establish that motor-skill learning improves general intelligence or that increased modular flexibility always helps.
+
+**Trident-G implication:** the module coupling matrix \(W\) and recruitment gates \(\gamma_j\) should be constrained using task-dependent network data. Local autonomy and connector-mediated integration are empirically supported *organisational features*; the proposed causal Gf control law remains to be estimated.
+
 ## 3.1 Selective recruitment and joint action
 
 A module's recruitment depends on task cues, the current plan, context and evidence of mismatch:
@@ -238,6 +258,16 @@ where $m_j$ estimates effective activity propagation in module $j$. Then $\zeta_
 The proposed distinction is **relative and task-conditional**. Retrieval or performance of well-learned Gc skills may often rely on locally constrained, more stable processing; novel Gf synthesis may recruit modules operating near criticality, sometimes with transient more strongly propagating activity. But Gf and Gc are not separate anatomical systems, and neither is assigned a compulsory criticality sign.
 
 The proposed claim that efficient Gc execution has a lower *incremental task cost* than constructing a novel solution is also conditional on comparable task outcomes and expertise. It does not follow merely from a negative $\zeta_j$, nor does it assert that Gc entails lower total brain energy consumption.
+
+## Empirical evidence linking critical-like dynamics to cognitive performance
+
+**Human correlational evidence.** Ezaki et al. (2020) fitted a statistical-physics-inspired model to resting-state fMRI and reported that participants with higher performance/fluid-type IQ measures tended to lie nearer a modelled critical boundary, with only a **moderate** association. Xu, Feng and Yu (2022) reported associations between individualised avalanche/synchronisation statistics and *fluid intelligence and working memory*, but not their crystallised-intelligence measure; they also found longer average occupancy of slightly subcritical states. These are encouraging tests of a proposed Gf/Gc *difference*, not direct demonstrations that a Gf process is supercritical and a Gc module is subcritical.
+
+**Task specificity.** Liu, Fei and Liu (2024) reported that perceptual tasks selectively shifted criticality estimates of relevant cortical subsystems; their findings favour task- and region-dependent regulation over global, uniform criticality. Müller et al. (2025) used multiday intracranial EEG in people with epilepsy and associated departures from critical dynamics with cognitive impairment, while observing perturbations linked to medication, interictal events and sleep-like episodes. The clinical sample and inference method limit generalisation to healthy fluid intelligence.
+
+**Important counterevidence and alternatives.** Priesemann et al. (2014) reported in-vivo spike-avalanche evidence consistent with a driven, **slightly subcritical** state. Criticality proxies depend on model class, recordings, preprocessing, finite sampling and observation timescale; apparent power laws can have noncritical explanations. None of these human studies demonstrates that a *Griffiths phase*, rather than another near-critical mechanism, uniquely supports Gf or Gc. Moretti and Muñoz (2013) offer a relevant **computational network model**, not empirical identification of a Griffiths phase in human reasoning.
+
+The proposed four-way separation remains: **(i)** stable or automated task behaviour, **(ii)** a cusp-like control transition, **(iii)** a local branching/propagation regime, and **(iv)** an extended Griffiths-phase region. No one observation licenses equating them.
 
 ## 4.1 Why Griffiths phases matter
 
@@ -297,6 +327,12 @@ A brief neural computation can retrieve a long-horizon plan; a slow neural fluct
 | Niche restructuring | Variable, from a single action to years | Changes in feedback, affordances and future learning conditions |
 
 These intervals overlap; learning and consolidation can begin during an episode, and fast neural plasticity need not wait for a later discrete phase.
+
+## Cortical evidence for temporal hierarchy
+
+Murray et al. (2014) measured **spiking autocorrelation timescales** across nonhuman-primate cortical regions and found shorter intrinsic timescales in sensory cortex and longer ones in prefrontal cortex. Nee (2021) independently related frontoparietal control gradients to the distinction between immediate sensory-motor demands, contextual rules and internally maintained future plans in two human fMRI samples. These results support differentiation in temporal integration and control *demands*, but not a fixed correspondence between a named network and an SR predictive horizon.
+
+The theory's stronger claim—that Gf uses the temporally differentiated hierarchy to coordinate multiple predictive horizons and learn transferable temporal invariants—is **testable rather than established**. Neural timescale estimates from spike trains, BOLD fluctuations and behavioural duration should not be treated as interchangeable. Also, the timescale-rich relaxation of a Griffiths phase is a statistical dynamical property and must be distinguished from the conventional temporal hierarchy.
 
 ## 5.1 Cross-timescale coupling
 
@@ -363,6 +399,12 @@ $$
 
 Here $\mathbf r_t^\star$ is the active, synthesised representation: potentially a causal model, relational hypothesis, problem-solving plan or strategy. $Q_j$ translates specialised module outputs into a usable common representation. The explicit computational form of $\mathcal S$ is **not yet specified**; it is a central research target.
 
+### Neural evidence for combining generated and goal-constrained representations
+
+Functional interactions among DMN, executive-control and salience-associated regions have been observed during creative cognition. In particular, Beaty et al. (2018) identified connectivity patterns linking these systems that predicted individual divergent-thinking performance across samples. This lends support to **network cooperation between spontaneous generation and controlled evaluation**, without showing that DMN computes Shannon entropy, that FPCN computes mutual information, or that such coupling equals psychometric Gf.
+
+The FPCN internal–external distinction is best treated as a *routing or representational-context preference*, whereas entropy-oriented search and relevance-oriented constraint are proposed **computational operations**. Their crossed 2 × 2 structure is the Trident-G hypothesis to be tested within the same factorial task, not four validated anatomical pathways.
+
 ### Why Gf might predict invariant learning
 
 The theory predicts that higher independently measured Gf will, under suitable conditions, be associated with better discovery and coordination of relational structures across transformations and predictive horizons. This is **not** the same as claiming that Gf training necessarily raises invariant-learning ability or causes far transfer. Existing Gc, working-memory capacity, task demands, feedback and prior knowledge are relevant competing predictors.
@@ -408,6 +450,12 @@ The proposed transfer criterion includes both **horizontal transfer** (structure
 
 ---
 
+## Empirical substrate for relational maps and predictive inference
+
+The hippocampal–entorhinal system offers a plausible source of structured relational representations, though not a direct proof of the full Trident synthesis operator. **Garvert, Dolan and Behrens (2017)** used human fMRI adaptation to identify abstract, nonspatial relational maps whose distances tracked associative and future-state structure. **Schuck et al. (2016)** decoded partially hidden task states from human orbitofrontal cortex; decoding quality related to decision behaviour. **Momennejad et al. (2017)** found behavioural evidence for successor-representation-like choice in two human studies, separating sensitivity to reward changes from sensitivity to transition changes. **Stachenfeld, Botvinick and Gershman (2017)** formalised the hippocampus as a predictive map using computational modelling.
+
+**Interpretation.** These converging results support the possibility of relational, state-space and SR-like representations used during planning. They do not demonstrate that FPCN-A alone performs LT-WM or that all relational invariants are represented as SRs. The model should test whether changed-format transfer is explained by learned relational *structure*, not merely by familiarity with a broad class of inputs.
+
 # 8. Gf→Gc→Gf banking builds both knowledge and modules
 
 Consolidation has at least two related outputs.
@@ -417,6 +465,10 @@ Consolidation has at least two related outputs.
 **Slow Gc integration** produces gist, general relational schemas and representational organisation accumulated across episodes. This can reshape which variables, constraints and connections are salient during later Gf search.
 
 These are functional pathways and different characteristic learning timescales, not assertions that each can be assigned to a single isolated anatomical site.
+
+**Neural evidence and boundaries.** Vatansever, Menon and Stamatakis (2017) found increased DMN engagement during automated rule use in predictable conditions, including task-related interactions with hippocampal/parahippocampal regions. This supports a memory-based automated mode but **does not identify all Gc with the DMN**. Tse et al. (2007, 2011) used rat schema-learning experiments to show that pre-existing knowledge can strongly accelerate integration of new associations, with a critical contribution from medial prefrontal circuitry. These studies support schema-dependent consolidation, but not the specific fast/subcortical versus slow/cortical partition proposed here.
+
+A July 2026 **non-peer-reviewed preprint** by Xue et al. reported lower intracellular neuronal glucose consumption per task after learning in behaving mice. If replicated, this is useful evidence for learning-related task efficiency; it is **not** evidence that Gc has a specific neural criticality sign or that human Gc retrieval generally consumes less total energy than Gf reasoning.
 
 Let $K_t^f$ and $K_t^s$ denote fast and slow Gc stores. A schematic distinction is:
 
@@ -465,6 +517,10 @@ The empirical challenge is to distinguish such a causal effect on later learning
 
 ---
 
+## Neuroplasticity and asymmetric learning opportunities
+
+Evidence that network organisation changes with learning (Bassett et al., 2011) and that frontoparietal integration relates to higher-level control (Cole et al., 2013; Nee, 2021) makes a developmental network account biologically plausible. However, none of these studies directly demonstrates that training one Trident capacity *causally increases the future learning rate* of another. That stronger asymmetric-mutualism claim requires longitudinal, intervention-based analysis, not resting-state covariance or network centrality alone.
+
 # 10. Coupled niches and the regulation of future possibilities
 
 An individual operates within several partly connected niches: work, research, social relationships, educational settings, AI-mediated workflows, and others. An adaptive policy can be effective only when the niche provides relevant cues, authority, affordances and feedback.
@@ -492,6 +548,10 @@ $$
 $$
 
 The mappings $\mathcal T_{mn}$ should preserve relevant structure; their existence and effectiveness must be *demonstrated*, not presumed.
+
+### Neural grounding versus external-niche evidence
+
+The allostatic–interoceptive evidence (Kleckner et al., 2017; Zhang et al., 2025) supports the claim that internal physiological regulation and broad cognitive systems are integrated. It does **not** by itself demonstrate that changing a workplace, educational system or social niche produces general-intelligence gains. Niche construction is consequently a computational/behavioural extension that requires its *own* intervention and transfer evidence, with changes in environmental affordances and feedback measured independently from brain activity.
 
 ### Adaptation, growth and viable control
 
