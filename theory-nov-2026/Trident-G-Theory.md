@@ -416,6 +416,8 @@ Here $\mathbf n$ denotes independently measured network states and $\Theta$ task
 
 
 
+## 6.2 Computational branches, synthesis and learning
+
 | Branch | Computational emphasis | Typical contribution |
 |---|---|---|
 | **Internal × entropy-oriented** | Generative exploration | Hypotheses, counterfactuals, recombinations, model variation |
