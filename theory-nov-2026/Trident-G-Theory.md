@@ -147,7 +147,7 @@ $
 }
 $
 
-where positive $\delta$ is **conventionally defined** as a bias towards continued/convergent policy use, and negative $\delta$ as a bias towards reopening/divergent search (the sign convention adopted in the 2025 Trident-G account). This is a psychological assignment of bias, not an identity between the sign of $x=F-F^\star$ and exploration/exploitation. In this proposal:
+where positive $\delta$ is **conventionally defined** as a bias towards continued/convergent policy use, and negative $\delta$ as a bias towards reopening/divergent search (the sign convention adopted in the 2025 Trident-G account). This is a **phenomenological assignment of control bias**, not an identity between the sign of $x=F-F^\star$ and exploration/exploitation. In the stated cusp potential, a positive $\delta$ mechanically favours higher $x$ (greater positive deviation from the defended reference), not exploitation *as such*. A validated mapping from policy bias to allostatic displacement is still required; if it proves inconsistent across tasks, the model should introduce a separate policy-mode coordinate rather than redefining $x$. In this proposal:
 
 - $\rho_\delta$ represents persistence of the previous control bias.
 - $g_t^+$ and $g_t^-$ are context-sensitive gates evaluating whether the outcome is genuinely diagnostic for retaining or revising the **current model or policy**.
