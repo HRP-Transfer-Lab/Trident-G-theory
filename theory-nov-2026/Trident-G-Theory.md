@@ -1,12 +1,12 @@
 # Trident-G: A Hierarchical, Multiscale Theory of Homeostatic General Adaptive Intelligence
 
-**Unified working theory — Version 0.3 (13 November 2026)**  
+**Unified working theory — Version 0.4 (13 November 2026; developmental extension, draft)**  
 **Author:** Mark Ashton Smith  
 **Status:** Conceptual and mathematical research programme; not an empirically validated account of general intelligence.
 
-> **Core proposition.** General adaptive intelligence arises from the regulation of a heterogeneous, hierarchically organised agent–environment system. Relatively stable, reusable Gc representations and skills operate concurrently with flexible Gf synthesis. Homeostatic control regulates which processes remain autonomous, which are recruited, and when established structures must be reconsidered. Learning changes the knowledge, modular organisation and temporal horizons available for future cognition; action also changes the niches in which the system learns.
+> **Core proposition.** General adaptive intelligence arises from the regulation of a heterogeneous, hierarchically organised agent–environment system. Relatively stable Gc representations and skills operate concurrently with flexible Gf synthesis. Homeostatic control determines when skilled routines persist, when alternatives are recruited, and when established representations are revised. Repeated joint action may enable the extraction and consolidation of *cross-perspectival referential invariants*, supporting explicitly assessable shared intentionality_R. Public symbolic models then become new elements of the cognitive niche, improving or distorting later reasoning according to their connection to independent evidence, human goals and corrective feedback.
 
-This document consolidates the three earlier sections of this file—coupled-dynamical Trident-G v0.2, hierarchical modularity/Griffiths phases, and multiscale temporal dynamics—into **one account**, rather than three consecutive extensions. Its equations are an explicit modelling scaffold, not a claim that the underlying neural mechanisms have been demonstrated.
+This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence.
 
 ---
 
@@ -16,7 +16,7 @@ Trident-G proposes that general intelligence is best understood as **viable, sel
 
 The neural implementation is hypothesised to be hierarchically modular and dynamically heterogeneous. Under particular connectivity and activation conditions, such networks may exhibit **Griffiths-phase-like extended criticality**: localised persistence and a broad range of relaxation times across an extended parameter interval. This hypothesis is distinct from both the cusp bifurcation and the more general claim that cognitive processes operate at different speeds. Learning generates candidate relational invariants, tests their portability and selectively banks them through fast skill/policy compilation and slower schema or gist integration. Accumulated changes reshape later problem-solving, module recruitment, predictive horizons and interaction with coupled niches.
 
-The model predicts individual differences in regulated state transitions, novel composition of familiar skills, invariant learning, cross-timescale coordination, delayed transfer and recovery from perturbation. Its distinctive claims require comparison against noncritical hierarchical and conventional reinforcement-learning models, as well as independent psychometric and neural measurements.
+The model additionally proposes a **three-regime generative development**: action-bound shared intentionality_A, action-independent shared intentionality_R, and recursive symbolic coupling through public knowledge and AI-mediated niches. Joint action may create repeated opportunities to learn cross-perspective and cross-modal invariants; independently predictive and correctable referential models can then support explicit counterfactual and normative reasoning. Public representations can subsequently become referents and determinants of further action, enabling cumulative culture but also self-confirming synthetic environments if models lose access to independently informative evidence. These are testable computational hypotheses, not established uniquely human stages. The model predicts regulated switching, skill composition, invariant transfer, and distinguishable effects of independent grounding versus recursive public-model feedback.
 
 ---
 
@@ -34,8 +34,10 @@ Trident-G treats these facts as different aspects of a **single coupled dynamica
 4. coordinates representations and actions across several processing and predictive timescales;
 5. discovers useful invariants rather than retaining only task-specific answers;
 6. converts validated structures into reusable skills, schemas and strategies;
-7. transfers these structures across altered contexts and niches; and
-8. changes its own developmental conditions by acting on its environments.
+7. transfers these structures across altered contexts, representations, other agents and niches;
+8. develops shared reference through role variation, communicative repair and cross-perspectival invariant learning;
+9. evaluates explicit claims, counterfactuals, norms and attributions without equating social approval with correctness; and
+10. changes its own and others' developmental conditions through action and recursively shared symbolic models.
 
 The theory is not that more activation, greater uncertainty, longer memory or stronger criticality is *always* better. Its claim is that **adaptive regulation of heterogeneous resources** matters: exploit established structures when appropriate; reopen them when changed evidence matters; preserve viable action and future learning opportunities while doing so.
 
@@ -48,6 +50,7 @@ Three mathematical descriptions are complementary, not interchangeable.
 | **Cusp / homeostatic control** | Mesoscopic state and control variables $x,\xi,\delta$ | Persistence, commitment, switching, hysteresis and access to a viable Ψ-band |
 | **Hierarchical modular network dynamics** | Interacting modules $y_j$, topology $W$, local propagation regimes $\zeta_j$ | Concurrent skilled and flexible processing; selective recruitment; potential extended critical-like dynamics |
 | **Learning, consolidation and niche dynamics** | Knowledge $K$, capacities $\mathbf c$, timescales $\tau$, predictive horizons $h$, environments $\mathbf z$ | Transfer, development, structural reorganisation and recursive Gf→Gc→Gf growth |
+| **Shared reference and recursive public models** | Cross-agent referential representation $q^{ref}$, perspectives $M_i$, public model $P$, grounding weights $\lambda_W,\lambda_P$ | Emergence of intersubjectively accessible referents, norm-governed correction, external symbolic knowledge and possible epistemic closure |
 
 The cusp does **not** mathematically prove neural criticality. Hierarchical modularity does **not** by itself imply a Griffiths phase. A power law in behavioural or neural data does **not** by itself demonstrate a Griffiths phase or intelligence-related benefit.
 
@@ -496,7 +499,7 @@ $$
 
 The function $\mathcal M$ is a candidate invariant-learning mechanism, **not yet an executable estimator**.
 
-The proposed transfer criterion includes both **horizontal transfer** (structure survives changed wrappers or niches) and **vertical transfer** (the adaptive policy can be reconstructed across attention, binding, prediction, inference and action). Delayed recovery is required to distinguish durable learning from transient task priming.
+The proposed transfer criterion includes **horizontal transfer** (structure survives changed wrappers, perspectives, modalities or niches) and **vertical transfer** (the adaptive policy can be reconstructed across attention, binding, prediction, inference and action). Cross-agent and cross-modal invariance are especially relevant to the proposed emergence of shared intentionality_R; neither alignment nor agreement alone guarantees an external referent. Delayed recovery and independent, novel tests are required to distinguish durable learning from transient priming.
 
 ---
 
@@ -597,7 +600,7 @@ $$
 +\sum_{m\ne n}\nu_{mn}\mathcal T_{mn}(K_{m,t}).
 $$
 
-The mappings $\mathcal T_{mn}$ should preserve relevant structure; their existence and effectiveness must be *demonstrated*, not presumed.
+The mappings $\mathcal T_{mn}$ should preserve relevant structure; their existence and effectiveness must be *demonstrated*, not presumed. Public linguistic, visual and institutional representations are special cases of external niche structure. Their distinctive property is that they can themselves become the **referents of further communication, learning and action** (developed in §11).
 
 ### Neural grounding versus external-niche evidence
 
@@ -624,7 +627,549 @@ The theory accordingly separates **robustness** (remaining viable and recovering
 
 ---
 
-# 11. A unified intelligent episode: the G-loop
+# 11. From shared action to shared reference and recursive symbolic reality
+
+This section extends the preceding model rather than adding a fifth capacity or treating social cognition as a separate intelligence. The proposed mechanism reuses **coupled agent–niche action**, **internal/external Gf operations**, **cross-context invariant learning**, **WM-supported representational binding** and **fast/slow Gc banking**. A new element is a persistent **public symbolic model**, which can be both a representation *of* the world and an influential part *of* the world experienced by other agents.
+
+The conceptual source is Ashton Smith's earlier manuscript, *Joint Attentional Declarative Pointing: Shared Intentionality_A (Action) and Shared Intentionality_R (Representation)*. That paper distinguishes goal-based social coordination from the more demanding ability to represent an **independently identifiable subject matter** as shared among agents. It also challenges accounts of declarative pointing that explain only cooperation or informative pointing while **assuming the referent that ought to be explained** (especially pp. 11–13 and 19–22). The 2007 infant-pointing findings of Liszkowski, Carpenter and Tomasello show that twelve-month-old infants distinguish a mistaken referent from a correctly identified referent met with an uninterested attitude and respond differently to these communicative failures. These findings motivate, but do not establish, a new learning mechanism for referential independence.
+
+The generative hypothesis is a **three-regime progression**. These are *developmentally available forms of organisation*, not compulsory historical stages, fixed brain modules or an assertion that all nonhuman animals lack symbolic or perspectival capacities. All three regimes may operate simultaneously in mature human cognition.
+
+| Regime | Primary relationship | Computational achievement | Open empirical question |
+|---|---|---|---|
+| **I. Shared intentionality_A** | Agents coordinate actions around a common goal | Jointly useful action policies and agent–action–object predictions | When can coordination be achieved without explicitly shared referents? |
+| **II. Shared intentionality_R** | An object/relation is identifiable across agents, roles, modalities and beliefs | Relationally invariant reference, perspective differentiation, communicative correction and explicit normative assessment | What training history produces reusable, independently testable common reference? |
+| **III. Recursive symbolic coupling** | Public representations become objects and constraints of further representation and action | Cumulative symbolic knowledge, institutional facts, AI-mediated common models; potential epistemic closure | When does recursive public modelling remain reality-sensitive or become self-confirming? |
+
+## 11.1 Stage I — Shared intentionality_A: joint goal and action-centred prediction
+
+Suppose agents $i=1,\dots,n$ coordinate around a shared practical goal $g$ and have different observations, roles and sensorimotor policies. In a computational environment (not necessarily represented explicitly by the agents), let $s_t$ denote the external state, $a_{i,t}$ the action of agent $i$, and $v_{i,t}$ its perspective or sensing conditions:
+
+$
+o_{i,t}=H_i(s_t,v_{i,t})+\epsilon_{i,t}^{obs},
+\qquad
+s_{t+1}=T_s(s_t,a_{1,t},\ldots,a_{n,t}).
+$
+
+For each agent, the initial internal state may primarily predict affordances and consequences *relative to current goals* rather than independently representing a persisting public object. Successful cooperation can emerge from complementary action policies and outcome feedback **without assuming that the agents already possess an explicit, shared propositional referent**.
+
+The latent $s_t$ is the *simulator or researcher's* world state, not a fully articulated object concept attributed to the agent. This distinction avoids assuming the very cognitive referent whose development the theory seeks to explain.
+
+## 11.2 The proposed Stage I → II transition: learning what survives changing roles and perspectives
+
+The essential prediction is **not** that more cooperation automatically produces objective thought. Instead, some cooperative niches repeatedly expose agents to a *common latent cause* under systematically different actions, viewpoints, communicative signals and goals. Their attempts at coordination generate **repairable prediction errors** when an agent or partner attends to the wrong object or interprets a signal differently.
+
+A possible developmental sequence is:
+
+**Shared goal → repeated role/perspective changes → conflicting agent-specific predictions → communicative repair → extracted cross-perspectival invariant → delayed reuse outside the original task.**
+
+Let $q_{i,t}^{ref}=E_{\theta_i}(o_{i,\le t},a_{i,<t},c_{\le t})$ be agent $i
+
+The G-loop is best understood as a **concurrent, recursively updating process**, not a rigid serial programme.
+
+An episode can be described as follows. The agent enters a viable state; multiple automated skills remain active; observations and familiar knowledge constrain a novel problem; Gf explores and integrates alternatives; meta-control decides when more evidence is valuable and when action is warranted; the action alters the niche; its consequences generate prediction errors; local processes are adjusted or higher-level search is reopened; useful relational structures are validated against transformations; fast and slow Gc banking changes what will be available next time.
+
+This involves two simultaneously operating feedback circuits:
+
+**Within-episode regulation:** state → recruitment and synthesis → action → feedback → targeted correction or switching.
+
+**Across-episode development:** tested solutions → transferable invariants → skill/schema banking → changed modules, timescales and predictive maps → altered future episodes and niches.
+
+A high-Gf episode is not one in which every module is constantly near-critical or consciously controlled. It is one in which the system can **selectively combine existing competence with flexible reconstruction** under the present demands.
+
+---
+
+# 13. Testable predictions and discriminating experiments
+
+The strongest predictions must distinguish Trident-G from simpler accounts. The following are hypotheses; none follows automatically from the use of mathematical notation.
+
+| Candidate prediction | Operational test | Important comparison or control |
+|---|---|---|
+| **P1. Hysteretic strategy change** | Slowly sweep uncertainty, effort and reward contingencies; fit switching thresholds and return paths | Smooth RL, hidden-state and non-cusp nonlinear models |
+| **P2. Concurrent Gc/Gf coordination** | Train several routines, then test unfamiliar compositions while measuring local routine preservation and higher-level coordination | Independent routine execution; flat control and standard hierarchical RL |
+| **P3. Extended critical-like operating range adds value** | Simulate matched modular networks with and without rare-region/Griffiths dynamics across task/load parameters | Degree-, hierarchy-, resource- and performance-matched noncritical controls |
+| **P4. Gf predicts invariant learning** | Independent Gf testing; vary surface and structural transformations, hold out transfer tasks and test after delay | Gc, working memory, processing speed and initial task learning |
+| **P5. Gf predicts temporal-horizon coordination** | Require recombination of short-, medium- and long-horizon predictive relationships | Speed, working memory, established Gc and baseline graph-learning ability |
+| **P6. Fast and slow banking dissociate** | Compare immediate fluency, automatic execution, delayed schema transfer and rest/consolidation conditions | Exposure, repetition, strategy instruction and baseline knowledge |
+| **P7. Niche construction changes later adaptability** | Give some agents the ability to change workflow or feedback structure; compare future reachable tasks and resilience | Same immediate reward, experience and task difficulty without niche control |
+| **P8. Signed prediction errors modulate tilt without dictating exploration** | Manipulate better-than-expected, expected and worse-than-expected outcomes orthogonally to expected information gain; estimate subsequent policy persistence, switching and novel search | Compare RPE-only, uncertainty-only and combined gated-RPE/epistemic models; distinguish local avoidance from generative exploration |
+| **P9. Internal/external frontoparietal substrate** | Factorially vary internal versus externally anchored processing and open search versus diagnostic constraint; estimate FPCN-A–DMN and FPCN-B–DAN coupling and FPCN-A↔B interactions | Control relational complexity, Gf, working-memory difficulty, visual input and arousal; compare separate-axes model with original FPCN-A=MI/FPCN-B=entropy identity |
+| **P10. Allostatic network involvement in regulatory recovery** | Combine brain network, pupil/autonomic and behavioural time series after controlled challenge and recovery | Test multimodal gain beyond single biomarkers and generic arousal; avoid inferring $F^\star$ directly from one physiological channel |
+| **P11. Neural modularity predicts novel composition** | Repeatedly measure connector-network reconfiguration during unfamiliar combinations of trained skills | Compare specialist routine accuracy, hierarchical RL, and familiarity; test generalisation beyond trained component sequences |
+| **P12. Emergent independent reference** | Train collaborative agents on varying roles, goals and views with communicative repair; evaluate reference to absent objects and novel partners | Match outcomes and sensory exposure in shared-reward cooperation without referential repair; compare association and hierarchical-RL baselines |
+| **P13. Cross-modal triangulation requires world grounding** | Compare vision-only, language-only, paired, perspective-transformed and action-conditioned representations on held-out interventions | Test whether alignment alone explains performance; include mismatched but mutually consistent modalities and CrossMath-like controls |
+| **P14. Normative accountability is not social approval** | Manipulate independent evidence-based challenge versus reputation/approval; measure justification, correction, error calibration and delayed transfer | Separate audience presence, incentives, task difficulty, WM interference and strategic conformity |
+| **P15. Recursive public-model dependence may weaken external validity** | Manipulate model-generated training content, external observations, audit/provenance and model-induced environmental feedback | Distinguish institutional facts from empirical assertions; measure agreement, independent calibration, revisability and performative distribution shift |
+
+### What specifically counts as evidence for a Griffiths phase?
+
+Not just $1/f$ spectra, heavy-tailed reaction times or individual neuronal avalanches. The network hypothesis requires an appropriate dynamical model and convergent evidence for **an extended parameter interval** with scale-rich relaxation, localised persistence or related signatures. Analyses should test finite-size effects, nonstationarity, fitting range, alternative heavy-tail generators and robustness to different inference methods.
+
+### What counts as evidence for higher *general* intelligence?
+
+Improvements must extend beyond the trained tasks and surface similarities, survive delay and demonstrate predictive value for unfamiliar problems. If a hierarchical controller explains all the behavioural benefits without a Griffiths-phase regime, the **hierarchy** remains useful but the **criticality-specific** claim is not supported.
+
+---
+
+# 14. Implementation priorities and identification limits
+
+The fully coupled model contains more latent states than could responsibly be inferred from a short behavioural session. It is therefore best developed in stages.
+
+**First: minimal behavioural controller.** Implement the cusp with measured or manipulated task demands, a small bank of learned policies, one flexible synthesis operation, and simple feedback. Test whether the cusp improves held-out prediction of switching or resilience beyond non-cusp competitors.
+
+**Second: hierarchical modular learner.** Add gated skill modules and an independently manipulable network topology. Compare successful novel compositions against a flat agent and ordinary hierarchical reinforcement learning.
+
+**Third: multiscale and criticality tests.** Introduce explicit local propagation rules and heterogeneity, then establish whether a Griffiths-like interval *emerges* and produces advantages beyond hierarchy alone. Distinguish $\tau_j$ from predictive SR horizons.
+
+**Fourth: invariant learning and Gc banking.** Implement meaningful structure-preserving transformations, validated transfer mappings, fast policy compilation and slower schema integration. Test both immediate composition and delayed recovery.
+
+**Fifth: reciprocal niches and human validation.** Extend agents to modifiable environments, then fit targeted human tasks with independent Gf/Gc measures, repeated assessments, and cautiously interpreted neural/physiological signals.
+
+**Sixth: emergent reference and public symbolic feedback.** Train multi-agent learners with shared goals, role changes and communicative repair; compare them with matched associative and hierarchical-RL baselines. Then add persistent public symbolic records and AI-generated content, varying independent observational audits and performative effects. Compare independent referential transfer, external calibration, normative revision and public agreement.
+
+The earliest computational implementation should **freeze slow developmental variables** and specify concrete forms for $\mathcal S$, $\mathcal M$, $\mathcal A$, $\mathrm{Gate}$, $f_j$ and $\mathcal B$. Meta-efficacy $\eta$, coherence $\chi$, homeostatic conditions $\mathbf h$, and $F^\star$ presently enter as inputs or slow latent quantities: their own update laws are open questions. Version 0.4 is therefore a *structured candidate theory*, not yet a closed, identifiable model; the developmental transitions and symbolic feedback system add particularly demanding identifiability and causal-inference requirements.
+
+---
+
+# Appendix A. Compact mathematical framework (v0.4)
+
+The equations below are the minimal mutually consistent **schema**, not yet a numerical specification. Unless otherwise noted, all variables are time-dependent. $\mathbf W$ denotes Wiener noise and $W_{jk}$ denotes network weights; these are different symbols.
+
+**A1. Original Trident state and allostatic mismatch**
+
+$$
+x=F-F^\star,\qquad \xi=G-F^\star,\qquad \varepsilon=F-G.
+$$
+
+**A2. Cusp potential and mesoscopic state dynamics**
+
+$$
+V(x;\xi,\delta)=x^4-\xi x^2-\delta x,\qquad
+dx=(-4x^3+2\xi x+\delta)\,dt+\sigma_x\,dW^{(x)}.
+$$
+
+**A3. Anticipated load, signed RPE learning and exploration–exploitation tilt**
+
+$$
+\begin{aligned}
+G&=\mathscr G(\mathbf c,\eta,\chi,\mathbf h,K^{Gc},\mathbf b,\mathbf z,\text{goal}),\\
+\Delta_t^R&=r_t-\widehat r_t,\quad
+\ell_t^{+}=\alpha_{+}[\Delta_t^R]_{+},\quad
+\ell_t^{-}=\alpha_{-}[-\Delta_t^R]_{+},\\
+\delta_t^{\mathrm{base}}&=u_t+\sum_n\lambda_{n,t}\psi_n(\mathbf z_{n,t},K_{n,t})
++\boldsymbol\omega^\top\mathbf b_t,\\
+\delta_{t+1}&=\mathrm{clip}\big[
+\rho_\delta\delta_t+(1-\rho_\delta)\delta_t^{\mathrm{base}}
++\beta_+g_t^+\ell_t^+-\beta_-g_t^-\ell_t^-
++\beta_C S_t-\beta_E\mathrm{EIG}_t
+\big].
+\end{aligned}
+$$
+
+$\Delta^R$ is a reward error, not the allostatic $\varepsilon=F-G$; $\ell^-$ models *learning consequences of dopamine decreases/indirect-pathway disinhibition*, not increased D2 receptor activation. A negative RPE weakens the old policy only where context warrants it; whether wider exploration follows is a **separate** choice.
+
+**A4. Hierarchical modular dynamics**
+
+$$
+\tau_j\,dy_j=
+\left[f_j(y_j;K_j^{Gc},\zeta_j)+\sum_kW_{jk}H_{jk}(y_k,y_j)
++\gamma_jB_j\mathbf r^\star_{t^-}+I_j\right]dt+\sigma_j\,dW^{(j)}.
+$$
+
+**A5. Local criticality, distinguishable from cusp control**
+
+$$
+\zeta_j=m_j-1,\qquad
+\dot\zeta_j=-\rho_j(\zeta_j-\zeta_j^\star(\text{task},\mathbf h,\mathbf z))+\nu_j.
+$$
+
+The $\zeta_j$ equation is an optional regulatory hypothesis, not a demonstrated biological controller.
+
+**A6. Branch processes and synthesis**
+
+$$
+d\mathbf b=\mathbf F_b(\mathbf b,\mathbf y,\mathbf o,K^{Gc},
+\mathbf c,\mathbf z,\boldsymbol\zeta)\,dt+\Sigma_b\,d\mathbf W^{(b)},
+$$
+
+$$
+\mathbf r^\star=\mathcal S\left(\mathbf b,
+\{\gamma_jQ_jy_j\}_j,K^{Gc},
+\{SR_{\beta_h}\}_h,\mathbf o,\mathbf z\right).
+$$
+
+**A6b. Candidate network-to-computation mapping (to be estimated)**
+
+$$
+\mathbf b_t\approx
+\mathcal R_{\mathrm{neuro}}
+(\mathbf n_{A,t},\mathbf n_{B,t},
+\mathbf n_{DMN,t},\mathbf n_{DAN,t},
+\mathbf n_{HPC,t},\mathbf o_t;\Theta).
+$$
+
+Dixon et al.'s FPCN-A/DMN versus FPCN-B/DAN **preferential coupling** motivates the internal–external axis, while entropy/MI-oriented modes remain distinct, orthogonal computational hypotheses. A shared latent signal should not be counted as an independently validated neural measure of $b_{IE}$, $b_{IM}$, $b_{EE}$ or $b_{EM}$.
+
+**A7. Skill gating and assembled action**
+
+$$
+\gamma_j=\mathrm{Gate}_j(\mathbf o_{t^-},\mathbf r^\star_{t^-},e_{j,t^-},\mathbf z,\eta),\qquad
+\mathbf a=\mathcal A\left(\mathbf a^{Gf},\{\gamma_j\pi_j^{Gc}\}_j\right).
+$$
+
+**A8. Candidate invariants and dual Gc banking**
+
+$$
+\begin{aligned}
+\dot{\mathbf q}&=\mathcal M(\mathbf q,\mathbf r^\star,\mathbf o,\mathbf a,\mathbf z,\mathcal D_{\le t}),\\
+\dot K^f&=\rho_fv\,\mathcal B_f(\mathbf q,\mathbf r^\star,\text{feedback})-\Gamma_f(K^f),\\
+\dot K^s&=\rho_s\mathcal B_s(K^s,\mathcal D_{\le t},K^f_{\le t},\text{rest})-\Gamma_s(K^s).
+\end{aligned}
+$$
+
+**A9. Capacity mutualism and slow structural adaptation**
+
+$$
+\dot c_i=L_i(c_i,\mathbf p_i,K^f,K^s,\mathbf z)
++\sum_{j\ne i}w_{ij}M_{ij}(\mathbf c,\mathbf b,\mathbf z),
+$$
+
+$$
+\dot\tau_j=\mathcal T_j(\tau_j,K_j^{Gc},\mathbf p_j,W,\mathbf z),
+\qquad \dot W=\mu\mathcal U(W,\mathbf y,\mathbf a,\text{feedback}).
+$$
+
+**A10. Niche change and cross-niche learning**
+
+$$
+\dot{\mathbf z}_n=f_n(\mathbf z_n)
++\sum_{m\ne n}H_{nm}(\mathbf z_m,\mathbf z_n)+B_n\mathbf a,
+$$
+
+$$
+\dot K_n=\mathcal L_n(K_n,\mathbf o,\mathbf a)
++\nu_n\mathcal T_n(K^{Gc})
++\sum_{m\ne n}\nu_{mn}\mathcal T_{mn}(K_m).
+$$
+
+**A11. Strategic control**
+
+$$
+(\mathbf a^{Gf},u)=
+\pi(x,\mathbf c,K^f,K^s,\mathbf r^\star,\eta,\chi,\mathbf z).
+$$
+
+Operational decisions should be implemented on an explicit sampling/update schedule or as a specified coupled stochastic system to avoid algebraic circularity. The symbolic operators above cannot be fitted without defining compatible state spaces and observations.
+
+## Appendix B. Notation and crucial distinctions
+
+| Quantity | Interpretation |
+|---|---|
+| $x=F-F^\star$ | Realised deviation from defended homeostatic reference |
+| $\xi=G-F^\star$ | Anticipated engagement relative to defended reference; cusp shape control |
+| $\varepsilon=F-G$ | Allostatic realised-versus-expected mismatch |
+| $\delta$ | Explore–exploit/convergent–divergent tilt |
+| $\zeta_j=m_j-1$ | Optional local propagation criticality metric; **not** $\xi$ or $\varepsilon$ |
+| $\mathbf c$ | Four functional Trident capacities |
+| $\mathbf b$ | Four computational entropy/MI × internal/external branches |
+| $y_j,\gamma_j,W_{jk}$ | Module state, recruitment gate and network coupling |
+| $\tau_j$ | Module processing/relaxation timescale |
+| $h_j$ or $\beta_h$ | Predictive temporal horizon or SR discount |
+| $K^f,K^s$ | Fast compiled Gc and slow schematic Gc |
+| $\mathbf q,v$ | Candidate invariants and validation strength |
+| $\mathbf r^\star$ | Synthesised relational/problem representation |
+| $\eta,\chi$ | Meta-efficacy and coherence (latent control parameters) |
+| $\lambda_n,\mathbf z_n$ | Niche coupling and niche state |
+| $\mathbf a,u$ | External action and strategic internal control |
+
+**Reward prediction error $\Delta^R$ ≠ allostatic mismatch $\varepsilon=F-G$ ≠ entropy or mutual information.**  
+**Dopamine-dependent Go/NoGo learning ≠ direct biochemical implementation of strategic exploration.**  
+**Cusp bifurcation ≠ local activity propagation ≠ Griffiths phase.**  
+**Processing timescale $\tau$ ≠ predictive horizon $h$ ≠ learning timescale.**  
+**Functional Gc automaticity ≠ proven subcritical neural activity.**  
+**Complex modularity ≠ proven criticality-specific cognitive advantage.**  
+**Transfer across changed tasks ≠ established increase in psychometric general intelligence.**
+
+---
+
+# Appendix C. Evidence boundary and research sources
+
+### Established or independently studied building blocks
+
+Neural avalanche and criticality phenomena; hierarchical modular and heterogeneous network models; hierarchical reinforcement-learning descriptions of learned action sequences; successor representations as predictive maps; distinct neural temporal integration windows; and broad empirical distinctions between novel reasoning, skills and accumulated knowledge.
+
+### Theoretical interpretations requiring direct testing
+
+That Trident-G's cusp variables track human homeostatic engagement; that the Ψ-band is an individually measurable region of adaptive near-critical operation; that Gf synthesis is specifically implemented through the stated four information-processing branches; that Gc-dominated processing preferentially recruits more subcritical and lower-cost dynamics; that a Griffiths phase causally improves Gf/Gc coordination; and that improved invariant learning produces durable, domain-general gains in intelligence.
+
+### Evidence audit: which neural findings support which claims?
+
+This table grades the **strength and directness of the evidence for the stated component**, not the plausibility of the whole Trident-G theory. "Direct" refers to the measured phenomenon in the cited study; it does not imply that its proposed role in Trident-G has been validated.
+
+| Proposed component | Most informative empirical anchor | Evidence status | What remains unestablished |
+|---|---|---|---|
+| FPCN-A↔DN versus FPCN-B↔DAN coupling | Dixon et al. (2018), four datasets/nine conditions; Murphy et al. (2020); Yin et al. (2022) | **Strong** network differentiation and preferential coupling; functional interpretation supported by task studies | Fixed, exclusive A=LT-WM and B=ST-WM anatomy; one-to-one assignment to entropy or MI |
+| Dynamic integration of internal and external control | Spreng et al. (2013); Cole et al. (2013); Nee (2021) | **Substantial** fMRI evidence for flexible control-network integration and gradients | Unique causal Gf synthesis operator or a single executive controller |
+| Neural basis of allostasis/interoception | Kleckner et al. (2017); Zhang et al. (2025, 7T) | **Strong** anatomical/connectivity convergence, including subcortical/brainstem regions | Identification of the scalar $F^\star$, $\xi$ or Ψ-band directly from those circuits |
+| Hierarchical modular coordination | Bertolero et al. (2015); Murphy et al. (2020); Bassett et al. (2011) | **Substantial** functional network organisation and prospective learning association | Specific Gc-module/gating implementation or causal general-intelligence advantage |
+| Neural temporal hierarchy | Murray et al. (2014, spikes); Li et al. (2025, ECoG plus model) | **Strong** temporal differentiation; near-critical integration advantage chiefly **model-based** | Equating neural decay $\tau$ with the SR predictive horizon or developmental learning rate |
+| Near-criticality linked to cognition | Ezaki et al. (2020); Xu et al. (2022); Müller et al. (2025) | **Promising, correlational and estimator-dependent** | That Gf is always supercritical, Gc always subcritical, or criticality is uniquely causal |
+| Griffiths phase in cognition | Moretti & Muñoz (2013) and hierarchical-network models | **Mathematically/computationally motivated** | Direct demonstration of a human Griffiths phase during reasoning and its specific adaptive benefit |
+| Hippocampal/entorhinal and OFC relational maps | Garvert et al. (2017); Schuck et al. (2016); Momennejad et al. (2017); Stachenfeld et al. (2017 model) | **Substantial** evidence for representational and predictive structure | That all transfer invariants are hippocampal SRs or that FPCN-A solely constructs them |
+| Habitual processing and Gc consolidation | Vatansever et al. (2017); Tse et al. (2007, 2011 in rats) | **Substantial for specialised mechanisms**, cross-species constraints | Universal fast/subcortical versus slow/cortical Gc partition |
+| Reduced neural fuel use after learning | Xue et al. (2026, **bioRxiv preprint**, mice) | **Preliminary**, not yet peer reviewed | A general human Gc energetic advantage or a criticality mechanism |
+| D1/D2 outcome-sensitive learning | Frank et al. (2004); Shen et al. (2008); Lee et al. (2021); Kravitz et al. (2012) | **Substantial**, with known exceptions and circuit heterogeneity | Direct equivalence of D1=MI or D2=entropy, or deterministic RPE→exploration |
+| Asymmetric developmental mutualism and niche-driven rise in $g$ | Network reconfiguration and allostasis provide indirect constraints | **Trident-G hypothesis** | Causal improvement in a distinct capacity's *later learning rate* and genuine far-transfer gains |
+
+**Methodological principle:** fMRI functional connectivity, behavioural Gf/Gc scores, EEG criticality proxies, neuronal spiking, neuromodulatory activity, and subjective effort are distinct measurements. Treating them as different observations of the *same* latent control system requires a model with independently validated links. A high neural–behavioural correlation is not in itself proof of a Griffiths phase or improved intelligence.
+
+### Neuroscience research references integrated into the theory
+
+**FPCN-A/B differentiation, internal–external coordination, and network integration**
+
+- **Dixon, M. L., et al. (2018).** Heterogeneity within the frontoparietal control network and its relationship to the default and dorsal attention networks. *Proceedings of the National Academy of Sciences, 115*, E1598–E1607. https://doi.org/10.1073/pnas.1715766115
+- **Spreng, R. N., Sepulcre, J., Turner, G. R., Stevens, W. D., & Schacter, D. L. (2013).** Intrinsic architecture underlying the relations among the default, dorsal attention, and frontoparietal control networks of the human brain. *Journal of Cognitive Neuroscience, 25*, 74–86. https://doi.org/10.1162/jocn_a_00281
+- **Murphy, A. C., Bertolero, M. A., Papadopoulos, L., Lydon-Staley, D. M., & Bassett, D. S. (2020).** Multimodal network dynamics underpinning working memory. *Nature Communications, 11*, 3035. https://doi.org/10.1038/s41467-020-15541-0
+- **Nee, D. E. (2021).** Integrative frontal-parietal dynamics supporting cognitive control. *eLife, 10*, e57244. https://doi.org/10.7554/eLife.57244
+- **Yin, S., Li, Y., & Chen, A. (2022).** Functional coupling between frontoparietal control subnetworks bridges the default and dorsal attention networks. *Brain Structure and Function, 227*, 2243–2260. https://doi.org/10.1007/s00429-022-02517-7
+- **Cole, M. W., et al. (2013).** Multi-task connectivity reveals flexible hubs for adaptive task control. *Nature Neuroscience, 16*, 1348–1355. https://doi.org/10.1038/nn.3470
+- **Bertolero, M. A., Yeo, B. T. T., & D'Esposito, M. (2015).** The modular and integrative functional architecture of the human brain. *Proceedings of the National Academy of Sciences, 112*, E6798–E6807. https://doi.org/10.1073/pnas.1510619112
+- **Beaty, R. E., et al. (2018).** Robust prediction of individual creative ability from brain functional connectivity. *Proceedings of the National Academy of Sciences, 115*, 1087–1092. https://doi.org/10.1073/pnas.1713532115
+
+**Allostatic–interoceptive circuitry**
+
+- **Kleckner, I. R., et al. (2017).** Evidence for a large-scale brain system supporting allostasis and interoception in humans. *Nature Human Behaviour, 1*, 0069. https://doi.org/10.1038/s41562-017-0069
+- **Zhang, J., et al. (2025).** Cortical and subcortical mapping of the human allostatic–interoceptive system using 7 Tesla fMRI. *Nature Neuroscience, 28*, 2380–2391. https://doi.org/10.1038/s41593-025-02087-x
+- **Sridharan, D., Levitin, D. J., & Menon, V. (2008).** A critical role for the right fronto-insular cortex in switching between central-executive and default-mode networks. *Proceedings of the National Academy of Sciences, 105*, 12569–12574. https://doi.org/10.1073/pnas.0800005105
+
+**Criticality and network dynamics, including contradictory findings**
+
+- **Ezaki, T., et al. (2020).** Closer to critical resting-state neural dynamics in individuals with higher fluid intelligence. *Communications Biology, 3*, 52. https://doi.org/10.1038/s42003-020-0774-y
+- **Xu, L., Feng, J., & Yu, L. (2022).** Avalanche criticality in individuals, fluid intelligence, and working memory. *Human Brain Mapping, 43*, 2534–2553. https://doi.org/10.1002/hbm.25802
+- **Liu, X., Fei, X., & Liu, J. (2025; online 2024).** The cognitive critical brain: Modulation of criticality in perception-related cortical regions. *NeuroImage, 305*, 120964. https://doi.org/10.1016/j.neuroimage.2024.120964
+- **Müller, P. M., Miron, G., Holtkamp, M., & Meisel, C. (2025).** Critical dynamics predicts cognitive performance and provides a common framework for heterogeneous mechanisms impacting cognition. *Proceedings of the National Academy of Sciences, 122*, e2417117122. https://doi.org/10.1073/pnas.2417117122
+- **Priesemann, V., et al. (2014).** Spike avalanches in vivo suggest a driven, slightly subcritical brain state. *Frontiers in Systems Neuroscience, 8*, 108. https://doi.org/10.3389/fnsys.2014.00108
+
+**Temporal processing, knowledge learning and consolidation**
+
+- **Murray, J. D., et al. (2014).** A hierarchy of intrinsic timescales across primate cortex. *Nature Neuroscience, 17*, 1661–1663. https://doi.org/10.1038/nn.3862
+- **Li, G., Li, S., & Wang, X.-J. (2025).** A hierarchy of time constants and reliable signal propagation in the marmoset cerebral cortex. *Nature Communications, 16*, 11640. https://doi.org/10.1038/s41467-025-66699-4
+- **Bassett, D. S., et al. (2011).** Dynamic reconfiguration of human brain networks during learning. *Proceedings of the National Academy of Sciences, 108*, 7641–7646. https://doi.org/10.1073/pnas.1018985108
+- **Garvert, M. M., Dolan, R. J., & Behrens, T. E. J. (2017).** A map of abstract relational knowledge in the human hippocampal–entorhinal cortex. *eLife, 6*, e17086. https://doi.org/10.7554/eLife.17086
+- **Schuck, N. W., Cai, M. B., Wilson, R. C., & Niv, Y. (2016).** Human orbitofrontal cortex represents a cognitive map of state space. *Neuron, 91*, 1402–1412. https://doi.org/10.1016/j.neuron.2016.08.019
+- **Momennejad, I., et al. (2017).** The successor representation in human reinforcement learning. *Nature Human Behaviour, 1*, 680–692. https://doi.org/10.1038/s41562-017-0180-8
+- **Vatansever, D., Menon, D. K., & Stamatakis, E. A. (2017).** Default mode contributions to automated information processing. *Proceedings of the National Academy of Sciences, 114*, 12821–12826. https://doi.org/10.1073/pnas.1710521114
+- **Tse, D., et al. (2007).** Schemas and memory consolidation. *Science, 316*, 76–82. https://doi.org/10.1126/science.1135935
+- **Tse, D., et al. (2011).** Schema-dependent gene activation and memory encoding in neocortex. *Science, 333*, 891–895. https://doi.org/10.1126/science.1205274
+- **Xue, K., et al. (2026).** Learning shapes the energy cost of neural tasks. *bioRxiv preprint (not peer reviewed)*. https://doi.org/10.64898/2026.07.01.735889
+
+### Dopamine, prediction error and the tilt mechanism (added research basis)
+
+- Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. *Science, 275*, 1593–1599. https://doi.org/10.1126/science.275.5306.1593
+- Frank, M. J., Seeberger, L. C., & O'Reilly, R. C. (2004). By carrot or by stick: Cognitive reinforcement learning in parkinsonism. *Science, 306*, 1940–1943. https://doi.org/10.1126/science.1102941
+- Shen, W., Flajolet, M., Greengard, P., & Surmeier, D. J. (2008). Dichotomous dopaminergic control of striatal synaptic plasticity. *Science, 321*, 848–851. https://doi.org/10.1126/science.1160575
+- Frank, M. J., Doll, B. B., Oas-Terpstra, J., & Moreno, F. (2009). Prefrontal and striatal dopaminergic genes predict individual differences in exploration and exploitation. *Nature Neuroscience, 12*, 1062–1068. https://doi.org/10.1038/nn.2342
+- Kravitz, A. V., Tye, L. D., & Kreitzer, A. C. (2012). Distinct roles for direct and indirect pathway striatal neurons in reinforcement. *Nature Neuroscience, 15*, 816–818. https://doi.org/10.1038/nn.3100
+- Cox, S. M. L., Frank, M. J., Larcher, K., et al. (2015). Striatal D1 and D2 signaling differentially predict learning from positive and negative outcomes. *NeuroImage, 109*, 95–101. https://doi.org/10.1016/j.neuroimage.2014.12.070
+- Lee, S. J., et al. (2021). Cell-type-specific asynchronous modulation of PKA by dopamine in learning. *Nature, 590*, 451–456. https://doi.org/10.1038/s41586-020-03050-5
+- Zachry, J. E., et al. (2024). D1 and D2 medium spiny neurons in the nucleus accumbens core have distinct and valence-independent roles in learning. *Neuron, 112*, 835–849.e7. https://doi.org/10.1016/j.neuron.2023.11.023
+- Lowet, A. S., et al. (2025). An opponent striatal circuit for distributional reinforcement learning. *Nature, 639*, 717–726. https://doi.org/10.1038/s41586-024-08488-5
+- Romero Pinto, S., & Uchida, N. (2025). Tonic dopamine and biases in value learning linked through a biologically inspired reinforcement learning model. *Nature Communications, 16*, 7529. https://doi.org/10.1038/s41467-025-62280-1
+- Kahnt, T., & Schoenbaum, G. (2025). The curious case of dopaminergic prediction errors and learning associative information beyond value. *Nature Reviews Neuroscience, 26*, 169–178. https://doi.org/10.1038/s41583-024-00898-8
+
+### Primary and contextual sources retained from the three original sections
+
+- Moretti, P., & Muñoz, M. A. (2013). *Griffiths phases and the stretching of criticality in brain networks*. Nature Communications, 4, 2521. https://doi.org/10.1038/ncomms3521
+- Ódor and colleagues (2015). Hierarchical network dynamics and Griffiths phases. *Scientific Reports*. https://www.nature.com/articles/srep14451
+- Beggs, J. M., & Plenz, D. (2003). *Neuronal avalanches in neocortical circuits*. Journal of Neuroscience, 23, 11167–11177. https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003
+- Botvinick, M. M., & Weinstein, A. (2014). Hierarchical reinforcement learning and temporally extended skills (source referenced in prior draft). https://pubmed.ncbi.nlm.nih.gov/25267822/
+- Dezfouli, A., & Balleine, B. W. (2013). Learned action sequences and goal-directed control (source referenced in prior draft). https://pubmed.ncbi.nlm.nih.gov/24339762/
+- Stachenfeld, K. L., Botvinick, M. M., & Gershman, S. J. (2017). *The hippocampus as a predictive map*. Nature Neuroscience, 20, 1643–1653. https://doi.org/10.1038/nn.4650
+- Gershman, S. J. (2018). *The successor representation: Its computational logic and neural substrates*. Journal of Neuroscience, 38, 7193–7200. https://doi.org/10.1523/JNEUROSCI.0151-18.2018
+- Li, Li, & Wang (2025). Cortical timescale hierarchies and near-critical network modelling in marmosets (source referenced in prior draft). https://www.nature.com/articles/s41467-025-66699-4
+- Human intracranial EEG study (2025), cited in prior temporal-dynamics draft. https://pmc.ncbi.nlm.nih.gov/articles/PMC11984084/
+- Zeraati and colleagues (2026). Review of neural timescale mechanisms (source referenced in prior draft). https://www.nature.com/articles/s41593-026-02343-8
+
+The source blocks above include both newly integrated and inherited references. Their inclusion is **not** a claim that the complete Trident-G synthesis has been independently validated. The 2026 Xue study is explicitly a non-peer-reviewed preprint; other sources range from computational proposals to invasive recordings and human imaging. Bibliographic details of older inherited sources should be checked before publication. Bibliographic details should be verified and standardised before publication.
+
+---
+
+## Theoretical conclusion
+
+Trident-G Version 0.3 is a proposal about **regulated coordination and recursive change**. Its most distinctive claim is that general intelligence may depend on a system's ability to preserve efficient specialised operations while selectively reorganising their relationships under novel demands. A viable homeostatic corridor constrains this process; hierarchical modularity makes parallel specialised and integrative cognition possible; extended Griffiths-phase-like dynamics may, under appropriate conditions, broaden the system's effective response repertoire across timescales. Gf synthesis generates and tests relational structures, and dual-pathway Gc consolidation can convert validated structures into both efficient skills and richer schemas. Through asymmetrical capacity interactions and reciprocal niche construction, these changes can modify the conditions of subsequent learning.
+
+**The next decisive step is not another conceptual layer.** It is a small computational model in which the hierarchical controller, cusp controller and Griffiths-phase network can be independently ablated, followed by preregistered behavioural tests of novel skill composition, temporal-horizon coordination and delayed invariant transfer.
+s *candidate* latent referential representation, constructed from observation, action and communication history $c$. When the learning context gives evidence that two observations concern the same source, their representations may be aligned through a learned mapping $T_{ij}$:
+
+$
+T_{ij}(q_{i,t}^{ref})\approx q_{j,t}^{ref}.
+$
+
+However, convergence among agents can reflect shared biases, common errors or a constant representation. A nontrivial model must therefore *also* preserve the capacity to predict independently observed outcomes of actions and distinguish different candidate referents.
+
+One illustrative objective is:
+
+$
+\boxed{
+\begin{aligned}
+\mathcal L_{ref}={}&
+\lambda_{\mathrm{cross}}\mathcal L_{\mathrm{cross-agent/modal}}\\
+&+\lambda_{\mathrm{pred}}\mathcal L_{\mathrm{held-out\ prediction}}\\
+&+\lambda_{\mathrm{act}}\mathcal L_{\mathrm{action\ intervention}}\\
+&+\lambda_{\mathrm{repair}}\mathcal L_{\mathrm{communication\ repair}}\\
+&+\lambda_{\mathrm{disc}}\mathcal L_{\mathrm{referent\ discrimination}}.
+\end{aligned}
+}
+$
+
+All terms must be defined against observable training events, without giving the learner an oracle object identity. The *researcher* may use labelled ground truth in the simulator solely to evaluate whether an agent has achieved true cross-context referential transfer. The objective is a design family, not a unique biological learning rule. In particular, merely fitting multimodal embeddings to one another can satisfy alignment while failing environmental prediction.
+
+This yields a **candidate causal account of referential independence**: when the agent can recover the same task-relevant entity across changed actions, perspectives and goals—and correct another's misidentification—it has learned something beyond the original instrumental action sequence. Further tests must establish whether the representation is robust under *absent-object reference, novel partners, false beliefs, unexpected contexts and delayed retrieval*. These are stronger criteria than joint success.
+
+Cross-perspectival invariance and independent environmental predictiveness are distinct: successful mutual interpretation does not itself show that the underlying belief is true. Moreover, this theory does not posit that the same developmental sequence is necessary for all forms of nonlinguistic object perception. Comparative false-belief anticipation findings in great apes (Krupenye et al., 2016) constrain categorical human-only interpretations.
+
+## 11.3 Stage II — Explicit, referentially accountable cognition
+
+Once an entity can be represented independently of the current action and an individual perspective, the system can maintain distinct attitudes *towards a common referent*. For explicit WM-supported processing, a candidate model is:
+
+$
+m_{i,t}=
+(q_t^{ref},\phi_{i,t},\mu_{i,t},e_{i,t},n_{i,t},a^{attr}_{i,t}).
+$
+
+Here $q^{ref}$ identifies a candidate shared subject matter; $\phi$ is representational content; $\mu$ indicates belief, intention, desire, question or supposition; $e$ indexes evidence and reasons; $n$ the currently relevant evaluative standard; and $a^{attr}$ the source, authorship or responsibility of the content. This **tuple is an emergent possible format**, not six preinstalled mental faculties.
+
+The existing **Gf synthesis** operator supplies hypotheses, relational models and counterfactuals; **FPCN-mediated WM control** can maintain and compare current belief, another person's view and observed evidence; **DMN/mentalising, hippocampal–entorhinal and language networks** are candidate distributed contributors, rather than a single language-based general-purpose reasoning module. Fedorenko and Varley (2016) provide evidence that substantial thought can survive severe language impairment, so symbolic communication should be interpreted as an *affordance for explicit, portable, shared assessment*, not a necessity for every reasoning process.
+
+A public statement may be evaluated across **distinct dimensions**:
+
+| Dimension | Key question | Why it must not be reduced to reward |
+|---|---|---|
+| **Epistemic** | Does the claim adequately track what is known or what happened? | Consensus or prestige can reward false beliefs |
+| **Inferential** | Does the conclusion follow given premises, assumptions and warranted transformations? | Confidence alone is not validity |
+| **Practical–normative** | Was a goal worth pursuing, was the means acceptable and was the choice defensible given information then available? | Instrumental success does not settle ethical justification |
+| **Attribution and responsibility** | Who contributed which action, evidence or claim? | Recognition and credit can diverge from causal contribution |
+| **Social approval** | How is the contribution received and rewarded? | This is an influential *feedback channel*, not a correctness criterion |
+
+The RNI (referential–normative interface) should consequently be **derived from the learned referential capacity plus perspective tracking and public evaluation**, rather than introduced as an unexplained extra module. Standards themselves can become objects of critique. The natural Trident-G failure mode is when social reward, institutional acceptance and high coherence replace reality-oriented correction.
+
+**Counterfactual reasoning** uses the same architecture with a distinct representational mode. An action or event can be supposed different while maintaining an account of the actual state and a causal/transition model:
+
+$
+\widehat y_{a'}=
+\mathcal C_{\mathrm{cf}}(M_{\mathrm{causal}},
+\mathrm{do}(A=a'),e_t).
+$
+
+This is a *causal-model-based* hypothetical operator, not a claim that any imagined alternative is a valid counterfactual or that all counterfactual abilities originated socially. The stronger Trident-G hypothesis is that referential, cross-context learning permits these explicit comparisons to become portable and publicly challengeable.
+
+**Public accountability also acts prospectively.** Anticipated independent assessment can change what evidence is collected, which errors are tolerated and whether more exploration is justified before commitment. In the existing model it may influence $\eta$, $\chi$, $\lambda$, $\delta$ and Gc banking, without substituting social approval for epistemic validity. These changes depend on the social niche: hostile accountability can drive conformity or defensive control rather than better reasoning.
+
+## 11.4 Multimodal AI as a computational analogy for Stage II
+
+Recent multimodal AI studies provide **existence proofs for limited cross-format computational mechanisms**, not demonstrations of shared intentionality_R, normativity or mind-independent objectivity.
+
+- **Neo et al. (ICLR 2025)** showed that removing object-specific image tokens from a vision-language model sharply impairs object identification, and found increasing alignment of visual information with language-token representations across layers.
+- **Ray et al., Mull-Tokens (CVPR Findings 2026)** introduced modality-agnostic latent tokens for visual/text intermediate reasoning, improving spatial tasks over the authors' baselines.
+- **Hu et al., TVI-CoT (ICML 2026)** demonstrated benefits when linguistic reasoning can selectively return to visual evidence rather than only use an initial image description.
+- **Leonard and Murray (2026 preprint)** found that structured perspective tokens can improve spatial viewpoint transformations in multimodal models; this is *perspective transformation*, not interpersonal mutual acknowledgement.
+- **V-JEPA 2 (2025)** combined video-learned representations with an action-conditioned world model for limited robotic planning; it is more directly relevant to environmental consequences than text–image alignment alone.
+- **Ye et al. (EMNLP Findings 2026)** measured token-level dependence on visual input and used it to adjust training; a change in token probabilities given images is not by itself a truth test.
+- **Xu et al. (CrossMath, 2026 preprint)** found that adding visual material to text can *reduce* multimodal-model accuracy in controlled tasks—useful counterevidence to any assumption that more modalities always improve grounding.
+
+The unifying question is not whether image and text representations agree. It is whether their *jointly inferred structure* predicts and survives **novel transformations, independently observed events and interventions**. In information-theoretic form, $I(S;V\mid L)$ measures incremental visual information about a *well-defined target variable* $S$ given language $L$; it does not prove that either modality is correct. A model may be cross-modally coherent while confidently mistaken.
+
+## 11.5 Stage III — Recursive symbolic coupling: when public models become referents
+
+The next transformation is possible only after representations are available for communication, manipulation and preservation independently of the initial action. A publicly accessible claim, theory, image, rule, database entry or institutional classification can now itself become a **referent**. Other agents can reason about it, challenge it, cite it, enforce it or train new models on it.
+
+Let $P_t$ represent the public symbolic state (language, visual media, institutional records, shared norms and AI outputs), and $M_{i,t}$ the model of agent $i$. Then actions and subsequent public models evolve together:
+
+$
+\boxed{
+\begin{aligned}
+a_{i,t}&=\pi_i(M_{i,t},P_t,g_{i,t},o_{i,t}),\\
+s_{t+1}&=T_s(s_t,\{a_{i,t}\}_{i=1}^n,P_t),\\
+P_{t+1}&=\mathcal U_P(P_t,\mathcal O_{t+1}^{ind},
+                    \{c_{i,t+1}\}_i,A_{t+1}^{AI},
+                    \mathcal R_{t+1}^{audit}).
+\end{aligned}
+}
+$
+
+The coupling term $P_t$ in the world transition permits *performative* effects—public classifications and institutions can change incentives, opportunities and the behaviours subsequently observed. This is relevant to Perdomo et al.'s (2020) formalisation of **performative prediction**. It does **not** imply that physical reality is reducible to a narrative; it distinguishes independent physical events, genuinely *constituted* institutional facts and inaccurate claims about either.
+
+The public model may also recursively supply a major share of the next model's training data or interpreted evidence. Define **two analytically separate effective couplings**, without assuming they can already be measured by two universal scalars:
+
+$
+\lambda_W
+=\mathrm{world\text{-}feedback\ sensitivity},
+\qquad
+\lambda_P
+=\mathrm{public\text{-}model\ dependence}.
+$
+
+A large $\lambda_P$ is not necessarily pathological: proofs, science, law and education depend on previous public symbols. The failure mode occurs when *empirical claims that require independent checking* are assessed mainly through agreement among derivative representations and feedback already shaped by the same model.
+
+This is the proposed **second fusion of object and representation**:
+
+- **Stage I:** the object is primarily encoded through what one can do with it.
+- **Stage II:** the object is independently identifiable across acts, media and perspectives.
+- **Stage III:** the public model both represents the world *and* changes the conditions under which that world is encountered.
+
+There are **two possible Stage III regimes**, not an inevitable transition into illusion:
+
+| **Corrigible symbolic coordination** | **Self-sealing synthetic coupling** |
+|---|---|
+| Public models can be compared with independent observations | Models chiefly cite, regenerate or reward one another |
+| Disagreement can prompt new tests | Agreement or institutional status is mistaken for correctness |
+| Normative claims and provenance remain contestable | Evidence, success and credit are conflated |
+| Human goals may revise the public model | Human goals are silently adjusted to model-defined metrics |
+| New knowledge expands usable Gc and social capabilities | High internal coherence coexists with deteriorating external calibration |
+
+**AI amplifies both possibilities.** Generative systems can rapidly reorganise public representations, support cross-modal checking and make distributed knowledge available. Conversely, repeated incorporation of unverified synthetic content can weaken provenance and independence. Shumailov et al. (2024) demonstrated *model collapse* under specified regimes of recursively generated training data; that is a statistical ML result, **not direct evidence** of collective human epistemic collapse.
+
+For the theory, define independently measurable **public agreement/coherence** $C_P$, **external predictive calibration** $Q_W$, and **reflective revisability** $R_N$ (the ability to challenge and revise standards or goals). A critical test is whether $C_P$ can increase while $Q_W$ or $R_N$ deteriorates:
+
+$
+C_P\uparrow \ \not\Rightarrow\
+Q_W\uparrow,\qquad
+C_P\uparrow \ \not\Rightarrow\ R_N\uparrow.
+$
+
+These quantities must remain distinct from Trident-G's existing $\chi$ coherence, its meta-efficacy $\eta$ and niche-coupling $\lambda$ until an empirical measurement model is constructed.
+
+## 11.6 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
+
+No changes to the **original meanings of** $x=F-F^\star$, $\xi=G-F^\star$ or the explore–exploit tilt $\delta$ are required. Instead, public accountability and symbolic feedback alter the **inputs** to the existing controller: task demands, uncertainty, goals, reward signals, model coherence, niche coupling and anticipated consequences of public scrutiny.
+
+There are now **three interlinked loops**:
+
+**Local adaptive loop:** perceive → predict → act → feedback → revise policy.
+
+**Referential learning loop:** joint action → perspective/role variation → communicative repair → cross-context and cross-agent invariant → Gc banking → independent reference and improved later Gf.
+
+**Public symbolic loop:** claim/image/model → challenge, audit or social reward → retained public knowledge or institutional rule → changed goals and niches → new claims and world evidence.
+
+The public symbolic bank $P$ should not be equated with **psychometric Gc**: it is an *external knowledge and norm system* that individual agents may retrieve, revise and internalise. A learning loop is only genuinely **epistemically productive** when it remains answerable to appropriate independent checks; social approval and private fluency are insufficient criteria.
+
+The developmental regimes also remain simultaneously available. An adult can execute automated skills, reason about the same referent across perspectives, and participate in recursively organised public systems *within the same cognitive episode*. The claim that this combination is particularly elaborated in human symbolic culture does not imply that nonhuman animals lack all perspectival or counterfactual capacities.
+
+## 11.7 What would make this a generative scientific account?
+
+A model should implement **at least two distinct transitions** and compare them with simpler alternatives.
+
+**Transition A → R:** Multi-agent learners coordinate shared tasks under controlled role, viewpoint and goal variation. Test whether communicative repair and cross-agent invariant learning yield **reference to absent objects, novel-view recognition, novel partner communication, false-belief-sensitive distinctions and delayed transfer** *outside* trained joint actions. Controls need matched task exposure, shared reward and visual inputs without referential repair. Standard association learners and hierarchical RL agents must be tested as competitors.
+
+**Transition R → public recursion:** Agents share persistent symbolic records and optionally AI-generated material. Independently manipulate (i) public-model recursion, (ii) independent sensory/intervention audit, and (iii) whether public classifications causally alter the environment. Measure distinct outcomes: task success, agreement, predictive calibration, error correction, provenance and the agent's capacity to revise the public standard rather than merely maximise its current reward.
+
+**Critical disconfirmation:** If cooperation plus cross-perspective learning produces no additional, genuinely novel referential transfer compared with matched individual association learning, the proposed emergence mechanism is weakened. If recursive public-model dependence does not reduce external calibration under the predicted conditions—or if simple provenance auditing completely prevents any trade-off—the proposed synthetic-capture regime must be revised. If ordinary non-symbolic predictive dynamics explain all relevant performance, the model cannot claim that public normativity is required for that form of intelligence.
+
+The strongest Trident-G claim is therefore *not* that only humans have representations or that language creates truth. It is that **some joint-action histories may generate reusable, publicly assessable reference, and that the same capacity for recursive representation subsequently creates both cumulative symbolic intelligence and a new kind of vulnerability to self-confirming models**.
+
+---
+
+# 12. A unified intelligent episode: the G-loop
 
 The G-loop is best understood as a **concurrent, recursively updating process**, not a rigid serial programme.
 
