@@ -845,6 +845,8 @@ This involves two simultaneously operating feedback circuits:
 
 **Across-episode development:** tested solutions → transferable invariants → skill/schema banking → changed modules, timescales and predictive maps → altered future episodes and niches.
 
+**Cross-agent and public-symbolic development:** coordinated acts → referential repair/invariant learning → shareable claims → public audit or reward → banked individual/public structures → altered niches and future cognitive goals. This loop can strengthen genuinely independent feedback or, in the proposed synthetic-capture regime, increase agreement while narrowing external correction. The distinctive conditions and equations are in §11.
+
 A high-Gf episode is not one in which every module is constantly near-critical or consciously controlled. It is one in which the system can **selectively combine existing competence with flexible reconstruction** under the present demands.
 
 ---
@@ -1029,6 +1031,61 @@ $$
 \pi(x,\mathbf c,K^f,K^s,\mathbf r^\star,\eta,\chi,\mathbf z).
 $$
 
+**A12. Joint action, different perspectives and emergent referential representation**
+
+$$
+\begin{aligned}
+o_{i,t}&=H_i(s_t,v_{i,t})+\epsilon_{i,t}^{obs},\\
+s_{t+1}&=T_s(s_t,a_{1,t},\ldots,a_{n,t}),\\
+q_{i,t}^{ref}&=E_{\theta_i}(o_{i,\le t},a_{i,<t},c_{\le t}),\\
+T_{ij}(q_{i,t}^{ref})&\approx q_{j,t}^{ref}.
+\end{aligned}
+$$
+
+$s_t$ is the *simulated environment's* state for ground-truth evaluation and **must not be given as an already articulated referent to the learning agent**. Agreement across agents is evaluated separately from independent state prediction and intervention success.
+
+**A13. Candidate learning objective for cross-perspectival, cross-modal reference**
+
+$$
+\begin{aligned}
+\mathcal L_{ref}={}&
+\lambda_X\mathcal L_X
++\lambda_Y\mathcal L_Y
++\lambda_A\mathcal L_A\\
+&+\lambda_C\mathcal L_C
++\lambda_D\mathcal L_D.
+\end{aligned}
+$$
+
+Here $\mathcal L_X$ is cross-agent/modality consistency when correspondence is warranted, $\mathcal L_Y$ held-out outcome prediction, $\mathcal L_A$ prediction under action interventions, $\mathcal L_C$ communicative-repair performance, and $\mathcal L_D$ discrimination of distinct referents and near-miss candidates. The last four terms help avoid a trivial or socially shared but inaccurate embedding. Each term needs a defined dataset and observable task.
+
+**A14. Explicit attitude, standards and counterfactuals**
+
+$$
+\begin{aligned}
+m_{i,t}&=(q_t^{ref},\phi_{i,t},\mu_{i,t},e_{i,t},n_{i,t},a_{i,t}^{attr}),\\
+\mathbf v_{i,t}^{norm}&=\mathcal J(m_{i,t},\mathcal E_t,\mathcal N_t),\\
+\widehat y_{a'}&=\mathcal C_{\mathrm{cf}}(M_{\mathrm{causal}},
+\mathrm{do}(A=a'),e_t).
+\end{aligned}
+$$
+
+The vector $\mathbf v^{norm}$ is an **assessment profile** for epistemic, inferential, practical and attribution-related standards. It is *not* a scalar reinforcement reward, universal moral truth or direct neural recording. Public approval is a separable feedback channel.
+
+**A15. Recursive public symbolic coupling and external validation**
+
+$$
+\begin{aligned}
+a_{i,t}&=\pi_i(M_{i,t},P_t,g_{i,t},o_{i,t}),\\
+s_{t+1}&=T_s(s_t,\{a_{i,t}\}_{i=1}^n,P_t),\\
+P_{t+1}&=\mathcal U_P(P_t,\mathcal O_{t+1}^{ind},
+\{c_{i,t+1}\}_i,A_{t+1}^{AI},\mathcal R_{t+1}^{audit}).
+\end{aligned}
+$$
+
+$\lambda_W$ and $\lambda_P$ characterise independent world-feedback sensitivity and public-model dependence. Public agreement $C_P$, independent external calibration $Q_W$, and revisability $R_N$ must be **separately measured**. A symbolic model may constitute *institutional facts* while empirical claims about an independently observable world still require evidence. Synthetic capture is a candidate dynamical regime, not a necessary developmental endpoint.
+
+
 Operational decisions should be implemented on an explicit sampling/update schedule or as a specified coupled stochastic system to avoid algebraic circularity. The symbolic operators above cannot be fitted without defining compatible state spaces and observations.
 
 ## Appendix B. Notation and crucial distinctions
@@ -1051,6 +1108,13 @@ Operational decisions should be implemented on an explicit sampling/update sched
 | $\eta,\chi$ | Meta-efficacy and coherence (latent control parameters) |
 | $\lambda_n,\mathbf z_n$ | Niche coupling and niche state |
 | $\mathbf a,u$ | External action and strategic internal control |
+| $s_t,o_{i,t},v_{i,t}$ | Simulator world state, agent-specific observation and sensing perspective (not pre-supplied object concepts) |
+| $q_{i,t}^{ref},T_{ij}$ | Candidate referential embedding and cross-agent representational mapping |
+| $m_{i,t},\mu_{i,t}$ | Explicit assessable content/attitude; belief, intention, supposition or question |
+| $\mathcal E_t,\mathcal N_t,\mathbf v_t^{norm}$ | Evidence, revisable normative standards and multidimensional public assessment |
+| $P_t,A_t^{AI}$ | Public symbolic store (external niche model) and AI-generated contribution |
+| $\lambda_W,\lambda_P$ | Independent world feedback and recursive public-model dependence |
+| $C_P,Q_W,R_N$ | Public coherence/agreement, external calibration and normative revisability |
 
 **Reward prediction error $\Delta^R$ ≠ allostatic mismatch $\varepsilon=F-G$ ≠ entropy or mutual information.**  
 **Dopamine-dependent Go/NoGo learning ≠ direct biochemical implementation of strategic exploration.**  
@@ -1058,7 +1122,10 @@ Operational decisions should be implemented on an explicit sampling/update sched
 **Processing timescale $\tau$ ≠ predictive horizon $h$ ≠ learning timescale.**  
 **Functional Gc automaticity ≠ proven subcritical neural activity.**  
 **Complex modularity ≠ proven criticality-specific cognitive advantage.**  
-**Transfer across changed tasks ≠ established increase in psychometric general intelligence.**
+**Transfer across changed tasks ≠ established increase in psychometric general intelligence.**  
+**Cross-modal agreement ≠ independent referential grounding; shared goal success ≠ emergent Shared Intentionality_R.**  
+**Publicly accepted claims ≠ epistemically justified claims; institutional facts ≠ arbitrary imagined physical events.**  
+**Recursive-model failure modes ≠ evidence that society already inhabits a literal simulation.**
 
 ---
 
@@ -1090,6 +1157,12 @@ This table grades the **strength and directness of the evidence for the stated c
 | Reduced neural fuel use after learning | Xue et al. (2026, **bioRxiv preprint**, mice) | **Preliminary**, not yet peer reviewed | A general human Gc energetic advantage or a criticality mechanism |
 | D1/D2 outcome-sensitive learning | Frank et al. (2004); Shen et al. (2008); Lee et al. (2021); Kravitz et al. (2012) | **Substantial**, with known exceptions and circuit heterogeneity | Direct equivalence of D1=MI or D2=entropy, or deterministic RPE→exploration |
 | Asymmetric developmental mutualism and niche-driven rise in $g$ | Network reconfiguration and allostasis provide indirect constraints | **Trident-G hypothesis** | Causal improvement in a distinct capacity's *later learning rate* and genuine far-transfer gains |
+| Shared reference and communicative correction | Liszkowski, Carpenter & Tomasello (2007); infant referent/attitude repair | **Direct developmental evidence for selective communicative repair** | A generative transition from goal-based action to an independent referential format |
+| Comparative theory of mind | Krupenye et al. (2016) | **Evidence for implicit false-belief-sensitive anticipation in great apes** | Any categorical claim that all referential or perspective reasoning is uniquely human |
+| Language, symbolic expression and reasoning | Fedorenko & Varley (2016); Rushby (2023, conceptual) | **Substantial neuropsychological dissociation; computational origin account speculative** | A dedicated neural referential–normative operator or language as necessary for Gf |
+| Cross-modal and spatial-perspective AI alignment | Neo et al. (2025); Ray et al. (2026); Hu et al. (2026); Leonard & Murray (2026 preprint) | **Task-specific machine-learning improvements** | Referential objectivity, joint intentionality_R or human-like normative understanding |
+| World-predictive and visually grounded models | V-JEPA 2 (2025); Ye et al. (2026); Xu et al. (2026 preprint) | **Constructive and contradictory benchmarks** | That simply combining image and language always improves reasoning or grounds truth |
+| Public-model recursion and performative feedback | Perdomo et al. (2020); Shumailov et al. (2024) | **Formal ML results under specified model/data conditions** | A demonstrated general collapse of human social reality or inevitable AI-driven epistemic closure |
 
 **Methodological principle:** fMRI functional connectivity, behavioural Gf/Gc scores, EEG criticality proxies, neuronal spiking, neuromodulatory activity, and subjective effort are distinct measurements. Treating them as different observations of the *same* latent control system requires a model with independently validated links. A high neural–behavioural correlation is not in itself proof of a Griffiths phase or improved intelligence.
 
@@ -1133,6 +1206,36 @@ This table grades the **strength and directness of the evidence for the stated c
 - **Tse, D., et al. (2011).** Schema-dependent gene activation and memory encoding in neocortex. *Science, 333*, 891–895. https://doi.org/10.1126/science.1205274
 - **Xue, K., et al. (2026).** Learning shapes the energy cost of neural tasks. *bioRxiv preprint (not peer reviewed)*. https://doi.org/10.64898/2026.07.01.735889
 
+### Shared intentionality, referential development, public reason and multimodal AI (v0.4)
+
+**Foundational and developmental research**
+
+- **Ashton Smith, M. (undated manuscript).** *Joint attentional declarative pointing: Shared Intentionality_A (Action) and Shared Intentionality_R (Representation).* Author manuscript supplied as a source for this theory. Especially pp. 11–13 and 19–22. The manuscript's evolutionary sequence is treated here as a **hypothesis**, not settled comparative evidence.
+- **Liszkowski, U., Carpenter, M., & Tomasello, M. (2007).** Reference and attitude in infant pointing. *Journal of Child Language, 34*, 1–20. https://doi.org/10.1017/S0305000906007689
+- **Liszkowski, U., Carpenter, M., & Tomasello, M. (2007).** Pointing out new news, old news, and absent referents at 12 months of age. *Developmental Science, 10*, F1–F7. https://doi.org/10.1111/j.1467-7687.2006.00552.x
+- **Tomasello, M., Carpenter, M., & Liszkowski, U. (2007).** A new look at infant pointing. *Child Development, 78*, 705–722. https://doi.org/10.1111/j.1467-8624.2007.01025.x
+- **Krupenye, C., Kano, F., Hirata, S., Call, J., & Tomasello, M. (2016).** Great apes anticipate that other individuals will act according to false beliefs. *Science, 354*, 110–114. https://doi.org/10.1126/science.aaf8110
+- **Fedorenko, E., & Varley, R. (2016).** Language and thought are not the same thing: Evidence from neuroimaging and neurological patients. *Annals of the New York Academy of Sciences*. https://doi.org/10.1111/nyas.13046
+- **Rushby, J. (2023).** *On computational mechanisms for shared intentionality, and speculation on rationality and consciousness* (SRI technical report; speculative model). https://arxiv.org/abs/2306.13657
+- **Searle, J. R. (1995).** *The Construction of Social Reality*. Free Press. [Philosophical foundation for institutionally constituted facts; not a neuroscience study.]
+
+**Multimodal alignment, viewpoint transformation and physical-world prediction**
+
+- **Neo, C., et al. (2025).** Towards interpreting visual information processing in vision-language models. *International Conference on Learning Representations*. https://proceedings.iclr.cc/paper_files/paper/2025/hash/900fb3439e4968df79a6f2bfedec49cd-Abstract-Conference.html
+- **V-JEPA 2 research team (2025).** V-JEPA 2: Self-supervised video models enable understanding, prediction and planning. *Meta AI research / model paper*. https://ai.meta.com/research/publications/v-jepa-2-self-supervised-video-models-enable-understanding-prediction-and-planning/
+- **Ray, A., et al. (2026).** Mull-Tokens: Modality-Agnostic Latent Thinking. *CVPR Findings 2026*, 9477–9488. https://openaccess.thecvf.com/content/CVPR2026F/html/Ray_Mull-Tokens__Modality-Agnostic_Latent_Thinking_CVPRF_2026_paper.html
+- **Hu, L., Ma, X., Liao, Z., & Liu, Y. (2026).** TVI-CoT: Text-Visual Interleaved Chain-of-Thought Reasoning for Multimodal Understanding. *Proceedings of Machine Learning Research, 306*, 45820–45831. https://proceedings.mlr.press/v306/hu26ba.html
+- **Leonard, B., & Murray, S. O. (2026).** Cognitively-inspired tokens overcome egocentric bias in multimodal models. *arXiv preprint*, 2601.16378. https://arxiv.org/abs/2601.16378
+- **Ye, Z., et al. (2026).** Not All Tokens See Equally: Perception-Grounded Policy Optimization for Large Vision-Language Models. *Findings of EMNLP 2026*, 34320–34344. https://doi.org/10.18653/2026.findings-emnlp.1612
+- **Xu, Y., et al. (2026).** Do vision-language models truly perform vision reasoning? A rigorous study of the modality gap (CrossMath). *arXiv preprint*, 2604.16256. https://arxiv.org/abs/2604.16256
+
+**Recursive public models and performative effects**
+
+- **Perdomo, J., Zrnic, T., Mendler-Dünner, C., & Hardt, M. (2020).** Performative prediction. *Proceedings of Machine Learning Research, 119*, 7599–7609. https://proceedings.mlr.press/v119/perdomo20a.html
+- **Shumailov, I., et al. (2024).** AI models collapse when trained on recursively generated data. *Nature, 631*, 755–759. https://doi.org/10.1038/s41586-024-07566-y
+
+**Evidence boundary:** The papers above supply independent examples of infant referential repair, perspective-sensitive processing, multimodal alignment, physical prediction, and recursive data/model effects. **None establishes the three-stage Trident-G developmental sequence**, a necessary human-specific evolutionary transition or the presence of literal synthetic reality. In particular, model collapse under repeated synthetic training and social loss of epistemic accountability are **different phenomena**.
+
 ### Dopamine, prediction error and the tilt mechanism (added research basis)
 
 - Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. *Science, 275*, 1593–1599. https://doi.org/10.1126/science.275.5306.1593
@@ -1160,12 +1263,12 @@ This table grades the **strength and directness of the evidence for the stated c
 - Human intracranial EEG study (2025), cited in prior temporal-dynamics draft. https://pmc.ncbi.nlm.nih.gov/articles/PMC11984084/
 - Zeraati and colleagues (2026). Review of neural timescale mechanisms (source referenced in prior draft). https://www.nature.com/articles/s41593-026-02343-8
 
-The source blocks above include both newly integrated and inherited references. Their inclusion is **not** a claim that the complete Trident-G synthesis has been independently validated. The 2026 Xue study is explicitly a non-peer-reviewed preprint; other sources range from computational proposals to invasive recordings and human imaging. Bibliographic details of older inherited sources should be checked before publication. Bibliographic details should be verified and standardised before publication.
+The source blocks above include both newly integrated and inherited references. Their inclusion is **not** a claim that the complete Trident-G synthesis has been independently validated. The 2026 Xue study is explicitly a non-peer-reviewed preprint; other sources range from computational proposals to invasive recordings and human imaging. Bibliographic details of older inherited sources should be checked before publication.
 
 ---
 
 ## Theoretical conclusion
 
-Trident-G Version 0.3 is a proposal about **regulated coordination and recursive change**. Its most distinctive claim is that general intelligence may depend on a system's ability to preserve efficient specialised operations while selectively reorganising their relationships under novel demands. A viable homeostatic corridor constrains this process; hierarchical modularity makes parallel specialised and integrative cognition possible; extended Griffiths-phase-like dynamics may, under appropriate conditions, broaden the system's effective response repertoire across timescales. Gf synthesis generates and tests relational structures, and dual-pathway Gc consolidation can convert validated structures into both efficient skills and richer schemas. Through asymmetrical capacity interactions and reciprocal niche construction, these changes can modify the conditions of subsequent learning.
+Trident-G Version 0.4 is a proposal about **regulated coordination, emergent shared reference and recursive change**. Its most distinctive claim is that general intelligence may depend on a system's ability to preserve efficient specialised operations while selectively reorganising their relationships under novel demands. A viable homeostatic corridor constrains this process; hierarchical modularity makes parallel specialised and integrative cognition possible; extended Griffiths-phase-like dynamics may, under appropriate conditions, broaden the system's effective response repertoire across timescales. Gf synthesis generates and tests relational structures, and dual-pathway Gc consolidation can convert validated structures into both efficient skills and richer schemas. Through asymmetrical capacity interactions and reciprocal niche construction, these changes can modify the conditions of subsequent learning.
 
-**The next decisive step is not another conceptual layer.** It is a small computational model in which the hierarchical controller, cusp controller and Griffiths-phase network can be independently ablated, followed by preregistered behavioural tests of novel skill composition, temporal-horizon coordination and delayed invariant transfer.
+**The next decisive step is computational and empirical.** The existing hierarchical, cusp and Griffiths-phase hypotheses should be separately ablated; the new developmental extension additionally requires multi-agent experiments determining whether communicative repair and cross-perspective invariants produce reusable object reference, and whether recursively generated public models preserve independent calibration and revisability. Stronger theory should follow demonstrated discriminating predictions, not additional untested modules.
