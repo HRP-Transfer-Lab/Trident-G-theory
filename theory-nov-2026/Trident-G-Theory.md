@@ -106,14 +106,62 @@ $$
 
 Accordingly, $\xi_t=G_t-F_t^\star$. This is a hypothesis about how anticipated demand is formed; $\mathscr G$ is not psychometric $g$.
 
-The explore–exploit tilt can be written:
+### A prediction-error-modulated tilt: connecting dopamine to cognitive control
 
-$$
-\delta_t=u_t+\sum_n\lambda_{n,t}\psi_n(\mathbf z_{n,t},K_{n,t})
+The original Trident-G account proposes that better-than-expected outcomes tend to reinforce effective policies, while worse-than-expected outcomes can suppress unsuccessful policies and prompt re-evaluation. That proposal has a substantial foundation in dopamine reward-prediction-error (RPE) research, but its extension to the mutual-information/entropy arms must remain a **separately testable hypothesis**.
+
+Many dopamine neurons increase phasic firing when reward exceeds expectation and decrease firing when expected reward fails to occur (Schultz, Dayan, & Montague, 1997). In influential basal-ganglia models, dopamine increases preferentially support D1-associated direct/Go-pathway plasticity, while dopamine decreases reduce D2 receptor stimulation and can **disinhibit** indirect/NoGo-pathway neurons. This predicts different contributions to positive- and negative-outcome learning; human Parkinson's, PET and mouse causal studies provide important converging evidence (Frank, Seeberger, & O'Reilly, 2004; Kravitz, Tye, & Kreitzer, 2012; Cox et al., 2015; Lee et al., 2021).
+
+Two restrictions are essential. First, a **dopamine dip is not increased D2 receptor activation**. Second, D1-expressing cells are not universally positive-value encoders and D2-expressing cells are not universally negative-value encoders: for example, nucleus-accumbens studies have found valence-independent and cooperative signals (Zachry et al., 2024). Recent distributional reinforcement-learning work suggests D1 and D2 populations can preferentially represent different *tails of reward distributions*, not simply two discrete outcome labels (Lowet et al., 2025). Reward-based learning, motivational vigour, directed information-seeking and novelty-related learning also recruit partly different mechanisms.
+
+To keep these distinctions explicit, use a *reward* prediction error separate from the existing allostatic mismatch:
+
+$
+\Delta_t^{R}=r_t-\widehat r_t,\qquad
+\ell_t^{+}=\alpha_{+}[\Delta_t^{R}]_{+},\qquad
+\ell_t^{-}=\alpha_{-}[-\Delta_t^{R}]_{+},
+$
+
+where $[v]_{+}=\max(v,0)$. The terms $\ell^{+}$ and $\ell^{-}$ are **effective learning signals**, not measured D1 or D2 receptor activation. Their relative gains may depend on tonic dopamine, striatal region, receptor properties and previous learning. In particular, $\Delta_t^{R}$ is a reward/outcome-value error and must **not** be identified with Trident-G's $\varepsilon_t=F_t-G_t$, which is a regulatory burden mismatch.
+
+Define the contextual baseline tilt:
+
+$
+\delta_t^{\mathrm{base}}
+=u_t+\sum_n\lambda_{n,t}\psi_n(\mathbf z_{n,t},K_{n,t})
 +\boldsymbol\omega^\top\mathbf b_t.
-$$
+$
 
-Here $u_t$ represents strategic control, $\lambda_{n,t}$ effective coupling to niche $n$, $\psi_n$ the niche's current pressure on policy selection, and $\mathbf b_t$ the active Gf branches. More coupling is not always better: inaccurate, captured or hostile coupling can also distort control.
+An **illustrative** trial-wise control update is:
+
+$
+\boxed{
+\begin{aligned}
+\delta_{t+1}=\operatorname{clip}\Big[
+&\rho_\delta\,\delta_t+(1-\rho_\delta)\,\delta_t^{\mathrm{base}}\\
+&+\beta_{+}g_t^{+}\ell_t^{+}
+-\beta_{-}g_t^{-}\ell_t^{-}\\
+&+\beta_{C}S_t-\beta_{E}\operatorname{EIG}_t
+\Big],
+\end{aligned}
+}
+$
+
+where positive $\delta$ is **conventionally defined** as a bias towards continued/convergent policy use, and negative $\delta$ as a bias towards reopening/divergent search (the sign convention adopted in the 2025 Trident-G account). This is a psychological assignment of bias, not an identity between the sign of $x=F-F^\star$ and exploration/exploitation. In this proposal:
+
+- $\rho_\delta$ represents persistence of the previous control bias.
+- $g_t^+$ and $g_t^-$ are context-sensitive gates evaluating whether the outcome is genuinely diagnostic for retaining or revising the **current model or policy**.
+- $\beta_+g_t^+\ell_t^+$ represents a *candidate* D1/Go-sensitive contribution to reinforcing an adequately supported current policy.
+- $-\beta_-g_t^-\ell_t^-$ represents a *candidate* dopamine-dip/indirect-pathway-sensitive contribution to suppressing or reconsidering an unsuccessful policy; **it does not automatically cause exploration**.
+- $S_t$ denotes independent evidence supporting the current model (a candidate mutual-information-related constraint signal, not mutual information itself).
+- $\operatorname{EIG}_t$ is the expected information gain from testing alternatives; when high it can favour *directed* exploration, even without negative reward feedback.
+- The $\beta$ coefficients are unknown, non-negative, task-dependent gains to be estimated, and clip imposes a specified safe or numerically bounded range.
+
+This formulation distinguishes **learning from an outcome**, **whether a policy should be retained**, and **whether wider search is worth undertaking**. A disappointing outcome may justify switching to another well-learned response without generating new hypotheses. Conversely, a surprising success may reveal a new affordance that makes additional exploration desirable. Therefore, prediction-error valence should *modulate* $\delta$ rather than mechanically determine its sign.
+
+**What is empirically supported?** Dopamine RPEs and outcome-sensitive direct/indirect pathway plasticity are well studied. **What remains a Trident-G claim?** That these signals, combined with uncertainty, expected information gain, coherence and current goals, tune the cusp's explore–exploit tilt and control entropy-oriented versus mutual-information-oriented cognitive operations. Frank et al. (2009) provide a particularly important caution: striatal dopaminergic genes were associated with outcome-based exploitative updating, while a prefrontal dopamine-related gene was associated with uncertainty-sensitive *directed exploration*. This is a reason to keep the epistemic term separate from the striatal RPE terms.
+
+More coupling is not always better: inaccurate, captured or hostile niche coupling may also distort the tilt.
 
 **Boundary of the claim.** A cusp is a candidate low-dimensional *control approximation*. Its parameters must be fitted and compared with smooth state-space, reinforcement-learning and switching alternatives before interpreting observed behavioural shifts as cusp bifurcations.
 
@@ -495,6 +543,7 @@ The strongest predictions must distinguish Trident-G from simpler accounts. The 
 | **P5. Gf predicts temporal-horizon coordination** | Require recombination of short-, medium- and long-horizon predictive relationships | Speed, working memory, established Gc and baseline graph-learning ability |
 | **P6. Fast and slow banking dissociate** | Compare immediate fluency, automatic execution, delayed schema transfer and rest/consolidation conditions | Exposure, repetition, strategy instruction and baseline knowledge |
 | **P7. Niche construction changes later adaptability** | Give some agents the ability to change workflow or feedback structure; compare future reachable tasks and resilience | Same immediate reward, experience and task difficulty without niche control |
+| **P8. Signed prediction errors modulate tilt without dictating exploration** | Manipulate better-than-expected, expected and worse-than-expected outcomes orthogonally to expected information gain; estimate subsequent policy persistence, switching and novel search | Compare RPE-only, uncertainty-only and combined gated-RPE/epistemic models; distinguish local avoidance from generative exploration |
 
 ### What specifically counts as evidence for a Griffiths phase?
 
@@ -541,14 +590,26 @@ V(x;\xi,\delta)=x^4-\xi x^2-\delta x,\qquad
 dx=(-4x^3+2\xi x+\delta)\,dt+\sigma_x\,dW^{(x)}.
 $$
 
-**A3. Anticipated load and exploration–exploitation tilt**
+**A3. Anticipated load, signed RPE learning and exploration–exploitation tilt**
 
-$$
+$
 \begin{aligned}
 G&=\mathscr G(\mathbf c,\eta,\chi,\mathbf h,K^{Gc},\mathbf b,\mathbf z,\text{goal}),\\
-\delta&=u+\sum_n\lambda_n\psi_n(\mathbf z_n,K_n)+\boldsymbol\omega^\top\mathbf b.
+\Delta_t^R&=r_t-\widehat r_t,\quad
+\ell_t^{+}=\alpha_{+}[\Delta_t^R]_{+},\quad
+\ell_t^{-}=\alpha_{-}[-\Delta_t^R]_{+},\\
+\delta_t^{\mathrm{base}}&=
+u_t+\sum_n\lambda_{n,t}\psi_n(\mathbf z_{n,t},K_{n,t})
++\boldsymbol\omega^\top\mathbf b_t,\\
+\delta_{t+1}&=\operatorname{clip}\big[
+\rho_\delta\delta_t+(1-\rho_\delta)\delta_t^{\mathrm{base}}
++\beta_+g_t^+\ell_t^+-\beta_-g_t^-\ell_t^-
++\beta_C S_t-\beta_E\operatorname{EIG}_t
+\big].
 \end{aligned}
-$$
+$
+
+$\Delta^R$ is a reward error, not the allostatic $\varepsilon=F-G$; $\ell^-$ models *learning consequences of dopamine decreases/indirect-pathway disinhibition*, not increased D2 receptor activation. A negative RPE weakens the old policy only where context warrants it; whether wider exploration follows is a **separate** choice.
 
 **A4. Hierarchical modular dynamics**
 
@@ -652,6 +713,8 @@ Operational decisions should be implemented on an explicit sampling/update sched
 | $\lambda_n,\mathbf z_n$ | Niche coupling and niche state |
 | $\mathbf a,u$ | External action and strategic internal control |
 
+**Reward prediction error $\Delta^R$ ≠ allostatic mismatch $\varepsilon=F-G$ ≠ entropy or mutual information.**  
+**Dopamine-dependent Go/NoGo learning ≠ direct biochemical implementation of strategic exploration.**  
 **Cusp bifurcation ≠ local activity propagation ≠ Griffiths phase.**  
 **Processing timescale $\tau$ ≠ predictive horizon $h$ ≠ learning timescale.**  
 **Functional Gc automaticity ≠ proven subcritical neural activity.**  
@@ -669,6 +732,20 @@ Neural avalanche and criticality phenomena; hierarchical modular and heterogeneo
 ### Theoretical interpretations requiring direct testing
 
 That Trident-G's cusp variables track human homeostatic engagement; that the Ψ-band is an individually measurable region of adaptive near-critical operation; that Gf synthesis is specifically implemented through the stated four information-processing branches; that Gc-dominated processing preferentially recruits more subcritical and lower-cost dynamics; that a Griffiths phase causally improves Gf/Gc coordination; and that improved invariant learning produces durable, domain-general gains in intelligence.
+
+### Dopamine, prediction error and the tilt mechanism (added research basis)
+
+- Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. *Science, 275*, 1593–1599. https://doi.org/10.1126/science.275.5306.1593
+- Frank, M. J., Seeberger, L. C., & O'Reilly, R. C. (2004). By carrot or by stick: Cognitive reinforcement learning in parkinsonism. *Science, 306*, 1940–1943. https://doi.org/10.1126/science.1102941
+- Shen, W., Flajolet, M., Greengard, P., & Surmeier, D. J. (2008). Dichotomous dopaminergic control of striatal synaptic plasticity. *Science, 321*, 848–851. https://doi.org/10.1126/science.1160575
+- Frank, M. J., Doll, B. B., Oas-Terpstra, J., & Moreno, F. (2009). Prefrontal and striatal dopaminergic genes predict individual differences in exploration and exploitation. *Nature Neuroscience, 12*, 1062–1068. https://doi.org/10.1038/nn.2342
+- Kravitz, A. V., Tye, L. D., & Kreitzer, A. C. (2012). Distinct roles for direct and indirect pathway striatal neurons in reinforcement. *Nature Neuroscience, 15*, 816–818. https://doi.org/10.1038/nn.3100
+- Cox, S. M. L., Frank, M. J., Larcher, K., et al. (2015). Striatal D1 and D2 signaling differentially predict learning from positive and negative outcomes. *NeuroImage, 109*, 95–101. https://doi.org/10.1016/j.neuroimage.2014.12.070
+- Lee, S. J., et al. (2021). Cell-type-specific asynchronous modulation of PKA by dopamine in learning. *Nature, 590*, 451–456. https://doi.org/10.1038/s41586-020-03050-5
+- Zachry, J. E., et al. (2024). D1 and D2 medium spiny neurons in the nucleus accumbens core have distinct and valence-independent roles in learning. *Neuron, 112*, 835–849.e7. https://doi.org/10.1016/j.neuron.2023.11.023
+- Lowet, A. S., et al. (2025). An opponent striatal circuit for distributional reinforcement learning. *Nature, 639*, 717–726. https://doi.org/10.1038/s41586-024-08488-5
+- Romero Pinto, S., & Uchida, N. (2025). Tonic dopamine and biases in value learning linked through a biologically inspired reinforcement learning model. *Nature Communications, 16*, 7529. https://doi.org/10.1038/s41467-025-62280-1
+- Kahnt, T., & Schoenbaum, G. (2025). The curious case of dopaminergic prediction errors and learning associative information beyond value. *Nature Reviews Neuroscience, 26*, 169–178. https://doi.org/10.1038/s41583-024-00898-8
 
 ### Primary and contextual sources retained from the three original sections
 
