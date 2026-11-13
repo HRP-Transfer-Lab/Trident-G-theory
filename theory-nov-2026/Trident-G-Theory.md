@@ -147,11 +147,11 @@ An **illustrative** trial-wise control update is:
 $$
 \boxed{
 \begin{aligned}
-\delta_{t+1}=\operatorname{clip}\Big[
+\delta_{t+1}=\mathrm{clip}\Big[
 &\rho_\delta\,\delta_t+(1-\rho_\delta)\,\delta_t^{\mathrm{base}}\\
 &+\beta_{+}g_t^{+}\ell_t^{+}
 -\beta_{-}g_t^{-}\ell_t^{-}\\
-&+\beta_{C}S_t-\beta_{E}\operatorname{EIG}_t
+&+\beta_{C}S_t-\beta_{E}\mathrm{EIG}_t
 \Big],
 \end{aligned}
 }
@@ -164,7 +164,7 @@ where positive $\delta$ is **conventionally defined** as a bias towards continue
 - $\beta_+g_t^+\ell_t^+$ represents a *candidate* D1/Go-sensitive contribution to reinforcing an adequately supported current policy.
 - $-\beta_-g_t^-\ell_t^-$ represents a *candidate* dopamine-dip/indirect-pathway-sensitive contribution to suppressing or reconsidering an unsuccessful policy; **it does not automatically cause exploration**.
 - $S_t$ denotes independent evidence supporting the current model (a candidate mutual-information-related constraint signal, not mutual information itself).
-- $\operatorname{EIG}_t$ is the expected information gain from testing alternatives; when high it can favour *directed* exploration, even without negative reward feedback.
+- $\mathrm{EIG}_t$ is the expected information gain from testing alternatives; when high it can favour *directed* exploration, even without negative reward feedback.
 - The $\beta$ coefficients are unknown, non-negative, task-dependent gains to be estimated, and clip imposes a specified safe or numerically bounded range.
 
 This formulation distinguishes **learning from an outcome**, **whether a policy should be retained**, and **whether wider search is worth undertaking**. A disappointing outcome may justify switching to another well-learned response without generating new hypotheses. Conversely, a surprising success may reveal a new affordance that makes additional exploration desirable. Therefore, prediction-error valence should *modulate* $\delta$ rather than mechanically determine its sign.
@@ -215,7 +215,7 @@ A particularly close mechanistic precedent is **Murphy et al. (2020)**: using 2-
 A module's recruitment depends on task cues, the current plan, context and evidence of mismatch:
 
 $$
-\gamma_{j,t}=\operatorname{Gate}_j
+\gamma_{j,t}=\mathrm{Gate}_j
 (\mathbf o_{t^-},\mathbf r^\star_{t^-},e_{j,t^-},\mathbf z_t,\eta_t).
 $$
 
@@ -682,7 +682,7 @@ The fully coupled model contains more latent states than could responsibly be in
 
 **Fifth: reciprocal niches and human validation.** Extend agents to modifiable environments, then fit targeted human tasks with independent Gf/Gc measures, appropriate repeated assessments, and cautiously interpreted neural/physiological signals.
 
-The earliest computational implementation should **freeze slow developmental variables** and specify concrete forms for $\mathcal S$, $\mathcal M$, $\mathcal A$, $\operatorname{Gate}$, $f_j$ and $\mathcal B$. Meta-efficacy $\eta$, coherence $\chi$, homeostatic conditions $\mathbf h$, and $F^\star$ presently enter as inputs or slow latent quantities: their own update laws are open questions. Version 0.3 is therefore a *structured candidate theory*, not yet a closed, identifiable model.
+The earliest computational implementation should **freeze slow developmental variables** and specify concrete forms for $\mathcal S$, $\mathcal M$, $\mathcal A$, $\mathrm{Gate}$, $f_j$ and $\mathcal B$. Meta-efficacy $\eta$, coherence $\chi$, homeostatic conditions $\mathbf h$, and $F^\star$ presently enter as inputs or slow latent quantities: their own update laws are open questions. Version 0.3 is therefore a *structured candidate theory*, not yet a closed, identifiable model.
 
 ---
 
@@ -713,10 +713,10 @@ G&=\mathscr G(\mathbf c,\eta,\chi,\mathbf h,K^{Gc},\mathbf b,\mathbf z,\text{goa
 \ell_t^{-}=\alpha_{-}[-\Delta_t^R]_{+},\\
 \delta_t^{\mathrm{base}}&=u_t+\sum_n\lambda_{n,t}\psi_n(\mathbf z_{n,t},K_{n,t})
 +\boldsymbol\omega^\top\mathbf b_t,\\
-\delta_{t+1}&=\operatorname{clip}\big[
+\delta_{t+1}&=\mathrm{clip}\big[
 \rho_\delta\delta_t+(1-\rho_\delta)\delta_t^{\mathrm{base}}
 +\beta_+g_t^+\ell_t^+-\beta_-g_t^-\ell_t^-
-+\beta_C S_t-\beta_E\operatorname{EIG}_t
++\beta_C S_t-\beta_E\mathrm{EIG}_t
 \big].
 \end{aligned}
 $$
@@ -768,7 +768,7 @@ Dixon et al.'s FPCN-A/DMN versus FPCN-B/DAN **preferential coupling** motivates 
 **A7. Skill gating and assembled action**
 
 $$
-\gamma_j=\operatorname{Gate}_j(\mathbf o_{t^-},\mathbf r^\star_{t^-},e_{j,t^-},\mathbf z,\eta),\qquad
+\gamma_j=\mathrm{Gate}_j(\mathbf o_{t^-},\mathbf r^\star_{t^-},e_{j,t^-},\mathbf z,\eta),\qquad
 \mathbf a=\mathcal A\left(\mathbf a^{Gf},\{\gamma_j\pi_j^{Gc}\}_j\right).
 $$
 
