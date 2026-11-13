@@ -514,12 +514,17 @@ Some tasks require *equivariance* rather than invariance—i.e. $r_\theta(TX)\ap
 
 A constant representation would satisfy simple invariance but convey no useful information. Therefore, the proposed learner must retain **predictive or action-relevant sufficiency**. One illustrative objective is:
 
-$$
-\mathcal L_{\mathrm{inv}}(\theta)
+```math
+\mathcal{L}_{\mathrm{inv}}(\theta)
 =
-\mathbb E_{X,T}\|r_\theta(TX)-r_\theta(X)\|^2
-+\beta\,\mathbb E_{X,Y}\ell\big(\widehat Y(r_\theta(X)),Y\big),
-$$
+\mathbb{E}_{X,T}\!\left[
+\left\lVert r_\theta(TX)-r_\theta(X)\right\rVert^{2}
+\right]
++
+\beta\,\mathbb{E}_{X,Y}\!\left[
+\ell\!\left(\widehat{Y}(r_\theta(X)),Y\right)
+\right]
+```
 
 subject to transformations genuinely preserving the target relationship. Other implementations may use relational graphs, structured causal models or SR mappings rather than vectors.
 
