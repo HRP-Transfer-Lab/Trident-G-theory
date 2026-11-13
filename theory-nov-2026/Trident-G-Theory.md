@@ -263,7 +263,7 @@ The proposed claim that efficient Gc execution has a lower *incremental task cos
 
 **Human correlational evidence.** Ezaki et al. (2020) fitted a statistical-physics-inspired model to resting-state fMRI and reported that participants with higher performance/fluid-type IQ measures tended to lie nearer a modelled critical boundary, with only a **moderate** association. Xu, Feng and Yu (2022) reported associations between individualised avalanche/synchronisation statistics and *fluid intelligence and working memory*, but not their crystallised-intelligence measure; they also found longer average occupancy of slightly subcritical states. These are encouraging tests of a proposed Gf/Gc *difference*, not direct demonstrations that a Gf process is supercritical and a Gc module is subcritical.
 
-**Task specificity.** Liu, Fei and Liu (2024) reported that perceptual tasks selectively shifted criticality estimates of relevant cortical subsystems; their findings favour task- and region-dependent regulation over global, uniform criticality. Müller et al. (2025) used multiday intracranial EEG in people with epilepsy and associated departures from critical dynamics with cognitive impairment, while observing perturbations linked to medication, interictal events and sleep-like episodes. The clinical sample and inference method limit generalisation to healthy fluid intelligence.
+**Task specificity.** Liu, Fei and Liu (2025; online December 2024) reported that perceptual tasks selectively shifted criticality estimates of relevant cortical subsystems; their findings favour task- and region-dependent regulation over global, uniform criticality. Müller et al. (2025) used multiday intracranial EEG in people with epilepsy and associated departures from critical dynamics with cognitive impairment, while observing perturbations linked to medication, interictal events and sleep-like episodes. The clinical sample and inference method limit generalisation to healthy fluid intelligence.
 
 **Important counterevidence and alternatives.** Priesemann et al. (2014) reported in-vivo spike-avalanche evidence consistent with a driven, **slightly subcritical** state. Criticality proxies depend on model class, recordings, preprocessing, finite sampling and observation timescale; apparent power laws can have noncritical explanations. None of these human studies demonstrates that a *Griffiths phase*, rather than another near-critical mechanism, uniquely supports Gf or Gc. Moretti and Muñoz (2013) offer a relevant **computational network model**, not empirical identification of a Griffiths phase in human reasoning.
 
@@ -331,6 +331,8 @@ These intervals overlap; learning and consolidation can begin during an episode,
 ## Cortical evidence for temporal hierarchy
 
 Murray et al. (2014) measured **spiking autocorrelation timescales** across nonhuman-primate cortical regions and found shorter intrinsic timescales in sensory cortex and longer ones in prefrontal cortex. Nee (2021) independently related frontoparietal control gradients to the distinction between immediate sensory-motor demands, contextual rules and internally maintained future plans in two human fMRI samples. These results support differentiation in temporal integration and control *demands*, but not a fixed correspondence between a named network and an SR predictive horizon.
+
+Li, Li and Wang (2025) analysed marmoset ECoG temporal organisation and fitted a multi-region model constrained by electrophysiology and anatomy. The model reproduced a hierarchy of time constants and found that near-critical model dynamics jointly favoured local integration and reliable inter-regional signal propagation. This is a particularly relevant **computational bridge**, but it is not evidence for a specifically human Griffiths phase or for Trident-G's invariant-learning operator.
 
 The theory's stronger claim—that Gf uses the temporally differentiated hierarchy to coordinate multiple predictive horizons and learn transferable temporal invariants—is **testable rather than established**. Neural timescale estimates from spike trains, BOLD fluctuations and behavioural duration should not be treated as interchangeable. Also, the timescale-rich relaxation of a Griffiths phase is a statistical dynamical property and must be distinguished from the conventional temporal hierarchy.
 
@@ -854,6 +856,67 @@ Neural avalanche and criticality phenomena; hierarchical modular and heterogeneo
 
 That Trident-G's cusp variables track human homeostatic engagement; that the Ψ-band is an individually measurable region of adaptive near-critical operation; that Gf synthesis is specifically implemented through the stated four information-processing branches; that Gc-dominated processing preferentially recruits more subcritical and lower-cost dynamics; that a Griffiths phase causally improves Gf/Gc coordination; and that improved invariant learning produces durable, domain-general gains in intelligence.
 
+### Evidence audit: which neural findings support which claims?
+
+This table grades the **strength and directness of the evidence for the stated component**, not the plausibility of the whole Trident-G theory. "Direct" refers to the measured phenomenon in the cited study; it does not imply that its proposed role in Trident-G has been validated.
+
+| Proposed component | Most informative empirical anchor | Evidence status | What remains unestablished |
+|---|---|---|---|
+| FPCN-A↔DN versus FPCN-B↔DAN coupling | Dixon et al. (2018), four datasets/nine conditions; Murphy et al. (2020); Yin et al. (2022) | **Strong** network differentiation and preferential coupling; functional interpretation supported by task studies | Fixed, exclusive A=LT-WM and B=ST-WM anatomy; one-to-one assignment to entropy or MI |
+| Dynamic integration of internal and external control | Spreng et al. (2013); Cole et al. (2013); Nee (2021) | **Substantial** fMRI evidence for flexible control-network integration and gradients | Unique causal Gf synthesis operator or a single executive controller |
+| Neural basis of allostasis/interoception | Kleckner et al. (2017); Zhang et al. (2025, 7T) | **Strong** anatomical/connectivity convergence, including subcortical/brainstem regions | Identification of the scalar $F^\star$, $\xi$ or Ψ-band directly from those circuits |
+| Hierarchical modular coordination | Bertolero et al. (2015); Murphy et al. (2020); Bassett et al. (2011) | **Substantial** functional network organisation and prospective learning association | Specific Gc-module/gating implementation or causal general-intelligence advantage |
+| Neural temporal hierarchy | Murray et al. (2014, spikes); Li et al. (2025, ECoG plus model) | **Strong** temporal differentiation; near-critical integration advantage chiefly **model-based** | Equating neural decay $\tau$ with the SR predictive horizon or developmental learning rate |
+| Near-criticality linked to cognition | Ezaki et al. (2020); Xu et al. (2022); Müller et al. (2025) | **Promising, correlational and estimator-dependent** | That Gf is always supercritical, Gc always subcritical, or criticality is uniquely causal |
+| Griffiths phase in cognition | Moretti & Muñoz (2013) and hierarchical-network models | **Mathematically/computationally motivated** | Direct demonstration of a human Griffiths phase during reasoning and its specific adaptive benefit |
+| Hippocampal/entorhinal and OFC relational maps | Garvert et al. (2017); Schuck et al. (2016); Momennejad et al. (2017); Stachenfeld et al. (2017 model) | **Substantial** evidence for representational and predictive structure | That all transfer invariants are hippocampal SRs or that FPCN-A solely constructs them |
+| Habitual processing and Gc consolidation | Vatansever et al. (2017); Tse et al. (2007, 2011 in rats) | **Substantial for specialised mechanisms**, cross-species constraints | Universal fast/subcortical versus slow/cortical Gc partition |
+| Reduced neural fuel use after learning | Xue et al. (2026, **bioRxiv preprint**, mice) | **Preliminary**, not yet peer reviewed | A general human Gc energetic advantage or a criticality mechanism |
+| D1/D2 outcome-sensitive learning | Frank et al. (2004); Shen et al. (2008); Lee et al. (2021); Kravitz et al. (2012) | **Substantial**, with known exceptions and circuit heterogeneity | Direct equivalence of D1=MI or D2=entropy, or deterministic RPE→exploration |
+| Asymmetric developmental mutualism and niche-driven rise in $g$ | Network reconfiguration and allostasis provide indirect constraints | **Trident-G hypothesis** | Causal improvement in a distinct capacity's *later learning rate* and genuine far-transfer gains |
+
+**Methodological principle:** fMRI functional connectivity, behavioural Gf/Gc scores, EEG criticality proxies, neuronal spiking, neuromodulatory activity, and subjective effort are distinct measurements. Treating them as different observations of the *same* latent control system requires a model with independently validated links. A high neural–behavioural correlation is not in itself proof of a Griffiths phase or improved intelligence.
+
+### Neuroscience research references integrated into the theory
+
+**FPCN-A/B differentiation, internal–external coordination, and network integration**
+
+- **Dixon, M. L., et al. (2018).** Heterogeneity within the frontoparietal control network and its relationship to the default and dorsal attention networks. *Proceedings of the National Academy of Sciences, 115*, E1598–E1607. https://doi.org/10.1073/pnas.1715766115
+- **Spreng, R. N., Sepulcre, J., Turner, G. R., Stevens, W. D., & Schacter, D. L. (2013).** Intrinsic architecture underlying the relations among the default, dorsal attention, and frontoparietal control networks of the human brain. *Journal of Cognitive Neuroscience, 25*, 74–86. https://doi.org/10.1162/jocn_a_00281
+- **Murphy, A. C., Bertolero, M. A., Papadopoulos, L., Lydon-Staley, D. M., & Bassett, D. S. (2020).** Multimodal network dynamics underpinning working memory. *Nature Communications, 11*, 3035. https://doi.org/10.1038/s41467-020-15541-0
+- **Nee, D. E. (2021).** Integrative frontal-parietal dynamics supporting cognitive control. *eLife, 10*, e57244. https://doi.org/10.7554/eLife.57244
+- **Yin, S., Li, Y., & Chen, A. (2022).** Functional coupling between frontoparietal control subnetworks bridges the default and dorsal attention networks. *Brain Structure and Function, 227*, 2243–2260. https://doi.org/10.1007/s00429-022-02517-7
+- **Cole, M. W., et al. (2013).** Multi-task connectivity reveals flexible hubs for adaptive task control. *Nature Neuroscience, 16*, 1348–1355. https://doi.org/10.1038/nn.3470
+- **Bertolero, M. A., Yeo, B. T. T., & D'Esposito, M. (2015).** The modular and integrative functional architecture of the human brain. *Proceedings of the National Academy of Sciences, 112*, E6798–E6807. https://doi.org/10.1073/pnas.1510619112
+- **Beaty, R. E., et al. (2018).** Robust prediction of individual creative ability from brain functional connectivity. *Proceedings of the National Academy of Sciences, 115*, 1087–1092. https://doi.org/10.1073/pnas.1713532115
+
+**Allostatic–interoceptive circuitry**
+
+- **Kleckner, I. R., et al. (2017).** Evidence for a large-scale brain system supporting allostasis and interoception in humans. *Nature Human Behaviour, 1*, 0069. https://doi.org/10.1038/s41562-017-0069
+- **Zhang, J., et al. (2025).** Cortical and subcortical mapping of the human allostatic–interoceptive system using 7 Tesla fMRI. *Nature Neuroscience, 28*, 2380–2391. https://doi.org/10.1038/s41593-025-02087-x
+- **Sridharan, D., Levitin, D. J., & Menon, V. (2008).** A critical role for the right fronto-insular cortex in switching between central-executive and default-mode networks. *Proceedings of the National Academy of Sciences, 105*, 12569–12574. https://doi.org/10.1073/pnas.0800005105
+
+**Criticality and network dynamics, including contradictory findings**
+
+- **Ezaki, T., et al. (2020).** A human brain network metric associated with proximity to criticality and cognitive performance. *Communications Biology, 3*, 52. https://doi.org/10.1038/s42003-020-0774-y
+- **Xu, L., Feng, J., & Yu, L. (2022).** Avalanche criticality in individuals, fluid intelligence, and working memory. *Human Brain Mapping, 43*, 2534–2553. https://doi.org/10.1002/hbm.25802
+- **Liu, X., Fei, X., & Liu, J. (2025; online 2024).** The cognitive critical brain: Modulation of criticality in perception-related cortical regions. *NeuroImage, 305*, 120964. https://doi.org/10.1016/j.neuroimage.2024.120964
+- **Müller, P. M., Miron, G., Holtkamp, M., & Meisel, C. (2025).** Critical dynamics predicts cognitive performance and provides a common framework for heterogeneous mechanisms impacting cognition. *Proceedings of the National Academy of Sciences, 122*, e2417117122. https://doi.org/10.1073/pnas.2417117122
+- **Priesemann, V., et al. (2014).** Spike avalanches in vivo suggest a driven, slightly subcritical brain state. *Frontiers in Systems Neuroscience, 8*, 108. https://doi.org/10.3389/fnsys.2014.00108
+
+**Temporal processing, knowledge learning and consolidation**
+
+- **Murray, J. D., et al. (2014).** A hierarchy of intrinsic timescales across primate cortex. *Nature Neuroscience, 17*, 1661–1663. https://doi.org/10.1038/nn.3862
+- **Li, G., Li, S., & Wang, X.-J. (2025).** A hierarchy of time constants and reliable signal propagation in the marmoset cerebral cortex. *Nature Communications, 16*, 11640. https://doi.org/10.1038/s41467-025-66699-4
+- **Bassett, D. S., et al. (2011).** Dynamic reconfiguration of human brain networks during learning. *Proceedings of the National Academy of Sciences, 108*, 7641–7646. https://doi.org/10.1073/pnas.1018985108
+- **Garvert, M. M., Dolan, R. J., & Behrens, T. E. J. (2017).** A map of abstract relational knowledge in the human hippocampal–entorhinal cortex. *eLife, 6*, e17086. https://doi.org/10.7554/eLife.17086
+- **Schuck, N. W., Cai, M. B., Wilson, R. C., & Niv, Y. (2016).** Human orbitofrontal cortex represents a cognitive map of state space. *Neuron, 91*, 1402–1412. https://doi.org/10.1016/j.neuron.2016.08.019
+- **Momennejad, I., et al. (2017).** The successor representation in human reinforcement learning. *Nature Human Behaviour, 1*, 680–692. https://doi.org/10.1038/s41562-017-0180-8
+- **Vatansever, D., Menon, D. K., & Stamatakis, E. A. (2017).** Default mode contributions to automated information processing. *Proceedings of the National Academy of Sciences, 114*, 12821–12826. https://doi.org/10.1073/pnas.1710521114
+- **Tse, D., et al. (2007).** Schemas and memory consolidation. *Science, 316*, 76–82. https://doi.org/10.1126/science.1135935
+- **Tse, D., et al. (2011).** Schema-dependent gene activation and memory encoding in neocortex. *Science, 333*, 891–895. https://doi.org/10.1126/science.1205274
+- **Xue, K., et al. (2026).** Learning shapes the energy cost of neural tasks. *bioRxiv preprint (not peer reviewed)*. https://doi.org/10.64898/2026.07.01.735889
+
 ### Dopamine, prediction error and the tilt mechanism (added research basis)
 
 - Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. *Science, 275*, 1593–1599. https://doi.org/10.1126/science.275.5306.1593
@@ -881,7 +944,7 @@ That Trident-G's cusp variables track human homeostatic engagement; that the Ψ-
 - Human intracranial EEG study (2025), cited in prior temporal-dynamics draft. https://pmc.ncbi.nlm.nih.gov/articles/PMC11984084/
 - Zeraati and colleagues (2026). Review of neural timescale mechanisms (source referenced in prior draft). https://www.nature.com/articles/s41593-026-02343-8
 
-The references above are inherited from the three source sections; their inclusion is **not** a claim that the complete Trident-G synthesis has been independently validated. Bibliographic details should be verified and standardised before publication.
+The source blocks above include both newly integrated and inherited references. Their inclusion is **not** a claim that the complete Trident-G synthesis has been independently validated. The 2026 Xue study is explicitly a non-peer-reviewed preprint; other sources range from computational proposals to invasive recordings and human imaging. Bibliographic details of older inherited sources should be checked before publication. Bibliographic details should be verified and standardised before publication.
 
 ---
 
