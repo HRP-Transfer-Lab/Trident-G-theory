@@ -60,6 +60,40 @@ The four **Trident capacities** are Focus & Control, Relate & Infer, Generate & 
 
 The four **Gf computational branches**, defined below, describe a *different* cross-classification: internal versus external processing crossed with entropy-oriented search versus mutual-information-oriented constraint. A capacity may recruit more than one branch; a branch may contribute to more than one capacity. Neither taxonomy should be treated as four established, non-overlapping anatomical modules.
 
+## 1.3 Three distinct explananda: what does Trident-G seek to explain?
+
+**Psychometric general intelligence, adaptive intelligence and the developmental growth of intelligence are three different explananda.** The theory proposes that they may be linked through common mechanisms, but it has not yet demonstrated those links.
+
+| Explanandum | What requires explanation | Relevant evidence or measurement |
+|---|---|---|
+| **Psychometric general intelligence (\(g\))** | Why individuals' performances covary positively across diverse cognitive tasks, including the resulting factor structure and stable individual differences | Multitask psychometric batteries, latent-variable and longitudinal measurement models |
+| **Adaptive intelligence** | How an agent regulates cognitive states, selects and reconfigures policies, and responds effectively to changing demands, uncertainty and opportunities | Behavioural switching, learning and transfer tasks, recovery from perturbation and independently assessed real-world adaptation |
+| **Developmental growth of intelligence** | How repeated experience, learning and niche interactions change an agent's subsequent capacity to learn, reason and adapt | Longitudinal learning curves, delayed transfer, changing network/strategy organisation, and intervention effects on *subsequent* learning |
+
+These explananda are related but not interchangeable. In particular, a model that reproduces adaptive switching does **not** thereby explain the positive manifold; improved task performance does **not** by itself establish a durable increase in psychometric \(g\). Conversely, the observed covariance structure does not alone specify the dynamical processes that produce intelligent behaviour or developmental change.
+
+Trident-G proposes the following **candidate explanatory bridge**:
+
+$$
+\boxed{
+\begin{gathered}
+\text{Adaptive regulation and cognitive coordination}\\
+\downarrow\\
+\text{Differential learning and invariant acquisition}\\
+\downarrow\\
+\text{Developmental interactions among capacities}\\
+\downarrow\\
+\text{Observed individual differences in }g
+\end{gathered}
+}
+$$
+
+**Every arrow is a separate scientific hypothesis requiring empirical evidence.** The sequence is a proposed explanatory dependency, not an established linear causal chain: reciprocal developmental influences, shared biological constraints and niche effects may operate throughout. Nor does it mean that an individual's psychometric \(g\) is generated solely by accumulated experience.
+
+This distinction organises the research programme into separable tests. A minimal cusp/controller simulation primarily addresses **adaptive regulation**. Learning, Gf-to-Gc banking and transfer experiments address **developmental mechanisms**. Explaining **psychometric \(g\)** additionally requires demonstrating that the proposed processes generate, predict or account for meaningful individual-difference covariance across multiple cognitive domains, beyond competing psychometric theories.
+
+The broader ambition of Trident-G is to connect all three levels, without treating evidence for one as proof of the others. This also clarifies the limits of the first focused computational paper: it can establish or falsify a proposed adaptive-control mechanism without claiming to have explained general intelligence in full.
+
 ---
 
 # 2. Homeostatic regulation and cusp geometry
