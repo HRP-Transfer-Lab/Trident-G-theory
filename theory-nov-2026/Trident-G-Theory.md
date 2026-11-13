@@ -663,7 +663,7 @@ A possible developmental sequence is:
 
 **Shared goal → repeated role/perspective changes → conflicting agent-specific predictions → communicative repair → extracted cross-perspectival invariant → delayed reuse outside the original task.**
 
-Let $q_{i,t}^{ref}=E_{\theta_i}(o_{i,\le t},a_{i,<t},c_{\le t})$ be agent $i$'s *candidate* latent referential representation, constructed from observation, action and communication history $c$. When the learning context gives evidence that two observations concern the same source, their representations may be aligned through a learned mapping $T_{ij}$:
+Let $q_{i,t}^{\mathrm{ref}}=E_{\theta_i}(o_{i,1:t},a_{i,1:t-1},c_{1:t})$ be agent $i$'s *candidate* latent referential representation, constructed from observation, action and communication history $c$. When the learning context gives evidence that two observations concern the same source, their representations may be aligned through a learned mapping $T_{ij}$:
 
 $$
 T_{ij}(q_{i,t}^{ref})\approx q_{j,t}^{ref}.
@@ -1033,14 +1033,33 @@ $$
 
 **A12. Joint action, different perspectives and emergent referential representation**
 
+**Agent-specific observation:**
+
 $$
-\begin{aligned}
-o_{i,t}&=H_i(s_t,v_{i,t})+\epsilon_{i,t}^{obs},\\
-s_{t+1}&=T_s(s_t,a_{1,t},\ldots,a_{n,t}),\\
-q_{i,t}^{ref}&=E_{\theta_i}(o_{i,\le t},a_{i,<t},c_{\le t}),\\
-T_{ij}(q_{i,t}^{ref})&\approx q_{j,t}^{ref}.
-\end{aligned}
+o_{i,t}=H_i(s_t,v_{i,t})+\epsilon_{i,t}^{\mathrm{obs}}
 $$
+
+**Environment transition following joint action:**
+
+$$
+s_{t+1}=T_s(s_t,a_{1,t},\ldots,a_{n,t})
+$$
+
+**Candidate referential representation from observation, action and communication history:**
+
+$$
+q_{i,t}^{\mathrm{ref}}=
+E_{\theta_i}\left(o_{i,1:t},a_{i,1:t-1},c_{1:t}\right)
+$$
+
+**Cross-agent alignment of the candidate referent:**
+
+$$
+T_{ij}\left(q_{i,t}^{\mathrm{ref}}\right)
+\approx q_{j,t}^{\mathrm{ref}}
+$$
+
+Time indices assume the first sampled observation is at $t=1$; $1:t$ means observations through time $t$, while $1:t-1$ means actions before the current observation. These four equations preserve the meaning of the original joint system but avoid complex alignment markup in GitHub.
 
 $s_t$ is the *simulated environment's* state for ground-truth evaluation and **must not be given as an already articulated referent to the learning agent**. Agreement across agents is evaluated separately from independent state prediction and intervention success.
 
