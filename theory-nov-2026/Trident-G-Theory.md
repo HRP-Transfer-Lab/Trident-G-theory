@@ -368,6 +368,52 @@ Learning can make a lower-level routine faster or more autonomous while enabling
 
 The entropy–mutual-information distinction is crossed with an internal–external distinction.
 
+## 6.1 FPCN-A and FPCN-B: an empirically grounded internal–external substrate
+
+**This is the principal candidate neural substrate for Trident-G's internal/external processing axis.** Human network-neuroscience findings support *preferential*, but not exclusive, differentiation within the frontoparietal control network (FPCN):
+
+| System | Relatively stronger network coupling | Functions supported in the empirical literature | Specific Trident-G interpretation |
+|---|---|---|---|
+| **FPCN-A** | **Default network (DN/DMN)** | Introspective or internally oriented control; abstract/relational thinking, mentalising, prospective cognition | Candidate control interface for **internal** representations, long-term working-memory retrieval and predictive models |
+| **FPCN-B** | **Dorsal attention network (DAN)** | Control of externally directed attention, relevant sensory/task information and action-related demands | Candidate control interface for **external** evidence selection, perceptual task rules and short-term working-memory engagement |
+| **FPCN-A ↔ FPCN-B** | Reciprocal within-FPCN interactions, which vary across tasks | Linking self-generated/internal content with externally anchored attention and response | Candidate integrative route for transfer from internal models to external constraint testing and action |
+
+**Foundational fractionation evidence.** Dixon et al. (2018) classified FPCN activity/connectivity across **four independent datasets and nine conditions**, finding that FPCN-A couples preferentially with DN and FPCN-B with DAN. Meta-analytic functional profiling favoured mentalising/emotion for A and perceptual attention/action for B. Importantly, both were associated with executive functions, and their connectivity changed by task: they are neither isolated nor exclusive circuits. Earlier network analysis by Spreng et al. (2013) established that control-network coupling can mediate interactions between default and dorsal-attention systems. Later experiments by Yin, Li and Chen (2022) demonstrated task-related **DN → FPCN-A → FPCN-B → DAN** bridging when self-referential processing aided visual working memory.
+
+**Convergent whole-network evidence.** Murphy et al. (2020) studied working-memory network dynamics in **644 participants**, finding two frontoparietal subnetworks preferentially coupled with DN or DAN, with structural/functional coupling associated with working-memory ability; their coupled-oscillator model offers a useful precedent for the proposed $W_{jk}$ interactions. Nee (2021) characterised an **external/present → internal/future** frontoparietal gradient, with an intermediate integration zone whose dynamics predicted aspects of cognitive ability. Cole et al. (2013) found task-dependent brain-wide reconfiguration of frontoparietal connectivity. Together, these studies support task-sensitive differentiation and flexible integration rather than an anatomically fixed two-box executive system.
+
+**An explicit boundary between evidence and interpretation.** The evidence supports the **internal/external preference**, not the stronger assertion that **FPCN-A uniquely implements long-term working memory (LT-WM) or abstract successor representations**, or that **FPCN-B uniquely implements short-term working memory (ST-WM)**. Those are Trident-G's proposed *functional specialisations*, subject to competition from other neural accounts and to the fact that both networks participate in working-memory control. Neither region is an exclusive source of Gf or Gc.
+
+### 6.1.1 Two orthogonal axes, not a one-to-one neurochemical mapping
+
+In the **May 2026 Trident-G formulation**, the FPCN-B side was also associated with the **entropy arm**, while FPCN-A was associated with the **mutual-information constraint arm**. Those are useful functional predictions about *typical recruitment under certain tasks*, but they should **not be presented as direct identities**, given evidence that internal and external cognition each need both exploration and evidence constraint.
+
+The unified November formulation therefore treats the axes separately:
+
+| | **Entropy-oriented search** | **Mutual-information-oriented constraint** |
+|---|---|---|
+| **Internal** — preferential FPCN-A↔DMN interface | Generate hypotheses, counterfactuals and model recombinations | Infer/compare internal relations, constraint-check candidate models |
+| **External** — preferential FPCN-B↔DAN interface | Sample new cues, experiment and search environmental affordances | Select reliable evidence, update task rules and test predictions |
+
+Both frontoparietal subsystems can contribute to both information-processing modes. Hippocampal/entorhinal and orbitofrontal representations may supply structured predictive maps; salience/interoceptive and striatal dopaminergic systems may influence *which* process is recruited. These are distributed interactions, not a four-module anatomical atlas.
+
+The corresponding **neural-to-computational mapping** is deliberately an *estimated operator*, not an identification:
+
+$
+\boxed{
+\mathbf b_t\approx\mathcal R_{\mathrm{neuro}}\!
+\left(\mathbf n_{A,t},\mathbf n_{B,t},
+\mathbf n_{DMN,t},\mathbf n_{DAN,t},
+\mathbf n_{HPC,t},\mathbf o_t;\Theta\right).
+}
+$
+
+Here $\mathbf n$ denotes independently measured network states and $\Theta$ task- and individual-dependent parameters. The unknown function $\mathcal R_{\mathrm{neuro}}$ **must** be fitted and validated; neither functional connectivity nor BOLD amplitude equals entropy, mutual information or a latent Trident capacity.
+
+**Direct falsification strategy.** Manipulate *internal vs external* representational context orthogonally to *open search vs diagnostic constraint* in a factorial task. Predict FPCN-A↔DMN versus FPCN-B↔DAN differences principally by the **context axis**, and differences in search/constraint processing principally by the **computational axis and their interactions**, with task-dependent within-FPCN bridging. Test whether network measures predict behaviour beyond task difficulty, arousal, working-memory demand and domain knowledge. If the 2 × 2 dissociation does not appear, revise the neural mapping without redefining the psychological operations.
+
+
+
 | Branch | Computational emphasis | Typical contribution |
 |---|---|---|
 | **Internal × entropy-oriented** | Generative exploration | Hypotheses, counterfactuals, recombinations, model variation |
@@ -604,6 +650,9 @@ The strongest predictions must distinguish Trident-G from simpler accounts. The 
 | **P6. Fast and slow banking dissociate** | Compare immediate fluency, automatic execution, delayed schema transfer and rest/consolidation conditions | Exposure, repetition, strategy instruction and baseline knowledge |
 | **P7. Niche construction changes later adaptability** | Give some agents the ability to change workflow or feedback structure; compare future reachable tasks and resilience | Same immediate reward, experience and task difficulty without niche control |
 | **P8. Signed prediction errors modulate tilt without dictating exploration** | Manipulate better-than-expected, expected and worse-than-expected outcomes orthogonally to expected information gain; estimate subsequent policy persistence, switching and novel search | Compare RPE-only, uncertainty-only and combined gated-RPE/epistemic models; distinguish local avoidance from generative exploration |
+| **P9. Internal/external frontoparietal substrate** | Factorially vary internal versus externally anchored processing and open search versus diagnostic constraint; estimate FPCN-A–DMN and FPCN-B–DAN coupling and FPCN-A↔B interactions | Control relational complexity, Gf, working-memory difficulty, visual input and arousal; compare separate-axes model with original FPCN-A=MI/FPCN-B=entropy identity |
+| **P10. Allostatic network involvement in regulatory recovery** | Combine brain network, pupil/autonomic and behavioural time series after controlled challenge and recovery | Test multimodal gain beyond single biomarkers and generic arousal; avoid inferring $F^\star$ directly from one physiological channel |
+| **P11. Neural modularity predicts novel composition** | Repeatedly measure connector-network reconfiguration during unfamiliar combinations of trained skills | Compare specialist routine accuracy, hierarchical RL, and familiarity; test generalisation beyond trained component sequences |
 
 ### What specifically counts as evidence for a Griffiths phase?
 
@@ -700,6 +749,18 @@ $$
 \{\gamma_jQ_jy_j\}_j,K^{Gc},
 \{SR_{\beta_h}\}_h,\mathbf o,\mathbf z\right).
 $$
+
+**A6b. Candidate network-to-computation mapping (to be estimated)**
+
+$
+\mathbf b_t\approx
+\mathcal R_{\mathrm{neuro}}
+(\mathbf n_{A,t},\mathbf n_{B,t},
+\mathbf n_{DMN,t},\mathbf n_{DAN,t},
+\mathbf n_{HPC,t},\mathbf o_t;\Theta).
+$
+
+Dixon et al.'s FPCN-A/DMN versus FPCN-B/DAN **preferential coupling** motivates the internal–external axis, while entropy/MI-oriented modes remain distinct, orthogonal computational hypotheses. A shared latent signal should not be counted as an independently validated neural measure of $b_{IE}$, $b_{IM}$, $b_{EE}$ or $b_{EM}$.
 
 **A7. Skill gating and assembled action**
 
