@@ -126,25 +126,25 @@ Two restrictions are essential. First, a **dopamine dip is not increased D2 rece
 
 To keep these distinctions explicit, use a *reward* prediction error separate from the existing allostatic mismatch:
 
-$
+$$
 \Delta_t^{R}=r_t-\widehat r_t,\qquad
 \ell_t^{+}=\alpha_{+}[\Delta_t^{R}]_{+},\qquad
 \ell_t^{-}=\alpha_{-}[-\Delta_t^{R}]_{+},
-$
+$$
 
 where $[v]_{+}=\max(v,0)$. The terms $\ell^{+}$ and $\ell^{-}$ are **effective learning signals**, not measured D1 or D2 receptor activation. Their relative gains may depend on tonic dopamine, striatal region, receptor properties and previous learning. In particular, $\Delta_t^{R}$ is a reward/outcome-value error and must **not** be identified with Trident-G's $\varepsilon_t=F_t-G_t$, which is a regulatory burden mismatch.
 
 Define the contextual baseline tilt:
 
-$
+$$
 \delta_t^{\mathrm{base}}
 =u_t+\sum_n\lambda_{n,t}\psi_n(\mathbf z_{n,t},K_{n,t})
 +\boldsymbol\omega^\top\mathbf b_t.
-$
+$$
 
 An **illustrative** trial-wise control update is:
 
-$
+$$
 \boxed{
 \begin{aligned}
 \delta_{t+1}=\operatorname{clip}\Big[
@@ -155,7 +155,7 @@ $
 \Big],
 \end{aligned}
 }
-$
+$$
 
 where positive $\delta$ is **conventionally defined** as a bias towards continued/convergent policy use, and negative $\delta$ as a bias towards reopening/divergent search (the sign convention adopted in the 2025 Trident-G account). This is a **phenomenological assignment of control bias**, not an identity between the sign of $x=F-F^\star$ and exploration/exploitation. In the stated cusp potential, a positive $\delta$ mechanically favours higher $x$ (greater positive deviation from the defended reference), not exploitation *as such*. A validated mapping from policy bias to allostatic displacement is still required; if it proves inconsistent across tasks, the model should introduce a separate policy-mode coordinate rather than redefining $x$. In this proposal:
 
@@ -401,14 +401,14 @@ Both frontoparietal subsystems can contribute to both information-processing mod
 
 The corresponding **neural-to-computational mapping** is deliberately an *estimated operator*, not an identification:
 
-$
+$$
 \boxed{
 \mathbf b_t\approx\mathcal R_{\mathrm{neuro}}\!
 \left(\mathbf n_{A,t},\mathbf n_{B,t},
 \mathbf n_{DMN,t},\mathbf n_{DAN,t},
 \mathbf n_{HPC,t},\mathbf o_t;\Theta\right).
 }
-$
+$$
 
 Here $\mathbf n$ denotes independently measured network states and $\Theta$ task- and individual-dependent parameters. The unknown function $\mathcal R_{\mathrm{neuro}}$ **must** be fitted and validated; neither functional connectivity nor BOLD amplitude equals entropy, mutual information or a latent Trident capacity.
 
@@ -703,14 +703,13 @@ $$
 
 **A3. Anticipated load, signed RPE learning and exploration–exploitation tilt**
 
-$
+$$
 \begin{aligned}
 G&=\mathscr G(\mathbf c,\eta,\chi,\mathbf h,K^{Gc},\mathbf b,\mathbf z,\text{goal}),\\
 \Delta_t^R&=r_t-\widehat r_t,\quad
 \ell_t^{+}=\alpha_{+}[\Delta_t^R]_{+},\quad
 \ell_t^{-}=\alpha_{-}[-\Delta_t^R]_{+},\\
-\delta_t^{\mathrm{base}}&=
-u_t+\sum_n\lambda_{n,t}\psi_n(\mathbf z_{n,t},K_{n,t})
+\delta_t^{\mathrm{base}}&=u_t+\sum_n\lambda_{n,t}\psi_n(\mathbf z_{n,t},K_{n,t})
 +\boldsymbol\omega^\top\mathbf b_t,\\
 \delta_{t+1}&=\operatorname{clip}\big[
 \rho_\delta\delta_t+(1-\rho_\delta)\delta_t^{\mathrm{base}}
@@ -718,7 +717,7 @@ u_t+\sum_n\lambda_{n,t}\psi_n(\mathbf z_{n,t},K_{n,t})
 +\beta_C S_t-\beta_E\operatorname{EIG}_t
 \big].
 \end{aligned}
-$
+$$
 
 $\Delta^R$ is a reward error, not the allostatic $\varepsilon=F-G$; $\ell^-$ models *learning consequences of dopamine decreases/indirect-pathway disinhibition*, not increased D2 receptor activation. A negative RPE weakens the old policy only where context warrants it; whether wider exploration follows is a **separate** choice.
 
@@ -754,13 +753,13 @@ $$
 
 **A6b. Candidate network-to-computation mapping (to be estimated)**
 
-$
+$$
 \mathbf b_t\approx
 \mathcal R_{\mathrm{neuro}}
 (\mathbf n_{A,t},\mathbf n_{B,t},
 \mathbf n_{DMN,t},\mathbf n_{DAN,t},
 \mathbf n_{HPC,t},\mathbf o_t;\Theta).
-$
+$$
 
 Dixon et al.'s FPCN-A/DMN versus FPCN-B/DAN **preferential coupling** motivates the internal–external axis, while entropy/MI-oriented modes remain distinct, orthogonal computational hypotheses. A shared latent signal should not be counted as an independently validated neural measure of $b_{IE}$, $b_{IM}$, $b_{EE}$ or $b_{EM}$.
 
@@ -898,7 +897,7 @@ This table grades the **strength and directness of the evidence for the stated c
 
 **Criticality and network dynamics, including contradictory findings**
 
-- **Ezaki, T., et al. (2020).** A human brain network metric associated with proximity to criticality and cognitive performance. *Communications Biology, 3*, 52. https://doi.org/10.1038/s42003-020-0774-y
+- **Ezaki, T., et al. (2020).** Closer to critical resting-state neural dynamics in individuals with higher fluid intelligence. *Communications Biology, 3*, 52. https://doi.org/10.1038/s42003-020-0774-y
 - **Xu, L., Feng, J., & Yu, L. (2022).** Avalanche criticality in individuals, fluid intelligence, and working memory. *Human Brain Mapping, 43*, 2534–2553. https://doi.org/10.1002/hbm.25802
 - **Liu, X., Fei, X., & Liu, J. (2025; online 2024).** The cognitive critical brain: Modulation of criticality in perception-related cortical regions. *NeuroImage, 305*, 120964. https://doi.org/10.1016/j.neuroimage.2024.120964
 - **Müller, P. M., Miron, G., Holtkamp, M., & Meisel, C. (2025).** Critical dynamics predicts cognitive performance and provides a common framework for heterogeneous mechanisms impacting cognition. *Proceedings of the National Academy of Sciences, 122*, e2417117122. https://doi.org/10.1073/pnas.2417117122
