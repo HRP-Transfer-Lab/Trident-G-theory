@@ -1,12 +1,12 @@
 # Trident-G: A Hierarchical, Multiscale Theory of Homeostatic General Adaptive Intelligence
 
-**Unified working theory — Version 0.4 (14 November 2026; developmental, experiential and regulatory-divergence extension, draft)**  
+**Unified working theory — Version 0.4 (14 November 2026; developmental, regulatory and plural niche extension, draft)**  
 **Author:** Mark Ashton Smith  
 **Status:** Conceptual and mathematical research programme; not an empirically validated account of general intelligence.
 
 > **Core proposition.** General adaptive intelligence arises from the regulation of a heterogeneous, hierarchically organised agent–environment system. Relatively stable Gc representations and skills operate concurrently with flexible Gf synthesis. Homeostatic control determines when skilled routines persist, when alternatives are recruited, and when established representations are revised. Repeated joint action may enable the extraction and consolidation of *cross-perspectival referential invariants*, supporting explicitly assessable shared intentionality_R. Public symbolic models then become new elements of the cognitive niche, improving or distorting later reasoning according to their connection to independent evidence, human goals and corrective feedback. The resulting invariants can become recursively model-conditioned; genuine world grounding also requires scrutiny of the provenance and independence of the transformations used for validation.
 
-This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence. The updated Stage III extension also considers how socially or algorithmically validated images and narratives of subjective experience may reshape later choices, creating possible alignment or divergence between lived purposes and their publicly recognised forms. A further hypothesis distinguishes increased engineering control from justified goals and asks whether AI benchmarks, institutional incentives and designers' priorities might co-evolve towards either autonomy-enhancing or institutionally assimilative human–AI integration. The related three-position account differentiates subjectively valuable experiences, performance-based returns and effective control over the objectives of an engineered niche, without inferring fixed social classes or a universal 80:20 distribution. A further conditional extension examines whether internalising institutional objectives can improve performance while weakening personal regulatory sustainability, and distinguishes that possibility from beneficial internalisation and from reduced autonomy without physiological overload.
+This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence. The updated Stage III extension also considers how socially or algorithmically validated images and narratives of subjective experience may reshape later choices, creating possible alignment or divergence between lived purposes and their publicly recognised forms. A further hypothesis distinguishes increased engineering control from justified goals and asks whether AI benchmarks, institutional incentives and designers' priorities might co-evolve towards either autonomy-enhancing or institutionally assimilative human–AI integration. The three-tier extension proposes that, under cumulative advantage and restricted institutional access, experiential agency could expand for a majority while consequential agency and objective-setting authority concentrate. This is a conditional population hypothesis, not an established distribution or universal 80:20 law. Internalising institutional objectives may also improve performance while weakening regulatory sustainability. Conversely, the same objective understanding and AI capabilities may support autonomously governed alternatives. The resulting hypothesis of branching niche construction allows institutional consolidation and plural world-making to develop together, with viability, independent correction and revisable purposes as separate requirements.
 
 ---
 
@@ -16,7 +16,7 @@ Trident-G proposes that general intelligence is best understood as **viable, sel
 
 The neural implementation is hypothesised to be hierarchically modular and dynamically heterogeneous. Under particular connectivity and activation conditions, such networks may exhibit **Griffiths-phase-like extended criticality**: localised persistence and a broad range of relaxation times across an extended parameter interval. This hypothesis is distinct from both the cusp bifurcation and the more general claim that cognitive processes operate at different speeds. Learning generates candidate relational invariants, tests their portability and selectively banks them through fast skill/policy compilation and slower schema or gist integration. Accumulated changes reshape later problem-solving, module recruitment, predictive horizons and interaction with coupled niches.
 
-The model additionally proposes a **three-regime generative development**: action-bound shared intentionality_A, action-independent shared intentionality_R, and recursive symbolic coupling through public knowledge and AI-mediated niches. Joint action may create repeated opportunities to learn cross-perspective and cross-modal invariants; independently predictive and correctable referential models can then support explicit counterfactual and normative reasoning. Public representations can subsequently become referents and determinants of further action, enabling cumulative culture but also self-confirming synthetic environments if models lose access to independently informative evidence. These are testable computational hypotheses, not established uniquely human stages. The model predicts regulated switching, skill composition, invariant transfer, and distinguishable effects of independent grounding versus recursive public-model feedback.
+The model additionally proposes a **three-regime generative development**: action-bound shared intentionality_A, action-independent shared intentionality_R, and recursive symbolic coupling through public knowledge and AI-mediated niches. Joint action may create repeated opportunities to learn cross-perspective and cross-modal invariants; independently predictive and correctable referential models can then support explicit counterfactual and normative reasoning. Public representations can subsequently become referents and determinants of further action, enabling cumulative culture but also self-confirming synthetic environments if models lose access to independently informative evidence. These are testable computational hypotheses, not established uniquely human stages. The model predicts regulated switching, skill composition, invariant transfer, and distinguishable effects of independent grounding versus recursive public-model feedback. Its socio-cognitive extension proposes conditional concentration of consequential agency alongside broad experiential participation, and investigates whether access to capable technologies and meaningful governance rights enables viable alternatives to branch out. These population and institutional hypotheses require evidence separate from the cognitive and neural models.
 
 ---
 
@@ -662,7 +662,7 @@ $$
 
 This is an illustrative normative objective, not a validated metric of intelligence. The weights, values, time horizon and acceptable risks cannot be inferred from neural criticality. Their specification is part of the agent's purposes and social setting.
 
-The theory accordingly separates **robustness** (remaining viable and recovering after disturbance), **flexibility** (accessing diverse appropriate processes and policies) and **growth** (changing the repertoire of future effective actions).
+The theory accordingly separates **robustness** (remaining viable and recovering after disturbance), **flexibility** (accessing diverse appropriate processes and policies) and **growth** (changing the repertoire of future effective actions). Growth may include constructing alternative niches with different endorsed purposes, rather than improving rank within an existing institution alone. Sections 11.11–11.12 develop this possibility while retaining independent viability and correction requirements.
 
 ---
 
@@ -1041,6 +1041,8 @@ We therefore distinguish two **possible ideal-typical trajectories**, which can 
 
 A particularly interesting possibility is that **the designers themselves are subject to objective-system assimilation**. They may possess highly sophisticated world-grounded models and strong abilities to alter engineered environments, yet have less practical scope to reconsider the overarching purposes governing their optimisation work. They are then simultaneously **designers of one layer of the niche and participants in a larger layer**. The resulting asymmetry concerns the distribution of *adaptive authority*: who can improve performance within a model, who can choose which model is deployed, and who can meaningfully reconstruct its underlying goals.
 
+Sections 11.11–11.12 extend the autonomy-enhancing trajectory into plural world-making: the same objective understanding may support alternative purposes, with institutional consolidation and alternative niche construction developing together.
+
 ### Provisional coupled-objective model
 
 Let $\theta_t$ represent parameters of an engineered policy and environment, $m_k$ operational performance measures (e.g. reliability, security or scaling), and $b_{k,t}$ their institutional weights. A **deployer-level** objective could be represented schematically as
@@ -1093,72 +1095,64 @@ Relevant outcomes include genuine changes in endorsed priorities, engineering pe
 
 ## 11.9 Three adaptive positions in AI-engineered society: experience, performance and objective-setting power
 
-Sections 11.6–11.8 distinguish public models of subjective experience, model-conditioned objectivity and the authority to engineer socio-technical niches. Together they motivate a further **conditional stratification hypothesis**: people and institutions may differ in whether they mainly (i) consume engineered experiences, (ii) achieve materially rewarded performance within established systems, or (iii) help determine the **rules, objectives and environments** by which such performance and experiences are organised. These are **relationships to particular systems, not fixed social classes**, moral rankings or established proportions of the population. Individuals can occupy different positions in different domains, and no evidence here establishes that one is numerically the majority.
+Sections 11.6–11.8 motivate a **conditional stratification hypothesis**: AI-mediated societies may distribute compelling experiences broadly while concentrating effective engagement with the causal and institutional conditions of political-economic success. Under cumulative advantage, restricted access to consequential decisions and widely available experiential services, **a majority could gain experiential agency without comparable gains in consequential agency**, while smaller groups secure substantial performance returns or shape the systems governing them.
 
-### Three ideal-typical positions
+This is a stronger hypothesis than unequal authority alone. It predicts a possible trajectory under specified conditions; the population proportions, concentration and mechanisms require empirical tests. The tiers describe relationships to particular systems, not fixed identities, degrees of general intelligence or ideological destinations. Someone can occupy different positions across domains or change position over time.
 
-| Feature | **I. Experiential consumers — subjectively compensated adaptation** | **II. Performance achievers — objectively rewarded adaptation** | **III. System architects — objective-setting and niche construction** |
-|---|---|---|---|
-| **Relation to engineered niches** | Experience and select available representations, rewards and activities | Learn and optimise competence under institutionally recognised criteria | Design or revise objectives, metrics, infrastructures, rules and available possibilities |
-| **Characteristic returns** | Enjoyment, meaning, recognition, virtual/surrogate achievement or companionship | Income, professional or sporting achievement, recognised expertise and material opportunity | Institutional authority, investment returns, strategic influence and capacity to restructure opportunities |
-| **G-loop emphasis** | Regulate lived experience, attention and meaning | Improve performance through practice, feedback and AI augmentation | Reframe the problem, revise performance standards and redesign the environment |
-| **Potential mismatch** | Felt efficacy or satisfaction improves without material opportunity or decision rights | Real skill improves while higher-order goals remain externally specified | Strong engineering agency coexists with dependence on higher institutional incentives |
+### Three tiers of participation and consequential action
 
-**Position I — compensatory experiential optimisation.** In a hypothetical AI-rich society, personalised music, entertainment, VR, AI companions, expressive media and even wellbeing interventions may deliver increasingly compelling **genuine subjective benefits** to people who have relatively limited access to high-return work, material security or institutional influence. Such experiences are not intrinsically fantasy, false consciousness or inauthentic. The concerning *conditional* possibility is that pleasure, perceived achievement or meaning might increasingly **compensate for rather than remedy** restricted practical opportunities. Whether compensation reduces motivation or capacity to change conditions is an empirical question, not a property of music, positive psychology, gaming or VR. The alternative possibility is that these resources improve wellbeing and help people develop social ties, skills and new opportunities. Without direct evidence, claims about a pacified mass population are unwarranted.
+| Position | Principal relationship to the system | What successful adaptation primarily delivers |
+|---|---|---|
+| **Tier 1 — experiential participation** | Selects among experiences and possibilities substantially organised by others | Enjoyment, belonging, meaning, recognition and felt achievement |
+| **Tier 2 — effective performance** | Learns and acts on causal relationships and criteria that produce rewarded outcomes | Demonstrable competence, income, resources, status and practical opportunities |
+| **Tier 3 — system construction** | Shapes models, rules, infrastructures and objectives governing those outcomes | Authority to organise opportunities and determine what counts as success |
 
-**Position II — objectively rewarded performance.** Some workers, athletes, engineers, scientists and professionals achieve reliably measurable success in roles that institutions reward. Advanced training and AI assistance can strengthen expertise, speed, prediction and decision support. Their achievements may be genuinely **world-validated**, but the associated rewards depend on socially selected criteria, scarce opportunities and institutional arrangements. A highly effective athlete does not necessarily choose the sport's governing rules; a high-performing employee may not control the company's ultimate objectives. The distinctive achievement is therefore **adaptive competence within a niche**, not automatically authority over the niche. In some competitive domains, rewards may be strongly unequal or Pareto-like, but neither a universal 80:20 law nor a fixed upper-performing class follows.
+**Tier 1** extends the earlier experiential-consumer position. Personalised media, games, VR, AI companions and other services could provide genuine experiences of achievement, influence and exploration while practical control over resources, employment conditions and institutions remains limited. The proposed disempowerment mechanism is a **gap between experienced efficacy and consequential control**, potentially maintained or enlarged over time. Virtuality is not the defining feature: experiential environments can also build transferable skills, relationships and resources that narrow the gap. Enjoyment, cultural participation or low income alone cannot identify this position.
 
-**Position III — architectonic adaptation.** Actors who can influence AI models, compute, data, capital, organisational structures or policy may have disproportionate power to specify **what is measured, optimised, permitted or recognised as success**. Their distinctive advantage is authority to shape the environment within which others adapt. This is neither proof that such actors have more general intelligence nor evidence of a unified AI–corporate–state designer. Their authority may be fragmented and contested by governments, competitors, workers, communities and users. Moreover, designers of one system often remain participants in a higher-order institutional system (§11.8): engineering power need not entail freedom to question the purposes motivating it.
+**Tier 2** extends the performance-achiever position. Scientists, workers, entrepreneurs, athletes and other participants may use accurate models, skills and AI to produce independently demonstrable results that institutions reward. Within the specified domain, this is effective engagement with the **objective conditions of success**: understanding and acting on what causally changes consequential outcomes. Performance, access and returns remain distinct; skill alone may not secure material rewards.
 
-### Four dimensions that should remain separate
+**Tier 3** extends the system-architect position. Participants can additionally alter the conditions under which outcomes occur: objectives, measures, ownership, infrastructure and rules. Such power may be exercised in large institutions or smaller collectively governed alternatives (§11.11). Designers at one layer can remain dependent on decisions made at another.
 
-A useful study would independently assess **subjective satisfaction or felt efficacy**, **effective command over valued material or relational outcomes**, **performance against domain-specific benchmarks**, and **consequential authority to revise governing goals or rules**. A person could report substantial meaning yet possess limited material security or system-design rights; another could demonstrate exceptional performance while having little influence over the criteria for success. Neither configuration diagnoses a person's intelligence or authenticity.
+Here **objectively effective agency** means converting sufficiently accurate causal understanding into consequential action. It does not mean that elites possess truth while everyone else lacks it, or that a rewarded objective is morally justified. Institutionally created rules can have real causal effects, and people with little authority can possess accurate situated knowledge. What is proposed to concentrate is the capacity to **act effectively on, benefit from and reshape** these conditions, not objectivity as a property of minds.
 
-The substantive hypothesis is **unequal distribution of adaptive authority despite widespread access to compelling experiences or AI-assisted performance**. In this account, *objectivity is not a property owned by elites*. Participants retain first-person, practical and potentially highly accurate situated knowledge; what may be concentrated is the **institutional capacity to validate models and enforce the resulting classifications**. Asymmetric authority is not equivalent to different degrees of objectivity in people's minds.
+### Cumulative advantage and two distinct population claims
 
-### Three possible transhumanist trajectories
+Resources, compute, data, modelling capability, institutional access and decision rights could reinforce one another. Those able to turn accurate models into effective interventions may obtain further resources and opportunities, strengthening their subsequent position. At the same time, expanding experiential services need not distribute comparable ownership or authority.
 
-Technological human–AI integration might extend all three positions:
+This proposed mechanism supports two separable claims:
 
-- **Experiential transhumanism** augments immersive, social, emotional or meaningful experiences through personalised AI, virtual environments and potentially neurotechnology.
-- **Performance transhumanism** augments expertise and recognised task achievement through AI coaches, reasoning systems, robotics or possible brain–computer interfaces.
-- **Architectonic transhumanism** augments capacities to model, manage and reconstruct environments, including the institutions and technical standards shaping others' options.
+1. **Concentration of consequential agency:** a small proportion controls a large share of relevant resources, returns or institutional decisions.
+2. **Majority experiential dependence:** for most members of a specified population, meaningful expansion occurs primarily in experiential opportunities or felt agency while practical control and goal-revision rights remain limited.
 
-These are **possible ideal types**, not settled futures, fixed identities or technologies necessarily requiring biological integration. Their forms can overlap, and each could enhance or undermine reflective autonomy.
+The conjunction is the stronger trajectory proposed here. Conditions favouring it could include cumulative returns to ownership and institutional access, costly entry or exit, weak routes from improved competence to decision rights, and inexpensive experiential provision. These conditions must be measured independently of the predicted outcome. Countervailing conditions include broadly distributed ownership, transferable capabilities, effective participation rights and affordable alternative infrastructures.
 
-Across all three positions the §11.8 hypothesis of **endogenous objective convergence** remains relevant. If engineered institutions repeatedly reward performance, security, stability, scalability and profitability, individuals may acquire goals and identities oriented towards those measures: consuming system-defined experiences, excelling under its rankings or designing the infrastructure that generates them. Yet adopting an objective because it is rewarded is not the same as **reflectively endorsing it**. Designers themselves may internalise institutional purposes while retaining extraordinary technical control over subordinate systems. Open models, plural institutions, meaningful refusal, alternative sources of meaning and participatory governance are important possible countervailing processes.
+A power-law tail in a resource or control distribution would not establish that Tier 1 contains a majority. Nor would a majority experiential profile establish a power law. Tier boundaries, sampling populations and observation periods require independent definitions. Concentration, polarisation and immobility are also different outcomes: each needs its own evidence.
 
-### Cognitive capital and possible Pareto-like concentration
-
-Economic capital, compute, data, specialised human expertise, organisational access and legal rights to intervene can potentially reinforce one another. A large platform may use resources to improve its models, attract new data, expand its influence and finance further development. This motivates **epistemic engineering capital** as a proposed *multi-component* profile of the capacity to construct, test and impose authoritative models. But no single index of 'objectivity' has been validated, and access to compute must be distinguished from control over **institutional goals**.
-
-If a defensible scalar measure of these resources is eventually constructed, one might test an upper-tail model
+**Epistemic-engineering capital**, $K_i^{EE}$, remains a proposed multi-component profile of compute, data, expertise, access and objective-setting resources. Only after validating an appropriate scalar measure could a candidate upper tail be tested:
 
 $$
-\Pr(K^{EE}>k)\propto k^{-\alpha},\qquad \alpha>0,
+\Pr(K^{EE}>k)\propto k^{-\alpha},\qquad \alpha>0.
 $$
 
-but only after defining the measured population, variable, tail threshold, alternatives and uncertainty. A precise 80:20 split is not a theoretical axiom. A lognormal or mixed distribution, diffusion of open-model resources, and shifting patterns of institutional authority are genuine rival possibilities. The concentration of **rights to redesign objectives** might remain high even if access to AI tools becomes widespread.
+Estimation must compare alternatives such as lognormal or mixed distributions and assess uncertainty and the tail threshold. There is no fixed 80:20 split. Resource concentration, competence, realised returns and authority should also be analysed separately rather than hidden inside a single index.
 
-### Operational proposal and disconfirmation
+### Independent dimensions, enhancement and regulatory costs
 
-For a *specific social or organisational study*, distinguish $H_i^{\mathrm{subj}}$ (reported satisfaction or perceived efficacy), $E_i^{\mathrm{eff}}$ (effective control over independently defined valued outcomes), $P_i^{\mathrm{perf}}$ (domain-specific competence) and $A_i^{\mathrm{rev}}$ (consequential authority to inspect, contest and change goals, metrics or niche structures). These are **different dimensions**, not one latent ranking of people. In particular, $P_i^{\mathrm{perf}}$ is not the public symbolic state $P_t$, and $E_i^{\mathrm{eff}}$ is not the latent experiential variable $E_{i,t}^{\mathrm{exp}}$.
+Retain $H_i^{\mathrm{subj}}$ for scoped subjective satisfaction or perceived efficacy, $E_i^{\mathrm{eff}}$ for effective control over independently defined valued outcomes, $P_i^{\mathrm{perf}}$ for domain-specific performance, and $A_i^{\mathrm{rev}}$ for consequential goal-revision authority. Satisfaction and experienced agency should be measured separately within the subjective assessment; neither is interchangeable with the availability of experiential opportunities.
 
-A potentially important pattern is
+High $H_i^{\mathrm{subj}}$ alongside low $E_i^{\mathrm{eff}}$ and $A_i^{\mathrm{rev}}$ identifies a possible profile, not a demonstrated cause of disempowerment. The stronger hypothesis requires longitudinal or experimental evidence about how experiences and institutional conditions affect subsequent choices and control. Appendix A21 specifies how a majority claim can be tested without comparing incompatible raw scales.
 
-$$
-H_i^{\mathrm{subj}}\ \text{high}
-\quad\text{while}\quad
-E_i^{\mathrm{eff}},A_i^{\mathrm{rev}}\ \text{low}.
-$$
+Technological enhancement can augment experience, performance or system construction. These possibilities retain the earlier experiential, performance and architectonic transhumanist distinctions, but **the tiers do not prescribe allegiance to dominant institutional objectives**. The same competence may support existing institutions, their reform or alternative world-making (§11.11).
 
-Such a pattern alone does **not** demonstrate manipulation, impaired wellbeing or reduced freedom. The stronger compensatory hypothesis requires a **causal test** of whether an experiential intervention changes subsequent choice or perceived reward while leaving, improving or worsening objective opportunities and capacity to revise goals.
+The tiers are not a hierarchy of flourishing. Tier 1 satisfaction may coexist with restricted practical agency; Tier 2 competence and rewards may coexist with unsustainable demands; Tier 3 design power may coexist with internalised institutional imperatives. Greater external efficacy does not guarantee allostatic sustainability or reflective autonomy (§11.10).
 
-Three discriminating programmes follow. **First**, vary access to immersive or AI-personalised experiences independently of real practical opportunities and measure wellbeing, initiative, material outcomes and later action; treat empowerment as a viable alternative to displacement. **Second**, compare equally competent people with different rights to modify performance rules, rewards and objectives in sport, work and education, measuring actual—not merely nominal—control. **Third**, estimate distributions and changes over time in compute/data access, expertise, material returns and objective-setting authority, comparing Pareto-like with alternative models and examining cooperative or publicly governed counterexamples.
+### Discriminating tests and disconfirmation
 
-The hypothesis would be constrained if immersive technology consistently expands practical agency, if high performance tends to confer meaningful governance rights under the relevant institutions, or if objective-setting power becomes widely diffused. None of these outcomes is excluded by Trident-G.
+Measure within-person changes and population distributions of experiential opportunities, felt agency, practical outcomes, performance and actual revision rights. Independently manipulate or compare access to experiential services and access to meaningful practical opportunities; test whether the former expands, substitutes for or leaves unchanged the latter. Analyse whether initial resources and access predict later cumulative advantage beyond prior skill and selection. Define majority criteria in advance and use representative longitudinal samples rather than inferring population proportions from selected users.
 
-**Core proposition — stratification of experience, performance and adaptive authority:** An AI-mediated society could distribute psychologically satisfying experiences broadly, reward a narrower set of highly effective performers and concentrate the authority to define what performance and future environments should be. Human–AI integration could increase capabilities in all three positions while allowing different degrees of control over the *ends* those capabilities serve. The most consequential inequality would concern not whose mind is more objective, but **who can realise valued purposes and who can reconsider the rules defining those purposes**. The proposition remains a falsifiable socio-cognitive extension of recursive symbolic niche construction, not a proven three-tier social order.
+The stronger hypothesis would be weakened if experiential gains generally translate into substantial practical control, if institutional decision rights become broadly distributed, or if the predicted majority profile fails to emerge under the specified conditions. A non-Pareto distribution would reject that distributional component without automatically rejecting concentration; diffusion of authority would challenge the concentration claim itself.
+
+**Core proposition — broad experiential agency and concentrated consequential agency:** Under cumulative advantage and restricted institutional access, AI-mediated societies may distribute compelling experiences broadly while concentrating effective participation in, and authority over, the causal mechanisms of political-economic success. A majority could gain experiential agency without comparable consequential agency, while smaller groups achieve substantial rewarded performance or shape its conditions. This concentration may be Pareto-like, but its form and population proportions require empirical testing. Even those with substantial consequential agency may sacrifice regulatory sustainability or autonomy through internalising the system's objectives.
 
 ## 11.10 Internalised objectives and divergence between performance, viability and autonomy
 
@@ -1214,7 +1208,83 @@ The stronger hypothesis predicts that restricted goal revision and internal pres
 
 **Core proposition — performance, viability and autonomy can diverge:** Internalising institutional objectives may improve performance within a niche while undermining personal sustainability when performance signals override regulatory feedback and effective opportunities to revise those objectives. Beneficial integration and comfortable participation with limited authority remain alternative possibilities. Engineering competence, physiological sustainability and authority over purposes must therefore be assessed separately.
 
-## 11.11 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
+## 11.11 Autonomous world-making and plural purposes
+
+**Understanding the parameters of institutional success does not require accepting them as final values.** The causal understanding, skills and technologies used in Tiers 2 and 3 can support multiple individually and collectively endorsed purposes. In the terms of §10, an agent can use objective engagement to construct niches in which different forms of life become practically achievable.
+
+A person may understand markets, incentives, organisational behaviour and AI while prioritising sufficient income, intellectual independence, relationships, creative achievement or community resilience. Tier 2 competence can support such independence; Tier 3 capability can help establish a cooperative, research network or community institution. Participants may combine roles in existing organisations with building alternatives.
+
+The relevant contrast with §11.8 is **institutionally assimilative enhancement**, not transhumanism or advanced technology as such. Voluntary enhancement can itself support autonomy. Neither rejecting technology nor adopting it establishes control over the ends it serves.
+
+### Illustrative alternative routes
+
+| Route | Use of objective understanding and AI | Potential governing purpose |
+|---|---|---|
+| Independent livelihood | Automate administration, understand demand and develop useful expertise | Greater control over time, work and financial dependence |
+| Cooperative enterprise | Improve production, coordination and decision-making | Shared ownership and collectively revisable objectives |
+| Independent research or education | Build tools, test claims and distribute knowledge | Inquiry and learning governed by scholarly or educational purposes |
+| Community institutions | Model needs, coordinate resources and assess interventions | Collective capability, resilience and meaningful participation |
+| Creative world-making | Develop artistic practices, technologies and communities | Forms of expression and experience chosen by participants |
+
+These are possible applications, not demonstrated consequences of AI access or a ranking of preferable lives. An alternative can use markets and sophisticated institutions while adopting different priorities or governance arrangements.
+
+### Extending the reach of the G-loop
+
+| Reach of revision | G-loop question |
+|---|---|
+| **Methods** | How can this goal be achieved more effectively? |
+| **Objectives** | Is this still a purpose we endorse, given its consequences? |
+| **Niche** | What arrangements would make more worthwhile purposes achievable? |
+| **Governance** | Who, including other affected people, can question and revise those arrangements? |
+
+The last two forms of revision concern the conditions of action and authority over them. Objective engagement therefore supports both effectiveness under existing conditions and the capacity to make alternative conditions workable.
+
+This constructive autonomy requires practical means: resources, relationships, access, ownership or consequential decision rights. Cognitive competence alone does not supply them. The autonomy of a founder also does not establish the autonomy of other participants; governance must be assessed at the relevant individual and collective levels.
+
+World-making remains answerable to independently assessed consequences. Self-descriptions of independence cannot substitute for material viability, effective learning, participant influence or correction when an arrangement fails. An alternative project can reproduce rigid hierarchies, conceal dependencies or become chronically exhausting. Regulatory sustainability and the ability to reconsider purposes therefore remain necessary assessment dimensions (§11.10), even when the original commitment was voluntary.
+
+**Core proposition — plural autonomous world-making:** Objective engagement does not determine allegiance to the objectives of an existing political-economic system. Understanding causal structure, using AI, coordinating action and constructing niches can support multiple individually and collectively endorsed forms of life. Under enabling conditions, these capacities expand practical alternatives and authority over purposes. Autonomous world-making consists in developing viable, reality-correctable environments whose goals remain meaningfully revisable by their participants.
+
+## 11.12 Branching niche construction alongside institutional consolidation
+
+**Concentration of institutional power and diversification of viable purposes may develop simultaneously.** This conditional branching hypothesis connects the stratification account in §11.9 with autonomous world-making in §11.11. It concerns diverging social trajectories, not a necessary two-way split or a demonstrated mathematical bifurcation.
+
+### Two reinforcing tendencies
+
+**Institutional consolidation.** Capital, compute, data, distribution, expertise and institutional access may reinforce each other. Organisations may increasingly coordinate activity around measurable priorities such as profitability, security, administrative stability, attention, popularity and recognised status progression. Rewards for effectiveness can also shape participants' endorsed purposes (§11.8). This is a hypothesis about interacting incentive families, not a claim that states, companies and cultural institutions share a single scalar objective or coordinated plan. Their priorities can reinforce one another or conflict.
+
+**Alternative branching.** Accessible AI, accumulated knowledge and improved coordination may make previously impractical livelihoods, enterprises and institutions viable. Successful experiments generate practices, relationships, tools and infrastructure that others can adapt. This is a proposed extension of Gf→Gc→Gf development and cross-niche transfer: validated learning changes what can subsequently be built. Transfer and survival must be demonstrated rather than inferred from the number of projects launched.
+
+The resource requirements of producing frontier technology differ from those of using sufficiently capable technology. A small institution need not reproduce frontier training infrastructure to benefit from available tools. That asymmetry could permit useful capabilities to diffuse even while ownership of key infrastructure concentrates.
+
+### Empirical ingredients and their limits
+
+The OECD (2026) reports concentration of important AI inputs and risks associated with vertical integration, while also recognising competition and the potential of open development to reduce entry barriers. Stanford HAI's *AI Index Report 2025* documents historical reductions in inference costs and narrowing gaps between leading open-weight and closed models on selected benchmarks. These are evidence for possible enabling conditions, **not evidence that autonomous social alternatives or a societal bifurcation have already emerged**. Open weights, open-source licensing, affordable use and institutional decision rights are distinct forms of access.
+
+### Viable scale, coupling and possible outcomes
+
+An alternative may seek **enough income, technological capacity and organisational stability** to sustain its purposes. It need not maximise scale. Where financing or competitive pressures require continual expansion, however, an alternative may reacquire the priorities it sought to revise. Its stated values and its effective incentives should therefore be tracked separately.
+
+“Outside” normally means **partly autonomous but still coupled**. Alternatives can depend on major technology providers, payment systems, energy infrastructure and public institutions. Practical autonomy depends on the terms of those relationships: portability, ownership, diversified dependencies, meaningful collective decision rights and feasible exit. Concentration can coexist with many applications and lifestyles whose governing conditions remain externally controlled.
+
+| Possible outcome | Distinguishing evidence |
+|---|---|
+| **Concentrated dependence** | Many experiences or applications, with limited independent control over their conditions |
+| **Plural viable alternatives** | Multiple institutions sustain different purposes and meaningful participant authority to revise arrangements |
+| **Reabsorption** | Alternatives are acquired, become dependent or converge towards dominant incentives |
+| **Federation** | Alternatives share infrastructure and coordinate while preserving meaningful local authority |
+
+These patterns can coexist across scales and change over time. Federation must be evaluated for actual shared and local decision rights; decentralised branding alone does not demonstrate autonomy.
+
+### Conditional branching and formal bifurcation
+
+The hypothesis predicts that affordable capable tools are more likely to support durable alternatives where participants also have coordination capacity, access to resources, portable assets and consequential governance rights. High switching costs, concentrated ownership and restricted access could instead favour dependence or reabsorption. These are candidate interactions requiring comparison with ordinary market entry, resource dependence and institutional-governance explanations.
+
+A formal bifurcation account would need an explicit dynamical model, independently operationalised states and control parameters, and evidence that changing parameters alters the existence or stability of regimes. Candidate measurements include infrastructure concentration, project formation and survival, effective revision rights, dependency costs and diversity of enacted purposes. None is automatically equivalent to the psychological $x$, $\xi$ or $\delta$; the cusp and neural criticality models do not establish a social bifurcation. Appendix A22 defines the modelling boundary.
+
+**Core proposition — consolidation with plural branching:** AI-mediated development may concentrate the infrastructure and authority of dominant institutions while expanding the feasibility of alternative niche construction. Where access, coordination and meaningful control over purposes are supported, individuals and collectives may develop diverse, viable forms of life. A concentrated institutional centre could therefore coexist with plural, partially autonomous alternatives whose survival depends on practical viability and revisable purposes.
+
+## 11.13 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
 
 No changes to the **original meanings of** $x=F-F^\star$, $\xi=G-F^\star$ or the explore–exploit tilt $\delta$ are required. Instead, public accountability and symbolic feedback alter the **inputs** to the existing controller: task demands, uncertainty, goals, reward signals, model coherence, niche coupling and anticipated consequences of public scrutiny.
 
@@ -1230,7 +1300,7 @@ The public symbolic bank $P$ should not be equated with **psychometric Gc**: it 
 
 The developmental regimes also remain simultaneously available. An adult can execute automated skills, reason about the same referent across perspectives, and participate in recursively organised public systems *within the same cognitive episode*. The claim that this combination is particularly elaborated in human symbolic culture does not imply that nonhuman animals lack all perspectival or counterfactual capacities.
 
-## 11.12 What would make this a generative scientific account?
+## 11.14 What would make this a generative scientific account?
 
 A model should implement **at least two distinct transitions** and compare them with simpler alternatives.
 
@@ -1250,7 +1320,7 @@ The G-loop is best understood as a **concurrent, recursively updating process**,
 
 An episode can be described as follows. The agent enters a viable state; multiple automated skills remain active; observations and familiar knowledge constrain a novel problem; Gf explores and integrates alternatives; meta-control decides when more evidence is valuable and when action is warranted; the action alters the niche; its consequences generate prediction errors; local processes are adjusted or higher-level search is reopened; useful relational structures are validated against transformations; fast and slow Gc banking changes what will be available next time.
 
-This involves two simultaneously operating feedback circuits:
+This involves three coupled feedback circuits:
 
 **Within-episode regulation:** state → recruitment and synthesis → action → feedback → targeted correction or switching.
 
@@ -1258,7 +1328,7 @@ This involves two simultaneously operating feedback circuits:
 
 **Cross-agent and public-symbolic development:** coordinated acts → referential repair/invariant learning → shareable claims → public audit or reward → banked individual/public structures → altered niches and future cognitive goals. This loop can strengthen genuinely independent feedback or, in the proposed synthetic-capture regime, increase agreement while narrowing external correction. The distinctive conditions and equations are in §11.
 
-**Revising the objective itself:** Persistent recovery costs or conflicts with wider purposes should be capable of reopening the target, workload, success criteria or niche arrangement, as well as prompting a change of method (§11.10). This is a proposed G-loop design safeguard: improved performance and reduced prediction mismatch cannot alone establish that continuing the same objective is viable. The agent may instead negotiate demands, change the niche, defer action or revise the objective.
+**Revising purposes and conditions:** Persistent recovery costs or conflicts with wider purposes should be capable of reopening the target, workload, success criteria or niche arrangement (§11.10). The G-loop can extend from methods to objectives, niche construction and governance: who can revise the conditions under which others act (§11.11). Improved performance and reduced prediction mismatch do not alone establish viability or autonomy. Tested alternatives can contribute reusable knowledge and infrastructure to later niche construction (§11.12), provided participants retain consequential revision rights and independent feedback.
 
 A high-Gf episode is not one in which every module is constantly near-critical or consciously controlled. It is one in which the system can **selectively combine existing competence with flexible reconstruction** under the present demands.
 
@@ -1292,12 +1362,16 @@ The strongest predictions must distinguish Trident-G from simpler accounts. The 
 | **P20. Engineering competence need not establish human-goal congruence** | Increase operational benchmark performance while independently measuring human outcomes, informed goal endorsement and opportunities to revise objectives | Hold resources and task demands constant; avoid equating metric success with ethical legitimacy |
 | **P21. Benchmarks and designers' priorities may co-evolve** | Longitudinally test whether repeated exposure to performance, security, stability and scale metrics changes designers' endorsed priorities and later metric selection | Separate selection, temporary compliance and within-person goal change; compare participatory, rights-preserving and alternative-incentive settings |
 | **P22. Niche redesign authority dissociates from within-niche competence** | Compare equally skilled agents given different rights to modify metrics, goals, policies or available actions | Test whether actual, rather than nominal, decision rights improve goal revisability, independent outcomes and novel adaptation |
-| **P23. Experiential benefits and practical agency may dissociate** | Independently vary access to immersive/AI-personalised experiences and access to meaningful practical opportunities; measure subjective satisfaction, later choices, material outcomes and ability to contest conditions | Test empowerment versus substitution for opportunity; do not infer manipulation from enjoyment or assume a majority population in this regime |
+| **P23. Experiential benefits and practical agency may dissociate** | Independently vary access to immersive/AI-personalised experiences and access to meaningful practical opportunities; measure subjective satisfaction, felt agency, later choices, material outcomes and ability to contest conditions | Test empowerment versus substitution for opportunity; distinguish subjective experience from opportunities and do not infer population proportions from an experimental subgroup; the conditional majority claim is tested separately in P29 |
 | **P24. Rewarded skill and objective-setting authority may diverge** | In sport, education or employment, match competence and AI support while varying consequential decision rights over goals, scoring systems and the niche | Separate objective performance from returns, institutional authority, educational attainment and selection effects |
 | **P25. Epistemic-engineering resources and design authority may have concentrated upper tails** | Track AI compute/data access, modelling competence, capital, public/private governance rights and mobility over time; fit Pareto tails against lognormal and mixed alternatives | No fixed 80:20 proportion; analyse different institutions, open-model diffusion, and whether metric-setting power is more concentrated than AI access |
 | **P26. Performance and regulatory sustainability may diverge under costly internalisation** | Repeatedly assess motivation quality, goal endorsement, performance and recovery under comparable demands; test whether internal pressure predicts divergence | Control workload, baseline health, material insecurity, selection and prior goals; include beneficial integration; acute cortisol changes do not establish cumulative load |
 | **P27. Small anticipated-versus-realised mismatch need not imply recovery** | Track independently elicited anticipated burden, realised burden and longitudinal recovery as persistent demands become familiar | Compare reduced uncertainty with genuine demand reduction; independently constrain any changing reference level; reject a recovery claim based only on small fitted mismatch |
 | **P28. Consequential goal revision may reduce divergence beyond improving methods** | Compare access to method changes alone with effective rights to revise targets or workloads under similar initial resources and demands; follow performance, chosen goals and recovery | Measure actual use and downstream demand changes rather than controlling away those mediators; compare workload-only and general autonomy-support accounts; allow null effects and well-regulated low-authority cases |
+| **P29. Cumulative advantage and access barriers may produce a majority experiential profile alongside concentrated control** | In representative longitudinal samples, measure baseline resource/authority concentration, entry/exit barriers and experiential provision; test subsequent joint changes in experiential opportunities, felt agency, practical control and revision rights | Preregister meaningful-change and limited-control criteria, population and horizon; estimate majority prevalence separately from concentration and tail shape; compare mobility, redistribution, skill-transfer and selection explanations |
+| **P30. Comparable objective competence can support different endorsed purposes** | Give comparably capable participants or groups similar AI resources but different opportunities to choose and revise goals; assess independently verified outcomes relative to their declared, revisable purposes | Separate goal declaration from implemented decisions; track viability and effects on other participants; compare resource access and general autonomy-support explanations rather than equating non-dominant goals with low performance |
+| **P31. Infrastructure concentration and viable alternative formation may coexist** | Jointly track upstream ownership and downstream formation, survival, enacted purpose diversity and actual revision rights across alternative institutions | Distinguish applications from independent governance, launches from survival, and nominal variety from consequential alternatives; compare dependence-only and broad diffusion of ownership/authority |
+| **P32. Portability and shared governance may moderate dependence or reabsorption** | Follow similarly resourced alternatives with different provider dependencies, portable assets and actual collective rights; assess exit feasibility, survival, federation, acquisition and incentive convergence | Control prior viability, sector and selection; trace whether governance changes precede outcomes; allow federations that recentralise control and alternatives that fail despite nominal autonomy |
 
 ### What specifically counts as evidence for a Griffiths phase?
 
@@ -1325,7 +1399,7 @@ The fully coupled model contains more latent states than could responsibly be in
 
 **Sixth: emergent reference and public symbolic feedback.** Train multi-agent learners with shared goals, role changes and communicative repair; compare them with matched associative and hierarchical-RL baselines. Then add persistent public symbolic records and AI-generated content, varying independent observational audits and performative effects. Compare independent referential transfer, external calibration, normative revision and public agreement.
 
-**Focused institutional-regulation extension:** Test §11.10 in a separate longitudinal or bounded experimental programme, connecting P26–P28 to the existing viability constraint. Establish the quality of motivation, recovery and authority measures before adding latent feedback or damage parameters. This extension does not require a Griffiths phase or Pareto distribution; support for it alone would not validate the cusp or general-intelligence claims.
+**Focused institutional and plural niche extension:** Test §§11.9–11.12 through separate population, organisational and computational studies. P26–P28 address regulatory divergence; P29 tests the conditional majority/concentration conjunction; P30–P32 address purpose choice, viable alternative formation and dependency/governance conditions. Establish measurement quality before adding latent feedback parameters. In simulations, allow formation, failure, reabsorption and federation to emerge from specified interactions rather than imposing a two-branch outcome. These extensions do not require a Griffiths phase or Pareto distribution, and support for them alone would not validate the cusp or general-intelligence claims.
 
 The earliest computational implementation should **freeze slow developmental variables** and specify concrete forms for $\mathcal S$, $\mathcal M$, $\mathcal A$, $\mathrm{Gate}$, $f_j$ and $\mathcal B$. Meta-efficacy $\eta$, coherence $\chi$, homeostatic conditions $\mathbf h$, and $F^\star$ presently enter as inputs or slow latent quantities: their own update laws are open questions. Version 0.4 is therefore a *structured candidate theory*, not yet a closed, identifiable model; the developmental transitions and symbolic feedback system add particularly demanding identifiability and causal-inference requirements.
 
@@ -1596,7 +1670,7 @@ The failure to imply improvement does **not** entail inevitable deterioration. T
 
 **A19. Experience, performance, authority and the possible concentration of epistemic-engineering capital**
 
-For a *specified domain and population*, let $H_i^{\mathrm{subj}}$ denote subjective satisfaction or perceived efficacy, $E_i^{\mathrm{eff}}$ effective control over independently defined valued outcomes, $P_i^{\mathrm{perf}}$ observed performance against stated criteria, and $A_i^{\mathrm{rev}}$ **consequential** rights to revise goals, metrics and the environment. These are distinct, non-equivalent measures; the superscripts distinguish them from $E_{i,t}^{\mathrm{exp}}$ and public model $P_t$.
+For a *specified domain and population*, let $H_i^{\mathrm{subj}}$ denote subjective satisfaction or perceived efficacy, $E_i^{\mathrm{eff}}$ effective control over independently defined valued outcomes, $P_i^{\mathrm{perf}}$ observed performance against stated criteria, and $A_i^{\mathrm{rev}}$ **consequential** rights to revise goals, metrics and the environment. These are distinct, non-equivalent measures; the superscripts distinguish them from $E_{i,t}^{\mathrm{exp}}$ and public model $P_t$. Satisfaction and perceived efficacy require separate subscales, and experiential opportunities require their own observations. The measures describe positions relative to a specified niche; they do not classify allegiance to institutional purposes.
 
 $$
 H_i^{\mathrm{subj}}\ \text{high}
@@ -1612,7 +1686,7 @@ $$
 \Pr(K^{EE}>k)\propto k^{-\alpha},\qquad\alpha>0.
 $$
 
-The tail exponent and lower threshold must be estimated; alternatives include lognormal and mixed distributions. This is **not** a universal 80:20 rule, a fixed three-class population model, or a psychometric intelligence score.
+The tail exponent and lower threshold must be estimated; alternatives include lognormal and mixed distributions. This is **not** a universal 80:20 rule, a fixed three-class population model, or a psychometric intelligence score. Concentration of resources, returns and consequential decision rights should also be estimated separately. A majority experiential profile is an additional population claim, operationalised in A21; neither that profile nor a Pareto tail establishes the other.
 
 **A20. Performance–viability divergence under internalised objectives**
 
@@ -1637,6 +1711,33 @@ with those departures established through independently specified observations o
 $F^\star$ is a defended reference, not an independently certified boundary of health. A changing reference cannot be used to absorb observed strain and then declare restored viability. The viability assessment must remain distinct from fitting $F$, $G$ and $F^\star$; high performance and self-reported familiarity cannot provide the sole identifying observations.
 
 Accumulated allostatic costs would require a separately validated state/update law with recovery, timescale and observation assumptions. None is inferred from $\varepsilon$, the cusp potential, a single hormone measure or this qualitative divergence pattern. Causal attribution to internalisation additionally requires distinguishing it from workload, coercion, selection and baseline vulnerability, as specified in P26–P28.
+
+**A21. Testing majority experiential dependence separately from concentration**
+
+For a defined population, domain and longitudinal interval, preregister a joint criterion $\mathcal C_{\mathrm{exp}}$ identifying participants with meaningful gains in experiential opportunities or experienced agency, persistently limited practical control and revision rights, and no meaningful improvement in those latter dimensions. This tests the **specific prospective trajectory** in §11.9; it is not a universal definition of all Tier 1 participation.
+
+Use domain-appropriate, independently justified thresholds for each measure. Do not subtract raw satisfaction scores from income, voting rights or other incomparable quantities. With representative sampling and positive design weights $w_i$, estimate
+
+$$
+\widehat p_{\mathrm{exp}}
+=
+\frac{\sum_i w_i\,\mathbf 1\{i\in\mathcal C_{\mathrm{exp}}\}}
+{\sum_i w_i}.
+$$
+
+A majority claim requires population inference supporting $p_{\mathrm{exp}}>0.5$, with uncertainty, attrition, threshold sensitivity and baseline conditions reported. High satisfaction alone is insufficient. This descriptive prevalence would not establish that AI caused the profile or that experiences suppressed agency.
+
+Separately estimate concentration and mobility in specified resources, returns and consequential rights, using appropriate distributional measures and comparisons with non-Pareto alternatives (A19). The strong hypothesis concerns their **joint development under independently measured enabling conditions**, not an implication from one distribution to another. Causal tests should distinguish cumulative advantage, selection, workload, access barriers and possible capability diffusion.
+
+**A22. Plural niche construction and the boundary of a social bifurcation model**
+
+Use the reciprocal niche dynamics in §10/A10 and viability-constrained future possibilities in §10/A11 as the starting point. An alternative counts towards an expanded repertoire of attainable niches only where access, sustained functioning and effective control are demonstrated. Merely declaring another goal or launching another application does not establish an increase in $\Omega_t$.
+
+Assess the diversity of **enacted purposes** separately from the number of organisations or technologies. Track actual objective-revision rights at individual, collective and federation levels; independently observe resource sufficiency, regulatory recovery, provider dependencies and exit feasibility. High $P_i^{\mathrm{perf}}$ does not determine which purposes an agent endorses, and high local $A_i^{\mathrm{rev}}$ does not guarantee independence from higher-order constraints.
+
+“Branching” currently names possible development into dependence, viable alternatives, reabsorption or federation. A mathematical bifurcation claim would require specified state and control variables, transition/update rules, equilibria or other invariant regimes, stability analysis and empirical identification of parameter-dependent changes. A separate social model must not silently reuse psychological $x$, $\xi$ or $\delta$ for capital, authority or goal diversity. Concentration, plural outcomes, a fitted power law or hysteresis alone would not establish the proposed social mechanism.
+
+Candidate simulations should vary access costs, ownership, portability, coordination and decision rights independently, then compare the emergence and persistence of alternatives with resource-dependence and conventional institutional models. The present extension adds an operational research programme, **not an already identified societal cusp or a prescribed binary future**.
 
 Operational decisions should be implemented on an explicit sampling/update schedule or as a specified coupled stochastic system to avoid algebraic circularity. The symbolic operators above cannot be fitted without defining compatible state spaces and observations.
 
@@ -1680,6 +1781,7 @@ Operational decisions should be implemented on an explicit sampling/update sched
 | $H_i^{\mathrm{subj}},E_i^{\mathrm{eff}}$ | Scoped satisfaction/perceived efficacy and effective control over valued outcomes (not $E_{i,t}^{\mathrm{exp}}$) |
 | $P_i^{\mathrm{perf}},A_i^{\mathrm{rev}}$ | Domain performance and consequential rights to revise goals, rules and engineered niches (not public symbolic state $P_t$) |
 | $K_i^{EE},\alpha$ | Provisional epistemic-engineering resource profile and candidate distribution-tail exponent, not a proven Pareto law |
+| $\mathcal C_{\mathrm{exp}},\widehat p_{\mathrm{exp}},w_i$ | Preregistered longitudinal experiential-dependence criterion, estimated population share and sampling weights (A21); not a universal tier definition |
 
 **Reward prediction error $\Delta^R$ ≠ allostatic mismatch $\varepsilon=F-G$ ≠ entropy or mutual information.**  
 **Dopamine-dependent Go/NoGo learning ≠ direct biochemical implementation of strategic exploration.**  
@@ -1697,7 +1799,10 @@ Operational decisions should be implemented on an explicit sampling/update sched
 **Model collapse ≠ performative prediction ≠ ontological omission; these must be tested separately.**  
 **Engineering performance ≠ moral justification; an AI benchmark ≠ a machine's consciously endorsed value; technological enhancement ≠ proven loss of autonomy.**  
 **Experiential satisfaction ≠ necessarily fantasy or inauthenticity; competence within rules ≠ power to revise those rules.**  
-**Pareto-like concentrations and three adaptive positions are hypotheses, not established population classes.**  
+**Pareto-like concentration ≠ a demonstrated majority experiential profile; both are separate conditional population hypotheses.**  
+**Objective competence ≠ allegiance to dominant objectives; tier position ≠ ideological destination.**  
+**Technological access or alternative-project counts ≠ meaningful governance rights or viable autonomous niches.**  
+**Social branching ≠ a demonstrated mathematical bifurcation or the psychological cusp.**  
 **Small allostatic mismatch ≠ demonstrated viability; a defended reference ≠ an independently validated health boundary.**  
 **Internalised institutional goals ≠ necessarily controlled motivation; reduced autonomy ≠ necessarily physiological overload.**  
 **Short-term performance or acute cortisol change ≠ established long-term regulatory sustainability or allostatic damage.**
@@ -1708,11 +1813,11 @@ Operational decisions should be implemented on an explicit sampling/update sched
 
 ### Established or independently studied building blocks
 
-Neural avalanche and criticality phenomena; hierarchical modular and heterogeneous network models; hierarchical reinforcement-learning descriptions of learned action sequences; successor representations as predictive maps; distinct neural temporal integration windows; and broad empirical distinctions between novel reasoning, skills and accumulated knowledge. Adjacent building blocks for §11.10 include allostasis/allostatic load, autonomous versus controlled motivation, and goal-source memory under stress; these do not establish the proposed institutional feedback mechanism.
+Neural avalanche and criticality phenomena; hierarchical modular and heterogeneous network models; hierarchical reinforcement-learning descriptions of learned action sequences; successor representations as predictive maps; distinct neural temporal integration windows; and broad empirical distinctions between novel reasoning, skills and accumulated knowledge. Adjacent building blocks for §11.10 include allostasis/allostatic load, autonomous versus controlled motivation, and goal-source memory under stress; these do not establish the proposed institutional feedback mechanism. AI market and technical reports document ingredients relevant to §11.12, including input concentration and more accessible capabilities; they do not demonstrate autonomous niche formation.
 
 ### Theoretical interpretations requiring direct testing
 
-That Trident-G's cusp variables track human homeostatic engagement; that the Ψ-band is an individually measurable region of adaptive near-critical operation; that Gf synthesis is specifically implemented through the stated four information-processing branches; that Gc-dominated processing preferentially recruits more subcritical and lower-cost dynamics; that a Griffiths phase causally improves Gf/Gc coordination; and that improved invariant learning produces durable, domain-general gains in intelligence. The institutional-regulation extension additionally hypothesises that internal pressure and restricted objective revision can contribute to performance–viability divergence beyond workload and selection; neither that causal pathway nor a reciprocal stress–internalisation loop is established.
+That Trident-G's cusp variables track human homeostatic engagement; that the Ψ-band is an individually measurable region of adaptive near-critical operation; that Gf synthesis is specifically implemented through the stated four information-processing branches; that Gc-dominated processing preferentially recruits more subcritical and lower-cost dynamics; that a Griffiths phase causally improves Gf/Gc coordination; and that improved invariant learning produces durable, domain-general gains in intelligence. The institutional-regulation extension additionally hypothesises that internal pressure and restricted objective revision can contribute to performance–viability divergence beyond workload and selection; neither that causal pathway nor a reciprocal stress–internalisation loop is established. The stronger socio-cognitive extension proposes conditional majority experiential dependence alongside concentrated consequential agency, use of objective competence for plural purposes, and viable alternatives branching alongside institutional consolidation. Their distributions, causal mechanisms and any formal bifurcation require separate tests.
 
 ### Evidence audit: which neural findings support which claims?
 
@@ -1742,8 +1847,10 @@ This table grades the **strength and directness of the evidence for the stated c
 | Model-generated invariance, synthetic-data recursion and performative feedback | Shumailov et al. (2024); Kazdan et al. (2025); Perdomo et al. (2020) | **Formal and empirical machine-learning findings under specified data-generation regimes** | That consensus implies external validity, that recursive AI always collapses, or that social reality is fully model-generated |
 | Engineering and AI goal-setting | Tobin et al. (2017); Gabriel (2020); van de Poel (2020); Kellogg et al. (2020); Russell (2019); Turner et al. (2021) | **Robotics experiment, normative analysis, organisational synthesis and formal RL theorem** | A unified corporate–state objective, designers' demonstrated value assimilation, or general real-world power-seeking by deployed AI |
 | Technology-mediated human enhancement and freedom | Bostrom (2005; conceptual account) | **Philosophical transhumanist argument emphasising enhancement, choice and broad access** | That transhumanism necessarily entails technocratic control |
-| Three AI-mediated adaptive positions and epistemic capital concentration | Conceptual synthesis of §§11.6–11.9; Diehl et al. (2016), Barasch et al. (2018), Kellogg et al. (2020), Gabriel (2020) and Bostrom (2005) provide adjacent but nondecisive research | **Novel Trident-G socio-cognitive hypotheses, not a validated demographic distribution** | That the majority is subjectively pacified, that enjoyment implies false consciousness, or that design authority necessarily follows wealth or an exact Pareto law |
+| Three AI-mediated adaptive positions and concentrated consequential agency | Conceptual synthesis of §§11.6–11.9; adjacent experiential, organisational and normative research | **Conditional Trident-G population hypothesis** | Whether a majority gains experiential agency without practical control; how concentration, mobility and Pareto-like tails relate; causal suppression or expansion of agency |
 | Internalisation, performance and regulatory sustainability | Ryan & Deci (2000; theory/research synthesis); McEwen (1998; allostatic account); Quirin et al. (2009; goal-source memory/cortisol); Steel et al. (2021; small randomised experiment) | **Adjacent theoretical, associative and acute experimental evidence** | Chronic institutional internalisation causing overload, a reciprocal causal loop, a unique cusp mechanism, or equivalence between low autonomy and physiological dysregulation |
+| Autonomous world-making and plural purposes | §10 niche-construction framework and §11.8 autonomy-enhancing trajectory; Bostrom (2005; normative account) | **Conceptual extension with operational tests** | Whether similar competence and AI access enable durable alternatives with meaningful participant authority, viability and independent correction |
+| Institutional consolidation alongside alternative branching | OECD (2026; AI market analysis); Stanford HAI (2025; technical/economic indicators) | **Evidence for enabling ingredients, not for the full social trajectory** | Joint emergence of concentrated infrastructure and autonomous niches; majority experiential dependence, durable federation or a mathematical social bifurcation |
 
 **Methodological principle:** fMRI functional connectivity, behavioural Gf/Gc scores, EEG criticality proxies, neuronal spiking, neuromodulatory activity, and subjective effort are distinct measurements. Treating them as different observations of the *same* latent control system requires a model with independently validated links. A high neural–behavioural correlation is not in itself proof of a Griffiths phase or improved intelligence.
 
@@ -1836,6 +1943,13 @@ Shumailov et al. (2024) and Perdomo et al. (2020) are listed above under **Recur
 
 **Evidence boundary:** These works support specified robotics transfer, philosophical value-alignment distinctions, observed organisational control mechanisms and some formal policy-optimisation incentives. **They do not establish that AI–corporate–state systems constitute one coordinated actor, that designers already internalise AI benchmarks as personal values, or that technological augmentation necessarily leads to institutional assimilation.** The latter remain conditional, testable Trident-G hypotheses; the original transhumanist literature also affirms voluntary enhancement and autonomy.
 
+### AI infrastructure concentration, accessible capabilities and alternative branching (§11.12)
+
+- **OECD. (2026).** *Artificial Intelligence markets: Recent developments and competition issues*. OECD Publishing, Paris. Published 10 July 2026. https://doi.org/10.1787/d531d73f-en
+- **Stanford Institute for Human-Centered Artificial Intelligence (HAI). (2025).** *The AI Index Report 2025*. https://hai.stanford.edu/ai-index/2025-ai-index-report
+
+**Evidence boundary:** These reports provide market and technical context for the proposed coexistence of concentration and capability diffusion. They do not establish the three-tier population pattern, autonomous world-making, the survival of alternative institutions or a social bifurcation. Benchmark improvements and cheaper inference are not measures of human autonomy, and historical trends are not assumed to continue indefinitely.
+
 ### Internalised objectives, motivation and allostatic divergence (§11.10)
 
 - **McEwen, B. S. (1998).** Stress, adaptation, and disease: Allostasis and allostatic load. *Annals of the New York Academy of Sciences*. https://pubmed.ncbi.nlm.nih.gov/9629234/
@@ -1889,15 +2003,18 @@ The source blocks above include both newly integrated and inherited references. 
 
 Trident-G Version 0.4 is a proposal about **regulated coordination, emergent shared reference and recursive change**. Its most distinctive claim is that general intelligence may depend on a system's ability to preserve efficient specialised operations while selectively reorganising their relationships under novel demands. A viable homeostatic corridor constrains this process; hierarchical modularity makes parallel specialised and integrative cognition possible; extended Griffiths-phase-like dynamics may, under appropriate conditions, broaden the system's effective response repertoire across timescales. Gf synthesis generates and tests relational structures, and dual-pathway Gc consolidation can convert validated structures into both efficient skills and richer schemas. Through asymmetrical capacity interactions and reciprocal niche construction, these changes can modify the conditions of subsequent learning.
 
-The proposed stratification of experience, rewarded performance and objective-setting authority distinguishes who primarily encounters engineered affordances, who excels under their existing criteria and who can revise the criteria themselves. The proposed concentration of epistemic-engineering capital is a research question, not an assumption of a three-class or Pareto society.
+The proposed stratification of experience, rewarded performance and objective-setting authority distinguishes experiential participation from effective engagement with, and reconstruction of, consequential conditions. Under cumulative advantage and restricted institutional access, a majority could gain experiential agency without comparable practical control while consequential agency concentrates. Majority prevalence, concentration and a possible Pareto tail are separate empirical claims, not a fixed three-class law.
 
 A further Stage III conjecture is that engineering efficacy can strengthen the reality of an engineered social niche while its designers and participants become differently empowered to revise that niche. Repeated technical and institutional optimisation may shape the designers' own purposes, but objective convergence and any assimilative transhumanist trajectory require direct evidence rather than inference from technical success.
 
 The regulatory-divergence extension asks whether internalised institutional objectives can improve performance while undermining recovery or narrowing effective goal revision. Familiarity with demands and reduced prediction mismatch do not establish viability. Beneficial goal integration and low-authority participation without overload remain alternative outcomes; performance, sustainability and autonomy require separate evidence.
 
+Objective engagement also permits plural purposes. The same understanding and AI capabilities can support reform, independent livelihoods or collectively governed alternatives. Institutional consolidation and alternative niche construction may develop together, producing dependence, viable alternatives, reabsorption or federation. This branching hypothesis requires evidence of sustained capability and actual goal-revision rights, and does not follow mathematically from the psychological cusp.
+
 The Stage III objectivity extension adds a further constraint: invariant representations must be evaluated for **source independence and unrepresented dimensions**, not merely agreement under model-generated transformations; recursive public modelling can be informative or epistemically self-sealing depending on independent audit and revisability.
 
 The extension to mediated subjectivity adds a complementary, non-neural research question: whether the ability to represent experiences publicly creates feedback that preserves, enriches or displaces the person's reflectively endorsed purposes. Its primary outcomes are experiential, interpersonal and practical, rather than an automatic change in psychometric $g$.
 
-**The next decisive step is computational and empirical.** The existing hierarchical, cusp and Griffiths-phase hypotheses should be separately ablated; the new developmental extension additionally requires multi-agent experiments determining whether communicative repair and cross-perspective invariants produce reusable object reference, and whether recursively generated public models preserve independent calibration and revisability. Stronger theory should follow demonstrated discriminating predictions, not additional untested modules.
+**The next decisive step is computational and empirical.** The existing hierarchical, cusp and Griffiths-phase hypotheses should be separately ablated; the new developmental extension additionally requires multi-agent experiments determining whether communicative repair and cross-perspective invariants produce reusable object reference, and whether recursively generated public models preserve independent calibration and revisability. The institutional extensions additionally require representative population studies and longitudinal tests of goal authority, viability and alternative formation. Stronger theory should follow demonstrated discriminating predictions, not additional untested modules.
+
 
