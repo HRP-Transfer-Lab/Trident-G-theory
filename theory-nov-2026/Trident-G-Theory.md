@@ -1,6 +1,6 @@
 # Trident-G: A Hierarchical, Multiscale Theory of Homeostatic General Adaptive Intelligence
 
-**Unified working theory — Version 0.4 (13 November 2026; developmental extension, draft)**  
+**Unified working theory — Version 0.4 (14 November 2026; developmental and experiential extension, draft)**  
 **Author:** Mark Ashton Smith  
 **Status:** Conceptual and mathematical research programme; not an empirically validated account of general intelligence.
 
@@ -842,7 +842,77 @@ $$
 
 These quantities must remain distinct from Trident-G's existing $\chi$ coherence, its meta-efficacy $\eta$ and niche-coupling $\lambda$ until an empirical measurement model is constructed.
 
-## 11.6 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
+## 11.6 The recursive objectification of subjective experience: public legibility, divergence and authenticity
+
+A further implication of Stage III is the **recursive objectification of subjective experience**. An episode of enjoyment, learning, belonging or achievement can be externalised as a photograph, narrative, recorded interaction or AI-generated image. That representation can then be recognised, compared, ranked, shared and used to specify **what that kind of experience should look like**. *Objectification* here means turning aspects of experience into a durable, publicly assessable **symbolic object**; it does **not** mean that first-person consciousness becomes directly observable or that social mediation necessarily makes experience inauthentic.
+
+Consider a photographed club scene in which people are smiling and dancing. It is readily recognisable as an image of *having fun*, although the participants' actual enjoyment, relationships and reasons for attending cannot be established from the image alone. Likewise, an image of a student and professor in animated discussion can be recognised as *an enriching tutorial*, even if it establishes neither comprehension nor subsequent learning. Such images can be accurate, selective, expressive, staged or misleading. Generative AI can produce a visually compelling representation without the portrayed event having occurred at all.
+
+The novel Trident-G proposal is **not** that impression management began with social media. It is that publicly reusable representations can feed back into an agent's *learning and regulation* of the experiences they depict:
+
+**Lived episode → external representation → public or algorithmic recognition → internalised representational standards → reorganisation of future attention, goals and behaviour → new lived episodes.**
+
+This is a special case of the existing $M_i$–$P_t$–niche coupling. The representation becomes a possible *second object of satisfaction*, alongside the original experience. A person may enjoy both dancing and sharing a memorable photograph, or both an intellectual exchange and its public acknowledgement. But representational success can also increase when directly experienced satisfaction or independently measured learning does not; conversely, a valued unphotographed episode may receive no public recognition. **Publicly recognised signs of an experience and the experience's first-person or task-relevant outcomes are distinct.**
+
+### Distinguishing experiential authority
+
+| Dimension | Question | What recognition alone cannot settle |
+|---|---|---|
+| **Phenomenological** | What did the person experience or find meaningful? | Actual first-person feeling cannot be read directly from an image or an AI label |
+| **Intersubjective** | How do participants and audiences interpret the episode? | Agreement about the visible scene is not evidence of matching private experiences |
+| **Algorithmic or institutional** | How is the representation classified, circulated, rewarded or authorised? | Engagement, visibility and prestige are not truth or value criteria |
+| **Independent outcomes** | Did the episode serve a relevant purpose, such as lasting comprehension or mutual support? | Appearance of engagement is not equivalent to demonstrated learning or later benefit |
+
+These dimensions may reinforce one another. Documentary activity can direct attention towards the event and improve engagement. Diehl, Zauberman and Barasch (2016) found that taking photographs could increase enjoyment partly through engagement and visual attention. Conversely, Barasch, Zauberman and Diehl (2018) found that taking photographs *with the intention of sharing* could reduce enjoyment relative to private documentation through self-presentational concerns. Barta and Andalibi (2024) described users' awareness of their own visibility to platforms and algorithms. These are **partial empirical anchors**, not demonstrations of Trident-G's proposed developmental recursion.
+
+A possible failure mode is **representational–experiential divergence**: social or algorithmic validation of a representation rises while independently reported experience, reflectively endorsed purposes or goal-relevant outcomes stagnate or worsen, and that validation increasingly shapes subsequent choices. Such divergence cannot be inferred from merely different numerical scores on noncommensurable scales. It must be operationalised through controlled feedback, prospective preferences, independently assessed outcomes and later behaviour.
+
+### Authenticity is not the absence of self-presentation
+
+For this theory, *authenticity* should not become a binary judgement that private experience is genuine and photographed, curated or socially valued experience is false. People may sincerely value expressive performance, shared recognition, creative representation, belonging and the preservation of memories. A deliberately composed image can faithfully express an endorsed purpose; an apparently spontaneous image can conceal coercion. Haimson et al. (2021) documented tensions between social-media users' ideals of authenticity and the disclosure demands or social costs of presenting a supposedly consistent and positive self.
+
+Three **separable evaluative questions** are therefore proposed:
+
+1. **Experiential and representational fidelity:** Does the representation responsibly convey what occurred or what its participants report, within its acknowledged artistic or documentary conventions? An AI-generated illustration may be expressive without being a documentary record.
+2. **Reflective authorship:** Can the agent endorse, challenge and revise the goals and public standards shaping its participation, rather than simply conforming to opaque incentives or anticipated approval?
+3. **Practical congruence:** Do the activity and its public presentation serve the person's revisable experiential, educational and relational purposes, and appropriate obligations towards others?
+
+These are *candidate dimensions of authenticity and autonomy*, **not** a universal authenticity index or a way to infer hidden feelings from images. A person's first-person report also cannot, by itself, settle factual claims about what happened or who benefited. The critical issue is whether **reflective authority over goals remains consequential** when public models shape the choices through which experiences are produced.
+
+### A provisional experiential–representational feedback model
+
+Let $E_{i,t}^{\mathrm{exp}}$ denote latent first-person experience, $R_{i,t}^{\mathrm{exp}}$ an externally available representation, and $\upsilon_{i,t}^{\mathrm{pub}}$ its anticipated or received public validation. These quantities must remain distinct. In particular, $\upsilon^{\mathrm{pub}}$ is not the cusp potential $V(x;\xi,\delta)$ or the perspective variable $v_{i,t}$. A schematic model is:
+
+$$
+R_{i,t}^{\mathrm{exp}}
+=\Phi_i(E_{i,t}^{\mathrm{exp}},s_t,a_{i,t},P_t),
+$$
+
+$$
+\upsilon_{i,t}^{\mathrm{pub}}
+=\mathcal V_{\mathrm{pub}}(R_{i,t}^{\mathrm{exp}},P_t,
+\mathrm{audience}_t,\mathrm{algorithm}_t),
+$$
+
+$$
+M_{i,t+1}
+=\mathcal U_i(M_{i,t},\widehat E_{i,t}^{\mathrm{exp}},
+\upsilon_{i,t}^{\mathrm{pub}},P_t,y_{i,t}^{\mathrm{ind}}).
+$$
+
+Here $\Phi_i$ represents selective documentation, communication or generative transformation; $\mathcal V_{\mathrm{pub}}$ models social/platform evaluation; $\widehat E^{\mathrm{exp}}$ is an **imperfect report or proxy** rather than objective access to phenomenology; and $y^{\mathrm{ind}}$ comprises independently assessed outcomes where available. The update $\mathcal U_i$ can change learned experiential schemas, future choices and niche construction. These operators are **unspecified research targets**, not fitted models. Crucially, an image or algorithm cannot infer $E^{\mathrm{exp}}$ merely because it produces a convincing category label.
+
+The extension leaves $x=F-F^\star$, $\xi=G-F^\star$ and the explore–exploit tilt $\delta$ unchanged. Public feedback supplies *possible inputs* to regulatory goals and anticipated load. Through the **Gf → Gc → Gf spiral**, an agent may bank knowledge of the conditions that produce valued experiences, or instead bank the socially legible signs of those experiences; later flexible reasoning may reuse, revise or challenge either kind of schema. The distinction between $\lambda_W$ and $\lambda_P$ consequently applies not only to public claims about external events, but also to the degree to which publicly rewarded representations remain informative about lived consequences and self-endorsed purposes.
+
+### Empirical contrasts and possible disconfirmation
+
+A factorial or matched-group design could contrast **no documentation**, **private documentation**, **anticipated human sharing**, and **anticipated AI/platform evaluation** while controlling recording effort, audience, task difficulty and social incentives. Outcomes should separately measure immediate enjoyment or engagement, attention, delayed autobiographical appraisal, changes in future activity choices, reflective endorsement and—where relevant—independently assessed learning, memory or transfer. A complementary manipulation could distinguish photographs of actual events from transparently AI-generated exemplars to test recognisability without presupposing an underlying episode.
+
+The distinctive prediction is conditional: greater anticipated public validation may shift future choice towards more *representationally legible* experiences even without improvements in independent outcomes or endorsed experiential value. Equally, documentation may deepen engagement or help discover new worthwhile experiences. Audience closeness, prior motivation, voluntary self-expression and transparency of feedback are plausible moderators. **Failure to find such choice displacement, or evidence of consistent experiential benefit under the relevant controlled conditions, would constrain or disconfirm the proposed divergence mechanism.**
+
+This section is an extension of **recursive symbolic coupling** and a candidate focus for a separate philosophical and empirical paper, not an additional innate Trident capacity, an inevitable account of digital culture or proof that mediated subjectivity is inauthentic.
+
+## 11.7 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
 
 No changes to the **original meanings of** $x=F-F^\star$, $\xi=G-F^\star$ or the explore–exploit tilt $\delta$ are required. Instead, public accountability and symbolic feedback alter the **inputs** to the existing controller: task demands, uncertainty, goals, reward signals, model coherence, niche coupling and anticipated consequences of public scrutiny.
 
@@ -858,7 +928,7 @@ The public symbolic bank $P$ should not be equated with **psychometric Gc**: it 
 
 The developmental regimes also remain simultaneously available. An adult can execute automated skills, reason about the same referent across perspectives, and participate in recursively organised public systems *within the same cognitive episode*. The claim that this combination is particularly elaborated in human symbolic culture does not imply that nonhuman animals lack all perspectival or counterfactual capacities.
 
-## 11.7 What would make this a generative scientific account?
+## 11.8 What would make this a generative scientific account?
 
 A model should implement **at least two distinct transitions** and compare them with simpler alternatives.
 
