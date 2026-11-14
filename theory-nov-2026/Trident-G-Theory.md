@@ -6,7 +6,7 @@
 
 > **Core proposition.** General adaptive intelligence arises from the regulation of a heterogeneous, hierarchically organised agent–environment system. Relatively stable Gc representations and skills operate concurrently with flexible Gf synthesis. Homeostatic control determines when skilled routines persist, when alternatives are recruited, and when established representations are revised. Repeated joint action may enable the extraction and consolidation of *cross-perspectival referential invariants*, supporting explicitly assessable shared intentionality_R. Public symbolic models then become new elements of the cognitive niche, improving or distorting later reasoning according to their connection to independent evidence, human goals and corrective feedback. The resulting invariants can become recursively model-conditioned; genuine world grounding also requires scrutiny of the provenance and independence of the transformations used for validation.
 
-This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence. The updated Stage III extension also considers how socially or algorithmically validated images and narratives of subjective experience may reshape later choices, creating possible alignment or divergence between lived purposes and their publicly recognised forms.
+This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence. The updated Stage III extension also considers how socially or algorithmically validated images and narratives of subjective experience may reshape later choices, creating possible alignment or divergence between lived purposes and their publicly recognised forms. A further hypothesis distinguishes increased engineering control from justified goals and asks whether AI benchmarks, institutional incentives and designers' priorities might co-evolve towards either autonomy-enhancing or institutionally assimilative human–AI integration.
 
 ---
 
@@ -1164,6 +1164,9 @@ The strongest predictions must distinguish Trident-G from simpler accounts. The 
 | **P17. Representational legibility may diverge from experienced or independently demonstrated value** | Randomise public/algorithmic validation and measure subsequent activity choices, reflective goal endorsement, immediate and delayed experience ratings and objective learning where relevant | Compare ordinary reinforcement, self-presentation and social-belonging accounts; do not infer authenticity from visibility scores or photographs |
 | **P18. Model-generated consistency can dissociate from world-grounded invariance** | Factorially vary independent data, recursively generated samples and provenance-aware held-out interventions; compare robustness under model transformations with independently sourced prediction and error correction | Control effective sample size, data quality, generator ancestry, training budget and non-cusp statistical baselines; do not assume model collapse under every data regime |
 | **P19. Performatively stable classifications can obscure omitted outcomes** | Allow a classifier to reshape educational or experiential niches; compare its improving on-distribution fit with prospectively defined independent comprehension, wellbeing or autonomy outcomes | Separate real, model-induced behavioural change from synthetic-data recycling; include baseline incentives and independently audited downstream outcomes |
+| **P20. Engineering competence need not establish human-goal congruence** | Increase operational benchmark performance while independently measuring human outcomes, informed goal endorsement and opportunities to revise objectives | Hold resources and task demands constant; avoid equating metric success with ethical legitimacy |
+| **P21. Benchmarks and designers' priorities may co-evolve** | Longitudinally test whether repeated exposure to performance, security, stability and scale metrics changes designers' endorsed priorities and later metric selection | Separate selection, temporary compliance and within-person goal change; compare participatory, rights-preserving and alternative-incentive settings |
+| **P22. Niche redesign authority dissociates from within-niche competence** | Compare equally skilled agents given different rights to modify metrics, goals, policies or available actions | Test whether actual, rather than nominal, decision rights improve goal revisability, independent outcomes and novel adaptation |
 
 ### What specifically counts as evidence for a Griffiths phase?
 
@@ -1423,6 +1426,41 @@ $$
 
 A **hypothesised divergence regime**, not a universal consequence of synthetic training, is $I_{\mathrm{model}}\uparrow$ alongside $I_{\mathrm{world}}\downarrow$. The relevant mechanistic comparison varies synthetic-source dependence, independent audit, provenance preservation, rare/omitted features and whether model policies causally change the future data-generating world. This is distinct from (i) the internal agreement metric $C_P$, (ii) independent calibration $Q_W$, and (iii) the older allostatic mismatch and cusp variables.
 
+**A18. Engineering objectivity and co-evolving human–AI institutional goals**
+
+Let the *deployer's* objective weight engineered outcomes $m_k$ by organisational weights $b_{k,t}$, while $D_t(\theta)$ changes with the engineered policy $\pi_\theta$:
+
+$$
+\mathcal J_t(\theta)
+=\sum_{k=1}^{K}b_{k,t}
+\mathbb E_{s\sim D_t(\theta)}
+[m_k(s,\pi_\theta(s))].
+$$
+
+A separate *slow* hypothesis concerns the changing goals of human designers:
+
+$$
+\begin{aligned}
+\mathbf g_{i,t+1}^{D}
+&=\mathcal U_D(\mathbf g_{i,t}^{D},\mathbf b_t,
+\mathbf g_t^{O},\mathbf y_t^{\mathrm{ind}},
+\mathbf e_{i,t}^{\mathrm{reflection}}),\\
+\mathbf b_{t+1}
+&=\mathcal U_B(\mathbf b_t,\mathbf g_{t+1}^{O},
+\{\mathbf g_{i,t+1}^{D}\}_i,\mathbf y_t^{\mathrm{ind}}).
+\end{aligned}
+$$
+
+These schematic update operators require independent operationalisation; they neither attribute a single utility function to all AI systems nor establish a literal merging of machine and human intentions. Let $Q_{\mathrm{eng}}$ index valid engineering performance, and $Q_{\mathrm{purpose}}$ independently assessed congruence with revisable human purposes. Then:
+
+$$
+Q_{\mathrm{eng}}\uparrow
+\quad\not\Rightarrow\quad
+Q_{\mathrm{purpose}}\uparrow.
+$$
+
+The failure to imply improvement does **not** entail inevitable deterioration. The proposed objective-assimilation hypothesis must distinguish mere institutional conformity from internally endorsed goal change and allow autonomy-enhancing integration as a competing outcome.
+
 Operational decisions should be implemented on an explicit sampling/update schedule or as a specified coupled stochastic system to avoid algebraic circularity. The symbolic operators above cannot be fitted without defining compatible state spaces and observations.
 
 ## Appendix B. Notation and crucial distinctions
@@ -1456,6 +1494,11 @@ Operational decisions should be implemented on an explicit sampling/update sched
 | $R_{i,t}^{\mathrm{exp}},\upsilon_{i,t}^{\mathrm{pub}}$ | External representation of an episode and its public/algorithmic validation; neither establishes experiential truth |
 | $y_{i,t}^{\mathrm{ind}}$ | Independently assessed outcome, where meaningful (e.g., comprehension, delayed transfer, voluntary return) |
 | $I_{\mathrm{model}},I_{\mathrm{world}}$ | Provisional invariance/robustness scores under model-dependent versus independently grounded transformations; **not** mutual information |
+| $\mathcal J_t,\theta,\pi_\theta,D_t(\theta)$ | Hypothetical deployer-level engineering objective, system policy and performatively altered data-generating distribution |
+| $m_k,b_{k,t}$ | Engineering metrics and their organisational weights; not self-evident moral values |
+| $\mathbf g_{i,t}^{D},\mathbf g_t^{O}$ | Designer's independently elicited goal priorities and organisational priorities |
+| $\mathbf y_t^{\mathrm{ind}},\mathbf e_{i,t}^{\mathrm{reflection}}$ | Independently assessed consequences and opportunities for reflective goal revision |
+| $Q_{\mathrm{eng}},Q_{\mathrm{purpose}}$ | Engineering validity versus congruence with independently assessed, revisable purposes |
 
 **Reward prediction error $\Delta^R$ ≠ allostatic mismatch $\varepsilon=F-G$ ≠ entropy or mutual information.**  
 **Dopamine-dependent Go/NoGo learning ≠ direct biochemical implementation of strategic exploration.**  
@@ -1470,7 +1513,8 @@ Operational decisions should be implemented on an explicit sampling/update sched
 **Publicly recognisable images of enjoyment or engagement ≠ directly observed enjoyment or demonstrated learning.**  
 **Social validation ≠ experiential authenticity; anticipated audience approval can improve or worsen experience depending on context.**
 **Agreement across AI modalities or agents ≠ independent validation if their evidence shares generative ancestry.**  
-**Model collapse ≠ performative prediction ≠ ontological omission; these must be tested separately.**
+**Model collapse ≠ performative prediction ≠ ontological omission; these must be tested separately.**  
+**Engineering performance ≠ moral justification; an AI benchmark ≠ a machine's consciously endorsed value; technological enhancement ≠ proven loss of autonomy.**
 
 ---
 
@@ -1510,6 +1554,8 @@ This table grades the **strength and directness of the evidence for the stated c
 | Public-model recursion and performative feedback | Perdomo et al. (2020); Shumailov et al. (2024) | **Formal ML results under specified model/data conditions** | A demonstrated general collapse of human social reality or inevitable AI-driven epistemic closure |
 | Experiential documentation, public evaluation and perceived authenticity | Diehl et al. (2016); Barasch et al. (2018); Haimson et al. (2021); Barta & Andalibi (2024) | **Experimental evidence for context-dependent photo-taking effects; qualitative findings about authenticity/visibility** | A universal shift towards inauthenticity, direct AI access to subjective experience, or the proposed recursive divergence mechanism |
 | Model-generated invariance, synthetic-data recursion and performative feedback | Shumailov et al. (2024); Kazdan et al. (2025); Perdomo et al. (2020) | **Formal and empirical machine-learning findings under specified data-generation regimes** | That consensus implies external validity, that recursive AI always collapses, or that social reality is fully model-generated |
+| Engineering and AI goal-setting | Tobin et al. (2017); Gabriel (2020); van de Poel (2020); Kellogg et al. (2020); Russell (2019); Turner et al. (2021) | **Robotics experiment, normative analysis, organisational synthesis and formal RL theorem** | A unified corporate–state objective, designers' demonstrated value assimilation, or general real-world power-seeking by deployed AI |
+| Technology-mediated human enhancement and freedom | Bostrom (2005; conceptual account) | **Philosophical transhumanist argument emphasising enhancement, choice and broad access** | That transhumanism necessarily entails technocratic control |
 
 **Methodological principle:** fMRI functional connectivity, behavioural Gf/Gc scores, EEG criticality proxies, neuronal spiking, neuromodulatory activity, and subjective effort are distinct measurements. Treating them as different observations of the *same* latent control system requires a model with independently validated links. A high neural–behavioural correlation is not in itself proof of a Griffiths phase or improved intelligence.
 
@@ -1590,6 +1636,18 @@ Shumailov et al. (2024) and Perdomo et al. (2020) are listed above under **Recur
 
 **Evidence boundary:** These papers establish dataset- and modelling-dependent results about recursive training and prediction-induced changes to observed distributions. The proposed distinction between model-closed and world-grounded invariance, and its application to collective objectivity, education and subjective authenticity, **remains a Trident-G philosophical/computational hypothesis**. The synthetic-data and social-performativity mechanisms must not be conflated.
 
+### Engineering objectivity, institutional objective convergence and human enhancement (§11.8)
+
+- **Tobin, J., Fong, R., Ray, A., Schneider, J., Zaremba, W., & Abbeel, P. (2017).** Domain randomization for transferring deep neural networks from simulation to the real world. *2017 IEEE/RSJ International Conference on Intelligent Robots and Systems*, 23–30. https://doi.org/10.1109/IROS.2017.8202133
+- **Gabriel, I. (2020).** Artificial intelligence, values, and alignment. *Minds and Machines, 30*, 411–437. https://doi.org/10.1007/s11023-020-09539-2
+- **van de Poel, I. (2020).** Embedding values in artificial intelligence (AI) systems. *Minds and Machines, 30*, 385–409. https://doi.org/10.1007/s11023-020-09537-4
+- **Kellogg, K. C., Valentine, M. A., & Christin, A. (2020).** Algorithms at work: The new contested terrain of control. *Academy of Management Annals, 14*(1), 366–410. https://doi.org/10.5465/annals.2018.0174
+- **Russell, S. (2019).** *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.
+- **Turner, A. M., Smith, L., Shah, R., Critch, A., & Tadepalli, P. (2021).** Optimal policies tend to seek power. *Advances in Neural Information Processing Systems, 34*. https://proceedings.nips.cc/paper_files/paper/2021/hash/c26820b8a4c1b3c2aa868d6d57e14a79-Abstract.html
+- **Bostrom, N. (2005).** Transhumanist values. In F. Adams (Ed.), *Ethical Issues for the Twenty-First Century* (Philosophy Documentation Center). https://nickbostrom.com/papers/transhumanist-values/
+
+**Evidence boundary:** These works support specified robotics transfer, philosophical value-alignment distinctions, observed organisational control mechanisms and some formal policy-optimisation incentives. **They do not establish that AI–corporate–state systems constitute one coordinated actor, that designers already internalise AI benchmarks as personal values, or that technological augmentation necessarily leads to institutional assimilation.** The latter remain conditional, testable Trident-G hypotheses; the original transhumanist literature also affirms voluntary enhancement and autonomy.
+
 ### Photography, social validation and the representation of experience (Section 11.6)
 
 - **Diehl, K., Zauberman, G., & Barasch, A. (2016).** How taking photos increases enjoyment of experiences. *Journal of Personality and Social Psychology, 111*(2), 119–140. https://doi.org/10.1037/pspa0000055
@@ -1633,6 +1691,8 @@ The source blocks above include both newly integrated and inherited references. 
 ## Theoretical conclusion
 
 Trident-G Version 0.4 is a proposal about **regulated coordination, emergent shared reference and recursive change**. Its most distinctive claim is that general intelligence may depend on a system's ability to preserve efficient specialised operations while selectively reorganising their relationships under novel demands. A viable homeostatic corridor constrains this process; hierarchical modularity makes parallel specialised and integrative cognition possible; extended Griffiths-phase-like dynamics may, under appropriate conditions, broaden the system's effective response repertoire across timescales. Gf synthesis generates and tests relational structures, and dual-pathway Gc consolidation can convert validated structures into both efficient skills and richer schemas. Through asymmetrical capacity interactions and reciprocal niche construction, these changes can modify the conditions of subsequent learning.
+
+A further Stage III conjecture is that engineering efficacy can strengthen the reality of an engineered social niche while its designers and participants become differently empowered to revise that niche. Repeated technical and institutional optimisation may shape the designers' own purposes, but objective convergence and any assimilative transhumanist trajectory require direct evidence rather than inference from technical success.
 
 The Stage III objectivity extension adds a further constraint: invariant representations must be evaluated for **source independence and unrepresented dimensions**, not merely agreement under model-generated transformations; recursive public modelling can be informative or epistemically self-sealing depending on independent audit and revisability.
 
