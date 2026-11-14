@@ -4,7 +4,7 @@
 **Author:** Mark Ashton Smith  
 **Status:** Conceptual and mathematical research programme; not an empirically validated account of general intelligence.
 
-> **Core proposition.** General adaptive intelligence arises from the regulation of a heterogeneous, hierarchically organised agent–environment system. Relatively stable Gc representations and skills operate concurrently with flexible Gf synthesis. Homeostatic control determines when skilled routines persist, when alternatives are recruited, and when established representations are revised. Repeated joint action may enable the extraction and consolidation of *cross-perspectival referential invariants*, supporting explicitly assessable shared intentionality_R. Public symbolic models then become new elements of the cognitive niche, improving or distorting later reasoning according to their connection to independent evidence, human goals and corrective feedback.
+> **Core proposition.** General adaptive intelligence arises from the regulation of a heterogeneous, hierarchically organised agent–environment system. Relatively stable Gc representations and skills operate concurrently with flexible Gf synthesis. Homeostatic control determines when skilled routines persist, when alternatives are recruited, and when established representations are revised. Repeated joint action may enable the extraction and consolidation of *cross-perspectival referential invariants*, supporting explicitly assessable shared intentionality_R. Public symbolic models then become new elements of the cognitive niche, improving or distorting later reasoning according to their connection to independent evidence, human goals and corrective feedback. The resulting invariants can become recursively model-conditioned; genuine world grounding also requires scrutiny of the provenance and independence of the transformations used for validation.
 
 This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence. The updated Stage III extension also considers how socially or algorithmically validated images and narratives of subjective experience may reshape later choices, creating possible alignment or divergence between lived purposes and their publicly recognised forms.
 
@@ -912,7 +912,68 @@ The distinctive prediction is conditional: greater anticipated public validation
 
 This section is an extension of **recursive symbolic coupling** and a candidate focus for a separate philosophical and empirical paper, not an additional innate Trident capacity, an inevitable account of digital culture or proof that mediated subjectivity is inauthentic.
 
-## 11.7 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
+## 11.7 Model-generated invariance and the risk of epistemic closure
+
+The proposed route to shared intentionality_R in §11.2 rests partly on finding a referent or relation that **survives variation in actions, perspectives, modalities and contexts**. But robustness across transformations does not by itself establish objectivity. The transformations must also impose **informative constraints that are not simply inherited from the same representation-generating process**. This becomes particularly important when AI systems increasingly produce the images, descriptions, simulations and evaluations from which other agents learn. An invariant may be highly stable *within a model-generated distribution* while remaining insufficiently tested against a world whose causally relevant dimensions the model has omitted.
+
+This suggests three analytically distinct accomplishments, none of which should automatically be substituted for the others:
+
+| Kind of invariance or objectivity | What remains stable | Limitation |
+|---|---|---|
+| **World-anchored** | A representation survives sufficiently independent observations, actions, interventions and changed conditions | Its independence and coverage must be demonstrated, not assumed |
+| **Intersubjective** | Agents or institutions recover and assess a common referent across viewpoints and conventions | Consensus can share a bias or omit relevant properties |
+| **Model-closed** | Predictions or representations remain stable across transformations or outputs generated within a modelling ecosystem | Agreement may reproduce the model's own constraints rather than independently test them |
+
+These are *epistemic distinctions*, not a claim that mathematical invariants, simulations or socially constituted facts are inherently invalid. A mathematical result may be rigorously established relative to specified axioms; institutional roles and rules may genuinely depend on public recognition. The problem arises when **model-relative consistency or socially instituted validity is treated as sufficient evidence for empirical claims about an incompletely represented world**.
+
+### Common generative ancestry can masquerade as independent triangulation
+
+Suppose an AI generates an image of an ideal university tutorial; another model describes it as intellectually engaging; a third evaluates it using indicators learned from a related corpus. Even if the systems differ in modality, architecture or apparent viewpoint, their judgements may be correlated through shared training distributions, labels, reward rules or synthetic provenance. Agreement does not amount to three independent tests of whether a student acquired durable understanding. The same problem arises when synthetic nightlife images converge on a stable visual grammar of *having fun* while leaving actual enjoyment, belonging or later satisfaction poorly measured.
+
+The stronger Trident-G constraint is therefore:
+
+**Transformational robustness is necessary for many kinds of portable reference, but is insufficient for empirical objectivity without appropriately independent grounding and opportunities to revise the representational categories themselves.**
+
+Independence is a property of the **causal and informational provenance of the evidence**, not merely the number of agents, generated examples, image formats or model outputs. Different observations can share a hidden selection process; conversely, well-designed simulations may reveal valid constraints when independently calibrated against the intended target.
+
+Two distinct failure modes must be separated.
+
+1. **Representational closure:** training and validation become increasingly dependent on the system's own generated or derivative material. Model-generated invariants may become more stable while rare, unrepresented or initially mistaken features receive insufficient corrective evidence. Shumailov et al. (2024) demonstrate model collapse under specified recursive synthetic-training conditions. Importantly, Kazdan et al. (2025) show that retaining and accumulating original data alongside synthetic data can prevent divergent test loss in their studied settings, whereas other sampling strategies still degrade performance. **Neither finding establishes a general social loss of objectivity**; both show that the data-generation and sampling regime matters.
+2. **Performative closure:** public or algorithmic models influence incentives and actions so that the *subsequently observed world* increasingly resembles their classifications. For example, tutorials may be organised to maximise visible engagement metrics, making those indicators more common even if comprehension or intellectual independence does not improve. The new observations are real, not merely synthetic; however, they are observations of an environment partly reshaped by the model. This is compatible with Perdomo et al.'s (2020) formal treatment of performative prediction. A performatively accurate forecast need not have captured the values that originally justified the classification.
+
+A third, related limitation is **representational omission**: improving internal fit cannot recover consequential dimensions that are absent from the observation, intervention or evaluative regime unless some new source of information exposes them. An omitted variable is not automatically unknowable or metaphysically external to all models; it is *outside the present model's effective measurement and revision loop*. This is a potentially correctable limitation, not proof that a self-contained synthetic world has replaced physical reality.
+
+### Linking model invariance to independent calibration
+
+For future operational models, let $I_{\mathrm{model}}$ denote a **task-defined robustness measure** under model-generated transformations, and $I_{\mathrm{world}}$ a corresponding measure under independently sourced observations, controlled interventions or held-out real-world transformations. The symbol $I$ here denotes a provisional **invariance measure**, **not** Shannon mutual information. The two measures should be defined with matched targets, suitable baselines, explicit provenance, and their own measurement uncertainty; they cannot be compared as raw scores without such calibration.
+
+A candidate divergence is:
+
+$$
+I_{\mathrm{model}}\uparrow
+\quad\text{while}\quad
+I_{\mathrm{world}}\downarrow.
+$$
+
+This **can occur**, but is not a general mathematical implication of using generative AI. Model-generated transformations may also improve $I_{\mathrm{world}}$ by expanding useful variation or revealing otherwise neglected constraints. The predicted risk is **miscalibration when a model's internally robust outputs are treated as independent confirmation**. This extends the §11.5 possibility that $C_P$ (public agreement) rises without an increase in $Q_W$ (independent predictive calibration), and it depends on the balance between effective world-feedback sensitivity $\lambda_W$ and public-model dependence $\lambda_P$. Those couplings should not be interpreted as directly observable, universal constants.
+
+For empirical reference and experiential authenticity alike, the account therefore calls for three safeguards:
+
+- **Transformational robustness:** a putative invariant survives relevant changes of context, viewpoint or representation.
+- **Independent grounding:** its predictive or explanatory success survives appropriately independent observations or interventions, with the source lineage recorded.
+- **Reflective revisability:** agents can contest and modify the model's ontology, success criteria and goals when the present model no longer captures consequential features of the world or the participants' purposes.
+
+The final condition connects directly to the G-loop distinction between **tuning within an existing model** and **reopening the problem representation**. An adaptive agent may need to revise *which dimensions count as evidence* rather than merely improve predictions along dimensions already selected by a platform or institution. In the experiential case (§11.6), this includes retaining meaningful opportunities to correct publicly validated pictures of enjoyment or learning against lived experience, endorsed values and independent educational or relational outcomes.
+
+### Discriminating experiments
+
+A minimal multi-agent simulation would cross **source provenance** (independent world samples versus recursively model-generated data), **audit regime** (none versus held-out observations and interventions), and **performative coupling** (models can versus cannot alter the environment that later supplies their evidence). All conditions should be matched for training budget, number of outputs and measured task complexity. Competing models should include ordinary statistical learning with correlated samples, explicit provenance-aware learning and performative-prediction baselines.
+
+Measure independently: (i) cross-transformation consistency, (ii) held-out world prediction and intervention recovery, (iii) sensitivity to rare or systematically omitted features, (iv) the rate of ontology or validation-rule revision when challenged, and (v) whether success merely tracks model-induced shifts in observed behaviour. A revealing result would be increasing model-generated consistency alongside poorer independently assessed prediction or declining sensitivity to omitted dimensions. A failure to find such divergence under the proposed manipulations—especially if independent data and transparent provenance eliminate it—would narrow or disconfirm the closure hypothesis.
+
+**Core proposition — the recursive synthesis and possible closure of objectivity:** The capacities that allow agents to learn publicly reusable invariants can also allow later modelling systems to regenerate and validate invariants inside increasingly dependent representational environments. The risk is not representation *as such*, but **mistaking model-conditioned agreement for world-constrained objectivity while losing the ability to detect and reopen consequential omissions**. Whether this happens is an empirical and institutional question, not an inevitable endpoint of intelligence or AI.
+
+## 11.8 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
 
 No changes to the **original meanings of** $x=F-F^\star$, $\xi=G-F^\star$ or the explore–exploit tilt $\delta$ are required. Instead, public accountability and symbolic feedback alter the **inputs** to the existing controller: task demands, uncertainty, goals, reward signals, model coherence, niche coupling and anticipated consequences of public scrutiny.
 
@@ -928,7 +989,7 @@ The public symbolic bank $P$ should not be equated with **psychometric Gc**: it 
 
 The developmental regimes also remain simultaneously available. An adult can execute automated skills, reason about the same referent across perspectives, and participate in recursively organised public systems *within the same cognitive episode*. The claim that this combination is particularly elaborated in human symbolic culture does not imply that nonhuman animals lack all perspectival or counterfactual capacities.
 
-## 11.8 What would make this a generative scientific account?
+## 11.9 What would make this a generative scientific account?
 
 A model should implement **at least two distinct transitions** and compare them with simpler alternatives.
 
@@ -983,6 +1044,8 @@ The strongest predictions must distinguish Trident-G from simpler accounts. The 
 | **P15. Recursive public-model dependence may weaken external validity** | Manipulate model-generated training content, external observations, audit/provenance and model-induced environmental feedback | Distinguish institutional facts from empirical assertions; measure agreement, independent calibration, revisability and performative distribution shift |
 | **P16. Experience documentation and anticipated public evaluation dissociate** | Compare no documentation, private photographs, anticipated sharing and AI/platform evaluation while measuring enjoyment, attention and engagement | Separate photographing effort from evaluative expectations; allow positive effects of documentation and moderator effects of audience closeness |
 | **P17. Representational legibility may diverge from experienced or independently demonstrated value** | Randomise public/algorithmic validation and measure subsequent activity choices, reflective goal endorsement, immediate and delayed experience ratings and objective learning where relevant | Compare ordinary reinforcement, self-presentation and social-belonging accounts; do not infer authenticity from visibility scores or photographs |
+| **P18. Model-generated consistency can dissociate from world-grounded invariance** | Factorially vary independent data, recursively generated samples and provenance-aware held-out interventions; compare robustness under model transformations with independently sourced prediction and error correction | Control effective sample size, data quality, generator ancestry, training budget and non-cusp statistical baselines; do not assume model collapse under every data regime |
+| **P19. Performatively stable classifications can obscure omitted outcomes** | Allow a classifier to reshape educational or experiential niches; compare its improving on-distribution fit with prospectively defined independent comprehension, wellbeing or autonomy outcomes | Separate real, model-induced behavioural change from synthetic-data recycling; include baseline incentives and independently audited downstream outcomes |
 
 ### What specifically counts as evidence for a Griffiths phase?
 
@@ -1230,6 +1293,18 @@ $$
 
 $E^{\mathrm{exp}}$ is *latent* first-person experience, while $\widehat E^{\mathrm{exp}}$ is its imperfect report or proxy; $R^{\mathrm{exp}}$ is an external representation; $\upsilon^{\mathrm{pub}}$ is public validation, not the cusp potential $V$; and $y^{\mathrm{ind}}$ denotes independently assessed outcomes. A discrepancy between validation and experiential or task outcomes should be characterised as a **multidimensional, temporally assessed divergence**, not silently reduced to a single 'authenticity' quantity. The maps $\Phi_i$, $\mathcal V_{\mathrm{pub}}$ and $\mathcal U_i$ are **candidate operators requiring specification and experiment**, not fitted functions.
 
+**A17. Model-conditioned versus independently grounded invariance**
+
+Let $I_{\mathrm{model}}$ be a preregistered, task-specific invariance/robustness score under transformations drawn from a model-dependent source, and $I_{\mathrm{world}}$ the corresponding score under appropriately independent held-out observations and interventions. These are **not Shannon mutual-information measures** and need separately operationalised denominators and uncertainty estimates.
+
+$$
+I_{\mathrm{model}}\uparrow
+\quad\not\Rightarrow\quad
+I_{\mathrm{world}}\uparrow.
+$$
+
+A **hypothesised divergence regime**, not a universal consequence of synthetic training, is $I_{\mathrm{model}}\uparrow$ alongside $I_{\mathrm{world}}\downarrow$. The relevant mechanistic comparison varies synthetic-source dependence, independent audit, provenance preservation, rare/omitted features and whether model policies causally change the future data-generating world. This is distinct from (i) the internal agreement metric $C_P$, (ii) independent calibration $Q_W$, and (iii) the older allostatic mismatch and cusp variables.
+
 Operational decisions should be implemented on an explicit sampling/update schedule or as a specified coupled stochastic system to avoid algebraic circularity. The symbolic operators above cannot be fitted without defining compatible state spaces and observations.
 
 ## Appendix B. Notation and crucial distinctions
@@ -1262,6 +1337,7 @@ Operational decisions should be implemented on an explicit sampling/update sched
 | $E_{i,t}^{\mathrm{exp}},\widehat E_{i,t}^{\mathrm{exp}}$ | Latent lived subjective experience, and its imperfect report or observable proxy |
 | $R_{i,t}^{\mathrm{exp}},\upsilon_{i,t}^{\mathrm{pub}}$ | External representation of an episode and its public/algorithmic validation; neither establishes experiential truth |
 | $y_{i,t}^{\mathrm{ind}}$ | Independently assessed outcome, where meaningful (e.g., comprehension, delayed transfer, voluntary return) |
+| $I_{\mathrm{model}},I_{\mathrm{world}}$ | Provisional invariance/robustness scores under model-dependent versus independently grounded transformations; **not** mutual information |
 
 **Reward prediction error $\Delta^R$ ≠ allostatic mismatch $\varepsilon=F-G$ ≠ entropy or mutual information.**  
 **Dopamine-dependent Go/NoGo learning ≠ direct biochemical implementation of strategic exploration.**  
@@ -1275,6 +1351,8 @@ Operational decisions should be implemented on an explicit sampling/update sched
 **Recursive-model failure modes ≠ evidence that society already inhabits a literal simulation.**
 **Publicly recognisable images of enjoyment or engagement ≠ directly observed enjoyment or demonstrated learning.**  
 **Social validation ≠ experiential authenticity; anticipated audience approval can improve or worsen experience depending on context.**
+**Agreement across AI modalities or agents ≠ independent validation if their evidence shares generative ancestry.**  
+**Model collapse ≠ performative prediction ≠ ontological omission; these must be tested separately.**
 
 ---
 
@@ -1313,6 +1391,7 @@ This table grades the **strength and directness of the evidence for the stated c
 | World-predictive and visually grounded models | V-JEPA 2 (2025); Ye et al. (2026); Xu et al. (2026 preprint) | **Constructive and contradictory benchmarks** | That simply combining image and language always improves reasoning or grounds truth |
 | Public-model recursion and performative feedback | Perdomo et al. (2020); Shumailov et al. (2024) | **Formal ML results under specified model/data conditions** | A demonstrated general collapse of human social reality or inevitable AI-driven epistemic closure |
 | Experiential documentation, public evaluation and perceived authenticity | Diehl et al. (2016); Barasch et al. (2018); Haimson et al. (2021); Barta & Andalibi (2024) | **Experimental evidence for context-dependent photo-taking effects; qualitative findings about authenticity/visibility** | A universal shift towards inauthenticity, direct AI access to subjective experience, or the proposed recursive divergence mechanism |
+| Model-generated invariance, synthetic-data recursion and performative feedback | Shumailov et al. (2024); Kazdan et al. (2025); Perdomo et al. (2020) | **Formal and empirical machine-learning findings under specified data-generation regimes** | That consensus implies external validity, that recursive AI always collapses, or that social reality is fully model-generated |
 
 **Methodological principle:** fMRI functional connectivity, behavioural Gf/Gc scores, EEG criticality proxies, neuronal spiking, neuromodulatory activity, and subjective effort are distinct measurements. Treating them as different observations of the *same* latent control system requires a model with independently validated links. A high neural–behavioural correlation is not in itself proof of a Griffiths phase or improved intelligence.
 
@@ -1386,6 +1465,14 @@ This table grades the **strength and directness of the evidence for the stated c
 
 **Evidence boundary:** The papers above supply independent examples of infant referential repair, perspective-sensitive processing, multimodal alignment, physical prediction, and recursive data/model effects. **None establishes the three-stage Trident-G developmental sequence**, a necessary human-specific evolutionary transition or the presence of literal synthetic reality. In particular, model collapse under repeated synthetic training and social loss of epistemic accountability are **different phenomena**.
 
+### Model-generated invariance, source dependence and performative validation (Section 11.7)
+
+- **Kazdan, J., Schaeffer, R., Dey, A., Gerstgrasser, M., Rafailov, R., Donoho, D. L., & Koyejo, S. (2025).** Collapse or thrive: Perils and promises of synthetic data in a self-generating world. *Proceedings of the 42nd International Conference on Machine Learning*, *Proceedings of Machine Learning Research, 267*, 29469–29494. https://proceedings.mlr.press/v267/kazdan25a.html
+- **Shumailov, I., Shumaylov, Z., Zhao, Y., et al. (2024).** AI models collapse when trained on recursively generated data. *Nature, 631*, 755–759. https://doi.org/10.1038/s41586-024-07566-y
+- **Perdomo, J., Zrnic, T., Mendler-Dünner, C., & Hardt, M. (2020).** Performative prediction. *Proceedings of Machine Learning Research, 119*, 7599–7609. https://proceedings.mlr.press/v119/perdomo20a.html
+
+**Evidence boundary:** These papers establish dataset- and modelling-dependent results about recursive training and prediction-induced changes to observed distributions. The proposed distinction between model-closed and world-grounded invariance, and its application to collective objectivity, education and subjective authenticity, **remains a Trident-G philosophical/computational hypothesis**. The synthetic-data and social-performativity mechanisms must not be conflated.
+
 ### Photography, social validation and the representation of experience (Section 11.6)
 
 - **Diehl, K., Zauberman, G., & Barasch, A. (2016).** How taking photos increases enjoyment of experiences. *Journal of Personality and Social Psychology, 111*(2), 119–140. https://doi.org/10.1037/pspa0000055
@@ -1429,6 +1516,8 @@ The source blocks above include both newly integrated and inherited references. 
 ## Theoretical conclusion
 
 Trident-G Version 0.4 is a proposal about **regulated coordination, emergent shared reference and recursive change**. Its most distinctive claim is that general intelligence may depend on a system's ability to preserve efficient specialised operations while selectively reorganising their relationships under novel demands. A viable homeostatic corridor constrains this process; hierarchical modularity makes parallel specialised and integrative cognition possible; extended Griffiths-phase-like dynamics may, under appropriate conditions, broaden the system's effective response repertoire across timescales. Gf synthesis generates and tests relational structures, and dual-pathway Gc consolidation can convert validated structures into both efficient skills and richer schemas. Through asymmetrical capacity interactions and reciprocal niche construction, these changes can modify the conditions of subsequent learning.
+
+The Stage III objectivity extension adds a further constraint: invariant representations must be evaluated for **source independence and unrepresented dimensions**, not merely agreement under model-generated transformations; recursive public modelling can be informative or epistemically self-sealing depending on independent audit and revisability.
 
 The extension to mediated subjectivity adds a complementary, non-neural research question: whether the ability to represent experiences publicly creates feedback that preserves, enriches or displaces the person's reflectively endorsed purposes. Its primary outcomes are experiential, interpersonal and practical, rather than an automatic change in psychometric $g$.
 
