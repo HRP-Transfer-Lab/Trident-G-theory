@@ -1468,8 +1468,7 @@ This table grades the **strength and directness of the evidence for the stated c
 ### Model-generated invariance, source dependence and performative validation (Section 11.7)
 
 - **Kazdan, J., Schaeffer, R., Dey, A., Gerstgrasser, M., Rafailov, R., Donoho, D. L., & Koyejo, S. (2025).** Collapse or thrive: Perils and promises of synthetic data in a self-generating world. *Proceedings of the 42nd International Conference on Machine Learning*, *Proceedings of Machine Learning Research, 267*, 29469–29494. https://proceedings.mlr.press/v267/kazdan25a.html
-- **Shumailov, I., Shumaylov, Z., Zhao, Y., et al. (2024).** AI models collapse when trained on recursively generated data. *Nature, 631*, 755–759. https://doi.org/10.1038/s41586-024-07566-y
-- **Perdomo, J., Zrnic, T., Mendler-Dünner, C., & Hardt, M. (2020).** Performative prediction. *Proceedings of Machine Learning Research, 119*, 7599–7609. https://proceedings.mlr.press/v119/perdomo20a.html
+Shumailov et al. (2024) and Perdomo et al. (2020) are listed above under **Recursive public models and performative effects**; their different mechanisms are compared here rather than conflated.
 
 **Evidence boundary:** These papers establish dataset- and modelling-dependent results about recursive training and prediction-induced changes to observed distributions. The proposed distinction between model-closed and world-grounded invariance, and its application to collective objectivity, education and subjective authenticity, **remains a Trident-G philosophical/computational hypothesis**. The synthetic-data and social-performativity mechanisms must not be conflated.
 
