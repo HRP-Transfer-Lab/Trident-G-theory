@@ -6,7 +6,7 @@
 
 > **Core proposition.** General adaptive intelligence arises from the regulation of a heterogeneous, hierarchically organised agent–environment system. Relatively stable Gc representations and skills operate concurrently with flexible Gf synthesis. Homeostatic control determines when skilled routines persist, when alternatives are recruited, and when established representations are revised. Repeated joint action may enable the extraction and consolidation of *cross-perspectival referential invariants*, supporting explicitly assessable shared intentionality_R. Public symbolic models then become new elements of the cognitive niche, improving or distorting later reasoning according to their connection to independent evidence, human goals and corrective feedback.
 
-This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence.
+This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence. The updated Stage III extension also considers how socially or algorithmically validated images and narratives of subjective experience may reshape later choices, creating possible alignment or divergence between lived purposes and their publicly recognised forms.
 
 ---
 
@@ -981,6 +981,8 @@ The strongest predictions must distinguish Trident-G from simpler accounts. The 
 | **P13. Cross-modal triangulation requires world grounding** | Compare vision-only, language-only, paired, perspective-transformed and action-conditioned representations on held-out interventions | Test whether alignment alone explains performance; include mismatched but mutually consistent modalities and CrossMath-like controls |
 | **P14. Normative accountability is not social approval** | Manipulate independent evidence-based challenge versus reputation/approval; measure justification, correction, error calibration and delayed transfer | Separate audience presence, incentives, task difficulty, WM interference and strategic conformity |
 | **P15. Recursive public-model dependence may weaken external validity** | Manipulate model-generated training content, external observations, audit/provenance and model-induced environmental feedback | Distinguish institutional facts from empirical assertions; measure agreement, independent calibration, revisability and performative distribution shift |
+| **P16. Experience documentation and anticipated public evaluation dissociate** | Compare no documentation, private photographs, anticipated sharing and AI/platform evaluation while measuring enjoyment, attention and engagement | Separate photographing effort from evaluative expectations; allow positive effects of documentation and moderator effects of audience closeness |
+| **P17. Representational legibility may diverge from experienced or independently demonstrated value** | Randomise public/algorithmic validation and measure subsequent activity choices, reflective goal endorsement, immediate and delayed experience ratings and objective learning where relevant | Compare ordinary reinforcement, self-presentation and social-belonging accounts; do not infer authenticity from visibility scores or photographs |
 
 ### What specifically counts as evidence for a Griffiths phase?
 
@@ -1214,6 +1216,20 @@ $$
 $\lambda_W$ and $\lambda_P$ characterise independent world-feedback sensitivity and public-model dependence. Public agreement $C_P$, independent external calibration $Q_W$, and revisability $R_N$ must be **separately measured**. A symbolic model may constitute *institutional facts* while empirical claims about an independently observable world still require evidence. Synthetic capture is a candidate dynamical regime, not a necessary developmental endpoint.
 
 
+**A16. Experiential representation, social validation and the subsequent choice model**
+
+$$
+\begin{aligned}
+R_{i,t}^{\mathrm{exp}}&=\Phi_i(E_{i,t}^{\mathrm{exp}},s_t,a_{i,t},P_t),\\
+\upsilon_{i,t}^{\mathrm{pub}}&=\mathcal V_{\mathrm{pub}}
+(R_{i,t}^{\mathrm{exp}},P_t,\mathrm{audience}_t,\mathrm{algorithm}_t),\\
+M_{i,t+1}&=\mathcal U_i(M_{i,t},\widehat E_{i,t}^{\mathrm{exp}},
+\upsilon_{i,t}^{\mathrm{pub}},P_t,y_{i,t}^{\mathrm{ind}}).
+\end{aligned}
+$$
+
+$E^{\mathrm{exp}}$ is *latent* first-person experience, while $\widehat E^{\mathrm{exp}}$ is its imperfect report or proxy; $R^{\mathrm{exp}}$ is an external representation; $\upsilon^{\mathrm{pub}}$ is public validation, not the cusp potential $V$; and $y^{\mathrm{ind}}$ denotes independently assessed outcomes. A discrepancy between validation and experiential or task outcomes should be characterised as a **multidimensional, temporally assessed divergence**, not silently reduced to a single 'authenticity' quantity. The maps $\Phi_i$, $\mathcal V_{\mathrm{pub}}$ and $\mathcal U_i$ are **candidate operators requiring specification and experiment**, not fitted functions.
+
 Operational decisions should be implemented on an explicit sampling/update schedule or as a specified coupled stochastic system to avoid algebraic circularity. The symbolic operators above cannot be fitted without defining compatible state spaces and observations.
 
 ## Appendix B. Notation and crucial distinctions
@@ -1243,6 +1259,9 @@ Operational decisions should be implemented on an explicit sampling/update sched
 | $P_t,A_t^{AI}$ | Public symbolic store (external niche model) and AI-generated contribution |
 | $\lambda_W,\lambda_P$ | Independent world feedback and recursive public-model dependence |
 | $C_P,Q_W,R_N$ | Public coherence/agreement, external calibration and normative revisability |
+| $E_{i,t}^{\mathrm{exp}},\widehat E_{i,t}^{\mathrm{exp}}$ | Latent lived subjective experience, and its imperfect report or observable proxy |
+| $R_{i,t}^{\mathrm{exp}},\upsilon_{i,t}^{\mathrm{pub}}$ | External representation of an episode and its public/algorithmic validation; neither establishes experiential truth |
+| $y_{i,t}^{\mathrm{ind}}$ | Independently assessed outcome, where meaningful (e.g., comprehension, delayed transfer, voluntary return) |
 
 **Reward prediction error $\Delta^R$ ≠ allostatic mismatch $\varepsilon=F-G$ ≠ entropy or mutual information.**  
 **Dopamine-dependent Go/NoGo learning ≠ direct biochemical implementation of strategic exploration.**  
@@ -1254,6 +1273,8 @@ Operational decisions should be implemented on an explicit sampling/update sched
 **Cross-modal agreement ≠ independent referential grounding; shared goal success ≠ emergent Shared Intentionality_R.**  
 **Publicly accepted claims ≠ epistemically justified claims; institutional facts ≠ arbitrary imagined physical events.**  
 **Recursive-model failure modes ≠ evidence that society already inhabits a literal simulation.**
+**Publicly recognisable images of enjoyment or engagement ≠ directly observed enjoyment or demonstrated learning.**  
+**Social validation ≠ experiential authenticity; anticipated audience approval can improve or worsen experience depending on context.**
 
 ---
 
@@ -1291,6 +1312,7 @@ This table grades the **strength and directness of the evidence for the stated c
 | Cross-modal and spatial-perspective AI alignment | Neo et al. (2025); Ray et al. (2026); Hu et al. (2026); Leonard & Murray (2026 preprint) | **Task-specific machine-learning improvements** | Referential objectivity, joint intentionality_R or human-like normative understanding |
 | World-predictive and visually grounded models | V-JEPA 2 (2025); Ye et al. (2026); Xu et al. (2026 preprint) | **Constructive and contradictory benchmarks** | That simply combining image and language always improves reasoning or grounds truth |
 | Public-model recursion and performative feedback | Perdomo et al. (2020); Shumailov et al. (2024) | **Formal ML results under specified model/data conditions** | A demonstrated general collapse of human social reality or inevitable AI-driven epistemic closure |
+| Experiential documentation, public evaluation and perceived authenticity | Diehl et al. (2016); Barasch et al. (2018); Haimson et al. (2021); Barta & Andalibi (2024) | **Experimental evidence for context-dependent photo-taking effects; qualitative findings about authenticity/visibility** | A universal shift towards inauthenticity, direct AI access to subjective experience, or the proposed recursive divergence mechanism |
 
 **Methodological principle:** fMRI functional connectivity, behavioural Gf/Gc scores, EEG criticality proxies, neuronal spiking, neuromodulatory activity, and subjective effort are distinct measurements. Treating them as different observations of the *same* latent control system requires a model with independently validated links. A high neural–behavioural correlation is not in itself proof of a Griffiths phase or improved intelligence.
 
@@ -1364,6 +1386,15 @@ This table grades the **strength and directness of the evidence for the stated c
 
 **Evidence boundary:** The papers above supply independent examples of infant referential repair, perspective-sensitive processing, multimodal alignment, physical prediction, and recursive data/model effects. **None establishes the three-stage Trident-G developmental sequence**, a necessary human-specific evolutionary transition or the presence of literal synthetic reality. In particular, model collapse under repeated synthetic training and social loss of epistemic accountability are **different phenomena**.
 
+### Photography, social validation and the representation of experience (Section 11.6)
+
+- **Diehl, K., Zauberman, G., & Barasch, A. (2016).** How taking photos increases enjoyment of experiences. *Journal of Personality and Social Psychology, 111*(2), 119–140. https://doi.org/10.1037/pspa0000055
+- **Barasch, A., Zauberman, G., & Diehl, K. (2018).** How the intention to share can undermine enjoyment: Photo-taking goals and evaluation of experiences. *Journal of Consumer Research, 44*(6), 1220–1237. https://doi.org/10.1093/jcr/ucx112
+- **Haimson, O. L., Liu, T., Zhang, B. Z., & Corvite, S. (2021).** The online authenticity paradox: What being 'authentic' on social media means, and barriers to achieving it. *Proceedings of the ACM on Human-Computer Interaction, 5*(CSCW2), Article 423. https://doi.org/10.1145/3479567
+- **Barta, K., & Andalibi, N. (2024).** Theorizing self visibility on social media: A visibility objects lens. *ACM Transactions on Computer-Human Interaction, 31*(3), Article 31. https://doi.org/10.1145/3660337
+
+**Evidence boundary:** Photo-taking studies demonstrate conditional effects of representation goals on attention or enjoyment; interviews illuminate contested authenticity and algorithmic visibility. **None directly establishes the entire proposed experiential–representational feedback loop**, a neural substrate for it or a universal decline of authenticity. Social approval, first-person experience and independently measured performance must remain distinct.
+
 ### Dopamine, prediction error and the tilt mechanism (added research basis)
 
 - Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. *Science, 275*, 1593–1599. https://doi.org/10.1126/science.275.5306.1593
@@ -1398,5 +1429,7 @@ The source blocks above include both newly integrated and inherited references. 
 ## Theoretical conclusion
 
 Trident-G Version 0.4 is a proposal about **regulated coordination, emergent shared reference and recursive change**. Its most distinctive claim is that general intelligence may depend on a system's ability to preserve efficient specialised operations while selectively reorganising their relationships under novel demands. A viable homeostatic corridor constrains this process; hierarchical modularity makes parallel specialised and integrative cognition possible; extended Griffiths-phase-like dynamics may, under appropriate conditions, broaden the system's effective response repertoire across timescales. Gf synthesis generates and tests relational structures, and dual-pathway Gc consolidation can convert validated structures into both efficient skills and richer schemas. Through asymmetrical capacity interactions and reciprocal niche construction, these changes can modify the conditions of subsequent learning.
+
+The extension to mediated subjectivity adds a complementary, non-neural research question: whether the ability to represent experiences publicly creates feedback that preserves, enriches or displaces the person's reflectively endorsed purposes. Its primary outcomes are experiential, interpersonal and practical, rather than an automatic change in psychometric $g$.
 
 **The next decisive step is computational and empirical.** The existing hierarchical, cusp and Griffiths-phase hypotheses should be separately ablated; the new developmental extension additionally requires multi-agent experiments determining whether communicative repair and cross-perspective invariants produce reusable object reference, and whether recursively generated public models preserve independent calibration and revisability. Stronger theory should follow demonstrated discriminating predictions, not additional untested modules.
