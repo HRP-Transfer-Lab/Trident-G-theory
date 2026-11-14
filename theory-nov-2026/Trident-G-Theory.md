@@ -1091,7 +1091,76 @@ Relevant outcomes include genuine changes in endorsed priorities, engineering pe
 
 **Core proposition — engineering objectivity with potentially asymmetric adaptive authority:** The AI-mediated world may become more *objectively engineered* in successfully tested domains while some institutions increasingly shape which goals, measures and possibilities govern social participation. Under identifiable conditions, organisational incentives and AI benchmarks could also reshape the purposes of those designing the systems, producing an institutionally assimilative form of human–AI enhancement. This is **neither necessary nor established**: its counterpoint is human–AI integration that expands both engineering competence and reflective authority over the ends it serves.
 
-## 11.9 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
+## 11.9 Three adaptive positions in AI-engineered society: experience, performance and objective-setting power
+
+Sections 11.6–11.8 distinguish public models of subjective experience, model-conditioned objectivity and the authority to engineer socio-technical niches. Together they motivate a further **conditional stratification hypothesis**: people and institutions may differ in whether they mainly (i) consume engineered experiences, (ii) achieve materially rewarded performance within established systems, or (iii) help determine the **rules, objectives and environments** by which such performance and experiences are organised. These are **relationships to particular systems, not fixed social classes**, moral rankings or established proportions of the population. Individuals can occupy different positions in different domains, and no evidence here establishes that one is numerically the majority.
+
+### Three ideal-typical positions
+
+| Feature | **I. Experiential consumers — subjectively compensated adaptation** | **II. Performance achievers — objectively rewarded adaptation** | **III. System architects — objective-setting and niche construction** |
+|---|---|---|---|
+| **Relation to engineered niches** | Experience and select available representations, rewards and activities | Learn and optimise competence under institutionally recognised criteria | Design or revise objectives, metrics, infrastructures, rules and available possibilities |
+| **Characteristic returns** | Enjoyment, meaning, recognition, virtual/surrogate achievement or companionship | Income, professional or sporting achievement, recognised expertise and material opportunity | Institutional authority, investment returns, strategic influence and capacity to restructure opportunities |
+| **G-loop emphasis** | Regulate lived experience, attention and meaning | Improve performance through practice, feedback and AI augmentation | Reframe the problem, revise performance standards and redesign the environment |
+| **Potential mismatch** | Felt efficacy or satisfaction improves without material opportunity or decision rights | Real skill improves while higher-order goals remain externally specified | Strong engineering agency coexists with dependence on higher institutional incentives |
+
+**Position I — compensatory experiential optimisation.** In a hypothetical AI-rich society, personalised music, entertainment, VR, AI companions, expressive media and even wellbeing interventions may deliver increasingly compelling **genuine subjective benefits** to people who have relatively limited access to high-return work, material security or institutional influence. Such experiences are not intrinsically fantasy, false consciousness or inauthentic. The concerning *conditional* possibility is that pleasure, perceived achievement or meaning might increasingly **compensate for rather than remedy** restricted practical opportunities. Whether compensation reduces motivation or capacity to change conditions is an empirical question, not a property of music, positive psychology, gaming or VR. The alternative possibility is that these resources improve wellbeing and help people develop social ties, skills and new opportunities. Without direct evidence, claims about a pacified mass population are unwarranted.
+
+**Position II — objectively rewarded performance.** Some workers, athletes, engineers, scientists and professionals achieve reliably measurable success in roles that institutions reward. Advanced training and AI assistance can strengthen expertise, speed, prediction and decision support. Their achievements may be genuinely **world-validated**, but the associated rewards depend on socially selected criteria, scarce opportunities and institutional arrangements. A highly effective athlete does not necessarily choose the sport's governing rules; a high-performing employee may not control the company's ultimate objectives. The distinctive achievement is therefore **adaptive competence within a niche**, not automatically authority over the niche. In some competitive domains, rewards may be strongly unequal or Pareto-like, but neither a universal 80:20 law nor a fixed upper-performing class follows.
+
+**Position III — architectonic adaptation.** Actors who can influence AI models, compute, data, capital, organisational structures or policy may have disproportionate power to specify **what is measured, optimised, permitted or recognised as success**. Their distinctive advantage is authority to shape the environment within which others adapt. This is neither proof that such actors have more general intelligence nor evidence of a unified AI–corporate–state designer. Their authority may be fragmented and contested by governments, competitors, workers, communities and users. Moreover, designers of one system often remain participants in a higher-order institutional system (§11.8): engineering power need not entail freedom to question the purposes motivating it.
+
+### Four dimensions that should remain separate
+
+A useful study would independently assess **subjective satisfaction or felt efficacy**, **effective command over valued material or relational outcomes**, **performance against domain-specific benchmarks**, and **consequential authority to revise governing goals or rules**. A person could report substantial meaning yet possess limited material security or system-design rights; another could demonstrate exceptional performance while having little influence over the criteria for success. Neither configuration diagnoses a person's intelligence or authenticity.
+
+The substantive hypothesis is **unequal distribution of adaptive authority despite widespread access to compelling experiences or AI-assisted performance**. In this account, *objectivity is not a property owned by elites*. Participants retain first-person, practical and potentially highly accurate situated knowledge; what may be concentrated is the **institutional capacity to validate models and enforce the resulting classifications**. Asymmetric authority is not equivalent to different degrees of objectivity in people's minds.
+
+### Three possible transhumanist trajectories
+
+Technological human–AI integration might extend all three positions:
+
+- **Experiential transhumanism** augments immersive, social, emotional or meaningful experiences through personalised AI, virtual environments and potentially neurotechnology.
+- **Performance transhumanism** augments expertise and recognised task achievement through AI coaches, reasoning systems, robotics or possible brain–computer interfaces.
+- **Architectonic transhumanism** augments capacities to model, manage and reconstruct environments, including the institutions and technical standards shaping others' options.
+
+These are **possible ideal types**, not settled futures, fixed identities or technologies necessarily requiring biological integration. Their forms can overlap, and each could enhance or undermine reflective autonomy.
+
+Across all three positions the §11.8 hypothesis of **endogenous objective convergence** remains relevant. If engineered institutions repeatedly reward performance, security, stability, scalability and profitability, individuals may acquire goals and identities oriented towards those measures: consuming system-defined experiences, excelling under its rankings or designing the infrastructure that generates them. Yet adopting an objective because it is rewarded is not the same as **reflectively endorsing it**. Designers themselves may internalise institutional purposes while retaining extraordinary technical control over subordinate systems. Open models, plural institutions, meaningful refusal, alternative sources of meaning and participatory governance are important possible countervailing processes.
+
+### Cognitive capital and possible Pareto-like concentration
+
+Economic capital, compute, data, specialised human expertise, organisational access and legal rights to intervene can potentially reinforce one another. A large platform may use resources to improve its models, attract new data, expand its influence and finance further development. This motivates **epistemic engineering capital** as a proposed *multi-component* profile of the capacity to construct, test and impose authoritative models. But no single index of 'objectivity' has been validated, and access to compute must be distinguished from control over **institutional goals**.
+
+If a defensible scalar measure of these resources is eventually constructed, one might test an upper-tail model
+
+$$
+\Pr(K^{EE}>k)\propto k^{-\alpha},\qquad \alpha>0,
+$$
+
+but only after defining the measured population, variable, tail threshold, alternatives and uncertainty. A precise 80:20 split is not a theoretical axiom. A lognormal or mixed distribution, diffusion of open-model resources, and shifting patterns of institutional authority are genuine rival possibilities. The concentration of **rights to redesign objectives** might remain high even if access to AI tools becomes widespread.
+
+### Operational proposal and disconfirmation
+
+For a *specific social or organisational study*, distinguish $H_i^{\mathrm{subj}}$ (reported satisfaction or perceived efficacy), $E_i^{\mathrm{eff}}$ (effective control over independently defined valued outcomes), $P_i^{\mathrm{perf}}$ (domain-specific competence) and $A_i^{\mathrm{rev}}$ (consequential authority to inspect, contest and change goals, metrics or niche structures). These are **different dimensions**, not one latent ranking of people. In particular, $P_i^{\mathrm{perf}}$ is not the public symbolic state $P_t$, and $E_i^{\mathrm{eff}}$ is not the latent experiential variable $E_{i,t}^{\mathrm{exp}}$.
+
+A potentially important pattern is
+
+$$
+H_i^{\mathrm{subj}}\ \text{high}
+\quad\text{while}\quad
+E_i^{\mathrm{eff}},A_i^{\mathrm{rev}}\ \text{low}.
+$$
+
+Such a pattern alone does **not** demonstrate manipulation, impaired wellbeing or reduced freedom. The stronger compensatory hypothesis requires a **causal test** of whether an experiential intervention changes subsequent choice or perceived reward while leaving, improving or worsening objective opportunities and capacity to revise goals.
+
+Three discriminating programmes follow. **First**, vary access to immersive or AI-personalised experiences independently of real practical opportunities and measure wellbeing, initiative, material outcomes and later action; treat empowerment as a viable alternative to displacement. **Second**, compare equally competent people with different rights to modify performance rules, rewards and objectives in sport, work and education, measuring actual—not merely nominal—control. **Third**, estimate distributions and changes over time in compute/data access, expertise, material returns and objective-setting authority, comparing Pareto-like with alternative models and examining cooperative or publicly governed counterexamples.
+
+The hypothesis would be constrained if immersive technology consistently expands practical agency, if high performance tends to confer meaningful governance rights under the relevant institutions, or if objective-setting power becomes widely diffused. None of these outcomes is excluded by Trident-G.
+
+**Core proposition — stratification of experience, performance and adaptive authority:** An AI-mediated society could distribute psychologically satisfying experiences broadly, reward a narrower set of highly effective performers and concentrate the authority to define what performance and future environments should be. Human–AI integration could increase capabilities in all three positions while allowing different degrees of control over the *ends* those capabilities serve. The most consequential inequality would concern not whose mind is more objective, but **who can realise valued purposes and who can reconsider the rules defining those purposes**. The proposition remains a falsifiable socio-cognitive extension of recursive symbolic niche construction, not a proven three-tier social order.
+
+## 11.10 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
 
 No changes to the **original meanings of** $x=F-F^\star$, $\xi=G-F^\star$ or the explore–exploit tilt $\delta$ are required. Instead, public accountability and symbolic feedback alter the **inputs** to the existing controller: task demands, uncertainty, goals, reward signals, model coherence, niche coupling and anticipated consequences of public scrutiny.
 
@@ -1107,7 +1176,7 @@ The public symbolic bank $P$ should not be equated with **psychometric Gc**: it 
 
 The developmental regimes also remain simultaneously available. An adult can execute automated skills, reason about the same referent across perspectives, and participate in recursively organised public systems *within the same cognitive episode*. The claim that this combination is particularly elaborated in human symbolic culture does not imply that nonhuman animals lack all perspectival or counterfactual capacities.
 
-## 11.10 What would make this a generative scientific account?
+## 11.11 What would make this a generative scientific account?
 
 A model should implement **at least two distinct transitions** and compare them with simpler alternatives.
 
