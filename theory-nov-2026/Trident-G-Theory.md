@@ -973,7 +973,125 @@ Measure independently: (i) cross-transformation consistency, (ii) held-out world
 
 **Core proposition — the recursive synthesis and possible closure of objectivity:** The capacities that allow agents to learn publicly reusable invariants can also allow later modelling systems to regenerate and validate invariants inside increasingly dependent representational environments. The risk is not representation *as such*, but **mistaking model-conditioned agreement for world-constrained objectivity while losing the ability to detect and reopen consequential omissions**. Whether this happens is an empirical and institutional question, not an inevitable endpoint of intelligence or AI.
 
-## 11.8 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
+## 11.8 Engineering objectivity, objective convergence and a possible institutional transhumanism
+
+**World-grounded objectivity and representational closure may increase together.** Engineers developing robotics, autonomous systems and AI controllers routinely assess models by their ability to produce reliable effects under physical constraints, perturbation and out-of-distribution tests. A drone must remain controllable; a robot must manipulate an actual object; an AI model must meet specified evaluation criteria. The *sim-to-real gap* is instructive: simulation success cannot replace intervention in an independently constraining physical environment. Tobin et al. (2017) demonstrated one method for transferring visual models from simulation to a physical robotic task. These are genuine achievements of **engineering objectivity**; their success is not made true by the designers' agreement.
+
+However, engineering objectivity is **relative to a specified function and measurement regime**. It can establish exceptional control over what the system is designed to measure without establishing that the objectives chosen for measurement are comprehensive, worth pursuing or fair. The AI–corporate–state setting is therefore interesting not simply because models may generate mutually confirming representations (§11.7), but because **models can become instruments for constructing the real institutional and social environments from which subsequent observations are taken**.
+
+### Engineering efficacy and the authority to select ends
+
+Three dimensions must be distinguished:
+
+| Dimension | Question | Example of a relevant check | What it cannot establish alone |
+|---|---|---|---|
+| **Epistemic objectivity** | Is the model reliable about the causal structure relevant to its task? | Novel observations, interventions and independent validation | That important dimensions have not been omitted |
+| **Engineering objectivity** | Can the system reliably achieve an operational objective? | Safety, recovery, throughput, performance and scalability benchmarks | Whether the specified objective is normatively justified |
+| **Normative and institutional legitimacy** | Who selects the objectives, whose purposes count, and who can revise them? | Genuine participation, independent human outcomes, rights and meaningful review | A universally valid metric of human flourishing |
+
+For physical or robotic systems, robust engineering tests often supply unusually strong world-anchored feedback. Yet security, stability, efficiency, predictive accuracy, competitive performance and scaling capacity are **instrumental objectives** whose desirability depends on context and higher-order aims. Designing an exceptionally capable system to achieve a criterion does not show that the criterion exhausts what matters. This connects to the AI alignment literature's distinction between technical instruction-following and the normative issue of whose interests and values ought to be represented (Gabriel, 2020; van de Poel, 2020; Russell, 2019).
+
+An organisation may use predictive systems not merely to describe its workers, customers or students, but to **structure their options, incentives and classifications**. Algorithmic management research documents mechanisms including restricting, recommending, recording, rating, replacing and rewarding work (Kellogg, Valentine, & Christin, 2020). These mechanisms can improve coordination and safety as well as constrain agency. Where they shape subsequent actions, the observations used to validate a predictive model partly reflect the model's **own effects on the world**—a performative feedback mechanism (§11.5; Perdomo et al., 2020).
+
+Thus, the metaphorical *Matrix* need not be an illusory world. It could be an **objectively effective engineered niche** whose real regularities increasingly reflect systems that have modified the conditions of participation. The metaphor does **not** imply a literal computer simulation or a unified, secretly coordinated AI–corporate–state project. Different companies, public bodies, communities and individuals have competing goals; the extent of actual integration is an empirical question.
+
+### Asymmetric G-loops: intelligence over a niche versus intelligence within it
+
+An important Trident-G distinction is between agents who can revise the **model and structure of their niche** and agents who are mainly expected to optimise their behaviour **within** its current possibilities.
+
+**Design-level G-loop:** specify operational goals → construct and simulate → intervene → measure independently → revise policies, classifications and environmental constraints.
+
+**Participant-level G-loop:** encounter options and recommendations → adapt behaviour and skills → respond to rewards or limitations → generate further data → encounter a reconfigured environment.
+
+Both loops can support substantial intelligence. The key asymmetry is not necessarily cognitive ability but **effective authority over goals, models, available actions and feedback channels**. A worker may become more effective using an AI workplace system while having little influence over its metrics. Conversely, AI can give workers greater power to understand, dispute and redesign those metrics. Designers themselves can also be embedded in higher-order constraints: engineering teams answer to organisational priorities, managers to organisational and economic incentives, and public actors to political, legal, strategic and democratic processes. There need not be an ultimate designer with complete knowledge or control.
+
+### Objective convergence: when engineering priorities become personal ends
+
+The stronger, distinct hypothesis is that **AI performance objectives, institutional incentives and the goals of human designers may co-evolve**. This is not merely the familiar problem of aligning a machine to fixed human preferences. Repeated experience with an effective, rewarded engineering system could also influence which preferences its designers come to endorse:
+
+**Institutional goals → benchmark design and AI optimisation → measured success → organisational reward and professional prestige → learned judgements about desirable goals → revised benchmarks and institutions.**
+
+Performance, security, system stability, growth, throughput and scalability may become particularly influential where measurable improvement brings resources, status or perceived strategic necessity. Under particular conditions, engineers, executives and institutions may increasingly understand their own success through the objectives that their AI systems optimise. This would be an **endogenous convergence of objectives**: not simply the model adapting to people, but some people adapting their goal structures to the model-centred system.
+
+Several mechanisms need separating rather than assuming a single causal story:
+
+1. **Selection:** people who already favour these priorities enter, remain in or advance within particular organisations.
+2. **Incentive adaptation:** people strategically pursue metrics because doing so produces rewards, without necessarily endorsing those metrics as their own values.
+3. **Cognitive internalisation:** repeated successful action, professional identification and social reinforcement lead some individuals to *reflectively endorse* previously instrumental objectives.
+4. **Institutional performativity:** benchmark-driven decisions restructure the environment, making the modelled objectives increasingly salient and seemingly necessary.
+5. **Feedback and resistance:** independent consequences, ethical reflection, professional duties, participant rights and alternative institutions can sustain or restore plural purposes.
+
+These processes predict different longitudinal patterns. **Behavioural compliance is not equivalent to internalised belief**, and neither implies an inevitable convergence across all designers. Nor should AI 'objective functions' be anthropomorphised: deployed models may optimise losses, rewards or evaluation rubrics, but this does not establish that they possess unified conscious purposes. The proposed *merger* concerns **human, institutional and technical goal-setting processes**, not a literal fusion of intentional minds.
+
+### Transhumanist futures: enhanced autonomy or institutional assimilation
+
+This trajectory intersects with **transhumanism** where technological integration augments human cognitive capabilities, extends agency or reshapes the human condition. Yet *transhumanism itself is not synonymous with technocratic control*. Bostrom (2005), for example, emphasises human enhancement alongside individual choice, wide access and the freedom to pursue differing forms of development.
+
+We therefore distinguish two **possible ideal-typical trajectories**, which can coexist within the same institution:
+
+| **Autonomy-enhancing human–AI integration** | **Institutionally assimilative transhumanist trajectory** |
+|---|---|
+| AI expands independent judgement, capability and the capacity to revise purposes | Human effectiveness increasingly consists of achieving system-defined metrics |
+| Technical benchmarks remain contestable instruments | Benchmarks increasingly acquire the force of higher-order goals |
+| People can choose, refuse, modify or exit enhancement pathways | Participation, rewards or dependencies make alternatives hard to pursue |
+| Independent experience and plural values can revise the system | The system's success validates an increasingly narrow conception of success |
+| More engineering competence supports wider human options | More engineering competence can coexist with diminished authority over objectives |
+
+**Institutionally assimilative transhumanism** is introduced here as a *conditional analytic hypothesis*, not an established movement, a claim about all transhumanists or a demonstrated description of current institutions. Technological enhancement may be voluntarily chosen and improve agency; economic and institutional pressures may also constrain choices even when formal consent exists.
+
+A particularly interesting possibility is that **the designers themselves are subject to objective-system assimilation**. They may possess highly sophisticated world-grounded models and strong abilities to alter engineered environments, yet have less practical scope to reconsider the overarching purposes governing their optimisation work. They are then simultaneously **designers of one layer of the niche and participants in a larger layer**. The resulting asymmetry concerns the distribution of *adaptive authority*: who can improve performance within a model, who can choose which model is deployed, and who can meaningfully reconstruct its underlying goals.
+
+### Provisional coupled-objective model
+
+Let $\theta_t$ represent parameters of an engineered policy and environment, $m_k$ operational performance measures (e.g. reliability, security or scaling), and $b_{k,t}$ their institutional weights. A **deployer-level** objective could be represented schematically as
+
+$$
+\mathcal J_t(\theta)
+=\sum_{k=1}^{K}b_{k,t}\,
+\mathbb E_{s\sim D_t(\theta)}
+\left[m_k(s,\pi_\theta(s))\right].
+$$
+
+$D_t(\theta)$ allows the engineered policy to influence the data-generating environment. $\mathcal J_t$ is a modelling scaffold, **not a claim that contemporary generative AI or all institutions share a single scalar objective**.
+
+Let $\mathbf g_{i,t}^{D}$ represent a designer's independently elicited, reflectively endorsed goals, $\mathbf g_t^{O}$ organisational priorities, $\mathbf y_t^{\mathrm{ind}}$ independently measured human consequences, and $\mathbf e_{i,t}^{\mathrm{reflection}}$ access to opportunities for reconsideration. A possible *slow, conditional* feedback system is
+
+$$
+\begin{aligned}
+\mathbf g_{i,t+1}^{D}
+&=\mathcal U_D\!\left(
+\mathbf g_{i,t}^{D},\mathbf b_t,\mathbf g_t^{O},
+\mathbf y_t^{\mathrm{ind}},\mathbf e_{i,t}^{\mathrm{reflection}}
+\right),\\
+\mathbf b_{t+1}
+&=\mathcal U_B\!\left(
+\mathbf b_t,\mathbf g_{t+1}^{O},
+\{\mathbf g_{i,t+1}^{D}\}_i,\mathbf y_t^{\mathrm{ind}}
+\right).
+\end{aligned}
+$$
+
+These operators are **not fitted learning rules**. They represent the hypothesis that both technical benchmarks and the personal aims of designers may change through participation in the same system. An adequate model needs to distinguish *selection*, *temporary compliance* and *genuine change in endorsed purposes* using longitudinal or experimentally manipulated evidence.
+
+Let $Q_{\mathrm{eng}}$ measure success relative to the system's engineering benchmarks and $Q_{\mathrm{purpose}}$ evaluate congruence with independently elicited, revisable human purposes and appropriate obligations. The critical non-implication is
+
+$$
+Q_{\mathrm{eng}}\uparrow
+\quad\not\Rightarrow\quad
+Q_{\mathrm{purpose}}\uparrow.
+$$
+
+Both may improve together. The proposed failure regime is **increasing engineering efficacy alongside reduced effective goal revisability or worsening independently assessed human outcomes**. This should not be inferred from performance alone or substituted for the theory's existing cusp parameters, $C_P$, $Q_W$ or $R_N$.
+
+### Discriminating tests and limits
+
+A longitudinal organisational study could measure engineers', executives' and participants' stated objectives before and after exposure to different AI benchmarking regimes, with controls for prior values and selective recruitment. A simulation could compare agents who may only optimise **within** assigned goals with agents allowed to **change** the metrics, goals and environment. Another test could vary whether human-AI systems use fixed performance-only objectives or transparent, participatory, independently audited procedures, holding resources and task complexity constant.
+
+Relevant outcomes include genuine changes in endorsed priorities, engineering performance, independent learning or wellbeing, the number and quality of alternatives considered, and **consequential** rights to revise goals. A negative result—no priority convergence after correcting for selection, or increased human goal-revisability alongside higher technical performance—would constrain the proposed assimilative mechanism.
+
+**Core proposition — engineering objectivity with potentially asymmetric adaptive authority:** The AI-mediated world may become more *objectively engineered* in successfully tested domains while some institutions increasingly shape which goals, measures and possibilities govern social participation. Under identifiable conditions, organisational incentives and AI benchmarks could also reshape the purposes of those designing the systems, producing an institutionally assimilative form of human–AI enhancement. This is **neither necessary nor established**: its counterpoint is human–AI integration that expands both engineering competence and reflective authority over the ends it serves.
+
+## 11.9 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
 
 No changes to the **original meanings of** $x=F-F^\star$, $\xi=G-F^\star$ or the explore–exploit tilt $\delta$ are required. Instead, public accountability and symbolic feedback alter the **inputs** to the existing controller: task demands, uncertainty, goals, reward signals, model coherence, niche coupling and anticipated consequences of public scrutiny.
 
@@ -989,7 +1107,7 @@ The public symbolic bank $P$ should not be equated with **psychometric Gc**: it 
 
 The developmental regimes also remain simultaneously available. An adult can execute automated skills, reason about the same referent across perspectives, and participate in recursively organised public systems *within the same cognitive episode*. The claim that this combination is particularly elaborated in human symbolic culture does not imply that nonhuman animals lack all perspectival or counterfactual capacities.
 
-## 11.9 What would make this a generative scientific account?
+## 11.10 What would make this a generative scientific account?
 
 A model should implement **at least two distinct transitions** and compare them with simpler alternatives.
 
