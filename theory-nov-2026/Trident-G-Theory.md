@@ -1,12 +1,12 @@
 # Trident-G: A Hierarchical, Multiscale Theory of Homeostatic General Adaptive Intelligence
 
-**Unified working theory — Version 0.4 (14 November 2026; developmental and experiential extension, draft)**  
+**Unified working theory — Version 0.4 (14 November 2026; developmental, experiential and regulatory-divergence extension, draft)**  
 **Author:** Mark Ashton Smith  
 **Status:** Conceptual and mathematical research programme; not an empirically validated account of general intelligence.
 
 > **Core proposition.** General adaptive intelligence arises from the regulation of a heterogeneous, hierarchically organised agent–environment system. Relatively stable Gc representations and skills operate concurrently with flexible Gf synthesis. Homeostatic control determines when skilled routines persist, when alternatives are recruited, and when established representations are revised. Repeated joint action may enable the extraction and consolidation of *cross-perspectival referential invariants*, supporting explicitly assessable shared intentionality_R. Public symbolic models then become new elements of the cognitive niche, improving or distorting later reasoning according to their connection to independent evidence, human goals and corrective feedback. The resulting invariants can become recursively model-conditioned; genuine world grounding also requires scrutiny of the provenance and independence of the transformations used for validation.
 
-This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence. The updated Stage III extension also considers how socially or algorithmically validated images and narratives of subjective experience may reshape later choices, creating possible alignment or divergence between lived purposes and their publicly recognised forms. A further hypothesis distinguishes increased engineering control from justified goals and asks whether AI benchmarks, institutional incentives and designers' priorities might co-evolve towards either autonomy-enhancing or institutionally assimilative human–AI integration. The related three-position account differentiates subjectively valuable experiences, performance-based returns and effective control over the objectives of an engineered niche, without inferring fixed social classes or a universal 80:20 distribution.
+This version integrates the previous coupled-dynamics, hierarchical-modularity and timescale account with a **generative developmental extension** grounded in Ashton Smith's earlier Shared Intentionality_A / Shared Intentionality_R distinction. It examines how joint action might support the emergence of independently reusable reference, how symbolic models subsequently become persistent niches, and when recursively generated representations either strengthen or undermine environmental correction. Its equations are a modelling scaffold, not proof of a universal human evolutionary sequence. The updated Stage III extension also considers how socially or algorithmically validated images and narratives of subjective experience may reshape later choices, creating possible alignment or divergence between lived purposes and their publicly recognised forms. A further hypothesis distinguishes increased engineering control from justified goals and asks whether AI benchmarks, institutional incentives and designers' priorities might co-evolve towards either autonomy-enhancing or institutionally assimilative human–AI integration. The related three-position account differentiates subjectively valuable experiences, performance-based returns and effective control over the objectives of an engineered niche, without inferring fixed social classes or a universal 80:20 distribution. A further conditional extension examines whether internalising institutional objectives can improve performance while weakening personal regulatory sustainability, and distinguishes that possibility from beneficial internalisation and from reduced autonomy without physiological overload.
 
 ---
 
@@ -835,7 +835,7 @@ There are **two possible Stage III regimes**, not an inevitable transition into 
 For the theory, define independently measurable **public agreement/coherence** $C_P$, **external predictive calibration** $Q_W$, and **reflective revisability** $R_N$ (the ability to challenge and revise standards or goals). A critical test is whether $C_P$ can increase while $Q_W$ or $R_N$ deteriorates:
 
 $$
-C_P\uparrow \ \not\Rightarrow\
+C_P\uparrow \quad\not\Rightarrow\quad
 Q_W\uparrow,\qquad
 C_P\uparrow \ \not\Rightarrow\ R_N\uparrow.
 $$
@@ -1160,7 +1160,61 @@ The hypothesis would be constrained if immersive technology consistently expands
 
 **Core proposition — stratification of experience, performance and adaptive authority:** An AI-mediated society could distribute psychologically satisfying experiences broadly, reward a narrower set of highly effective performers and concentrate the authority to define what performance and future environments should be. Human–AI integration could increase capabilities in all three positions while allowing different degrees of control over the *ends* those capabilities serve. The most consequential inequality would concern not whose mind is more objective, but **who can realise valued purposes and who can reconsider the rules defining those purposes**. The proposition remains a falsifiable socio-cognitive extension of recursive symbolic niche construction, not a proven three-tier social order.
 
-## 11.10 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
+## 11.10 Internalised objectives and divergence between performance, viability and autonomy
+
+**Successful adaptation to institutional objectives need not preserve the adaptive viability of the person pursuing them.** Sections 11.8–11.9 distinguish engineering competence from authority over purposes. The present extension connects that distinction to allostatic regulation: internalised objectives may improve coordination, meaning and performance, but may also sustain demands that exceed an individual's capacity for recovery. This is a **conditional divergence hypothesis**, not an implication that institutional membership, ambition or technological enhancement is intrinsically harmful.
+
+The same possibility applies to participants and system architects. An engineer or executive can possess accurate causal models and substantial authority over a subordinate system while remaining dependent on higher-order incentives. Concentrated epistemic-engineering resources therefore do not guarantee personal regulatory sustainability. Conversely, restricted institutional authority does not by itself establish physiological dysregulation. No Pareto distribution is required for either claim.
+
+### Forms of internalisation and candidate mechanisms
+
+Self-determination theory distinguishes internal pressure or **introjected regulation**, such as guilt and contingent self-worth, from more **integrated regulation**, in which adopted goals fit broader values and needs (Ryan & Deci, 2000). Goals originating in a collective can be autonomously endorsed; identifying with a goal is not sufficient evidence that its pursuit remains sustainable. Within Trident-G, at least three outcomes must remain distinguishable:
+
+| Possible outcome | Relation between institutional and personal purposes | Regulatory and autonomy implications |
+|---|---|---|
+| **Beneficial internalisation** | Shared goals support valued work, belonging and coordination while allowing other commitments and revision | Performance and sustainable engagement may improve together |
+| **Costly internalisation** | Targets become compelling standards of personal worth and override recovery or competing needs | Performance may improve while regulatory costs accumulate; this requires independent evidence |
+| **Reduced autonomy without evident overload** | Participation is comfortable or well supported, but meaningful influence over governing purposes is limited | Physiological regulation may remain adequate despite low consequential goal-revision authority |
+
+Proposed mechanisms include **identity-contingent pressure** (failure threatens self-worth as well as outcomes); **selective feedback weighting** (institutional metrics outweigh fatigue, recovery or interpersonal consequences); **demand escalation** (efficiency gains prompt higher targets rather than restored capacity); and **restricted goal revision** (the G-loop improves methods while overarching objectives remain insulated from correction). These mechanisms can coexist, but must be measured separately from external coercion, workload alone and prior preferences.
+
+An illustrative case is a professional who initially pursues advancement to secure a worthwhile life, but gradually evaluates rest, relationships and learning primarily by their contribution to advancement. The hypothetical divergence lies in the changing priority structure and its consequences, not in the existence of professional commitment. The person's reflective endorsement, actual alternatives and longer-term outcomes require assessment rather than inference by an observer.
+
+### Expected strain is not necessarily sustainable strain
+
+The existing definitions remain unchanged:
+
+$$
+\varepsilon_t=F_t-G_t,\qquad
+x_t=F_t-F_t^\star,\qquad
+\xi_t=G_t-F_t^\star.
+$$
+
+As someone learns to anticipate persistent demands, $G_t$ can approach $F_t$. For an illustrative interval with a given defended reference:
+
+$$
+F_t\approx G_t>F_t^\star
+\quad\Longrightarrow\quad
+\varepsilon_t\approx0,\qquad x_t\approx\xi_t>0.
+$$
+
+This identity shows that **accurate anticipation does not establish sustainable regulation**. If the resulting conditions exceed an independently assessed viable range, a small realised-versus-expected mismatch can coexist with overload. However, $x_t>0$ alone does not diagnose harm: temporary challenge can be productive, the Ψ-band has finite extent, and $F_t^\star$ may itself change. Neither normalised expectations nor a shifted defended reference proves restored viability; recovery and longer-term consequences must be assessed independently.
+
+Allostasis concerns adjustment to demands; allostatic load concerns accumulated physiological costs of repeated or inadequately terminated regulatory responses (McEwen, 1998). The model's coarse-grained $F_t$ and mismatch $\varepsilon_t$ are **not themselves clinical allostatic-load indices**. Nor do the cusp equations alone entail accumulated damage. Appendix A20 sets out the limited formal implication without adding an unvalidated damage law.
+
+### Evidence, independent assessment and disconfirmation
+
+Adjacent evidence supports investigating this divergence, but does not establish the institutional mechanism. In a small randomised experiment ($n=39$), controlled rather than autonomous motivation produced greater short-term wall-sit performance alongside a different, transient cortisol response (Steel, Bishop, & Taylor, 2021). This illustrates a possible dissociation of performance and acute stress responses, not chronic allostatic damage.
+
+Quirin et al. (2009) found that cortisol levels predicted misremembering assigned tasks as self-selected. The result concerns goal-source memory and motivates testing whether stress can impair discrimination between assigned and self-selected aims. It does **not** demonstrate that internalising institutional objectives causes chronic overload, or establish a bidirectional causal loop. A proposed cycle of pressure, reduced goal discrimination and further costly commitment requires prospective or experimental tests of each link.
+
+A study should assess performance, motivation quality, independently elicited goals, actual revision/refusal rights and recovery over time. Physiological observations should be repeated and interpreted alongside sleep, functioning and context; acute cortisol elevation is not synonymous with damage, and no single biomarker identifies $F^\star$. Baseline health, material insecurity, work demands, reward dependence and selection into roles are relevant alternative explanations. Subjective distress alone cannot establish physiological overload, and physiological strain alone cannot determine whether a person's values are legitimate.
+
+The stronger hypothesis predicts that restricted goal revision and internal pressure contribute to divergence **beyond workload and prior vulnerability**, with better outcomes where regulatory consequences can alter governing objectives. It would be weakened if adopted goals consistently improve performance and recovery together, if apparent costs are explained by workload or selection without an internalisation contribution, or if effective goal-revision opportunities add no benefit under the specified conditions. Reduced autonomy without measured dysregulation would constrain an allostatic claim while remaining a separate institutional finding.
+
+**Core proposition — performance, viability and autonomy can diverge:** Internalising institutional objectives may improve performance within a niche while undermining personal sustainability when performance signals override regulatory feedback and effective opportunities to revise those objectives. Beneficial integration and comfortable participation with limited authority remain alternative possibilities. Engineering competence, physiological sustainability and authority over purposes must therefore be assessed separately.
+
+## 11.11 Integrating public reference with the cusp, G-loop and Gf → Gc → Gf spiral
 
 No changes to the **original meanings of** $x=F-F^\star$, $\xi=G-F^\star$ or the explore–exploit tilt $\delta$ are required. Instead, public accountability and symbolic feedback alter the **inputs** to the existing controller: task demands, uncertainty, goals, reward signals, model coherence, niche coupling and anticipated consequences of public scrutiny.
 
@@ -1176,7 +1230,7 @@ The public symbolic bank $P$ should not be equated with **psychometric Gc**: it 
 
 The developmental regimes also remain simultaneously available. An adult can execute automated skills, reason about the same referent across perspectives, and participate in recursively organised public systems *within the same cognitive episode*. The claim that this combination is particularly elaborated in human symbolic culture does not imply that nonhuman animals lack all perspectival or counterfactual capacities.
 
-## 11.11 What would make this a generative scientific account?
+## 11.12 What would make this a generative scientific account?
 
 A model should implement **at least two distinct transitions** and compare them with simpler alternatives.
 
@@ -1203,6 +1257,8 @@ This involves two simultaneously operating feedback circuits:
 **Across-episode development:** tested solutions → transferable invariants → skill/schema banking → changed modules, timescales and predictive maps → altered future episodes and niches.
 
 **Cross-agent and public-symbolic development:** coordinated acts → referential repair/invariant learning → shareable claims → public audit or reward → banked individual/public structures → altered niches and future cognitive goals. This loop can strengthen genuinely independent feedback or, in the proposed synthetic-capture regime, increase agreement while narrowing external correction. The distinctive conditions and equations are in §11.
+
+**Revising the objective itself:** Persistent recovery costs or conflicts with wider purposes should be capable of reopening the target, workload, success criteria or niche arrangement, as well as prompting a change of method (§11.10). This is a proposed G-loop design safeguard: improved performance and reduced prediction mismatch cannot alone establish that continuing the same objective is viable. The agent may instead negotiate demands, change the niche, defer action or revise the objective.
 
 A high-Gf episode is not one in which every module is constantly near-critical or consciously controlled. It is one in which the system can **selectively combine existing competence with flexible reconstruction** under the present demands.
 
@@ -1239,6 +1295,9 @@ The strongest predictions must distinguish Trident-G from simpler accounts. The 
 | **P23. Experiential benefits and practical agency may dissociate** | Independently vary access to immersive/AI-personalised experiences and access to meaningful practical opportunities; measure subjective satisfaction, later choices, material outcomes and ability to contest conditions | Test empowerment versus substitution for opportunity; do not infer manipulation from enjoyment or assume a majority population in this regime |
 | **P24. Rewarded skill and objective-setting authority may diverge** | In sport, education or employment, match competence and AI support while varying consequential decision rights over goals, scoring systems and the niche | Separate objective performance from returns, institutional authority, educational attainment and selection effects |
 | **P25. Epistemic-engineering resources and design authority may have concentrated upper tails** | Track AI compute/data access, modelling competence, capital, public/private governance rights and mobility over time; fit Pareto tails against lognormal and mixed alternatives | No fixed 80:20 proportion; analyse different institutions, open-model diffusion, and whether metric-setting power is more concentrated than AI access |
+| **P26. Performance and regulatory sustainability may diverge under costly internalisation** | Repeatedly assess motivation quality, goal endorsement, performance and recovery under comparable demands; test whether internal pressure predicts divergence | Control workload, baseline health, material insecurity, selection and prior goals; include beneficial integration; acute cortisol changes do not establish cumulative load |
+| **P27. Small anticipated-versus-realised mismatch need not imply recovery** | Track independently elicited anticipated burden, realised burden and longitudinal recovery as persistent demands become familiar | Compare reduced uncertainty with genuine demand reduction; independently constrain any changing reference level; reject a recovery claim based only on small fitted mismatch |
+| **P28. Consequential goal revision may reduce divergence beyond improving methods** | Compare access to method changes alone with effective rights to revise targets or workloads under similar initial resources and demands; follow performance, chosen goals and recovery | Measure actual use and downstream demand changes rather than controlling away those mediators; compare workload-only and general autonomy-support accounts; allow null effects and well-regulated low-authority cases |
 
 ### What specifically counts as evidence for a Griffiths phase?
 
@@ -1265,6 +1324,8 @@ The fully coupled model contains more latent states than could responsibly be in
 **Fifth: reciprocal niches and human validation.** Extend agents to modifiable environments, then fit targeted human tasks with independent Gf/Gc measures, repeated assessments, and cautiously interpreted neural/physiological signals.
 
 **Sixth: emergent reference and public symbolic feedback.** Train multi-agent learners with shared goals, role changes and communicative repair; compare them with matched associative and hierarchical-RL baselines. Then add persistent public symbolic records and AI-generated content, varying independent observational audits and performative effects. Compare independent referential transfer, external calibration, normative revision and public agreement.
+
+**Focused institutional-regulation extension:** Test §11.10 in a separate longitudinal or bounded experimental programme, connecting P26–P28 to the existing viability constraint. Establish the quality of motivation, recovery and authority measures before adding latent feedback or damage parameters. This extension does not require a Griffiths phase or Pareto distribution; support for it alone would not validate the cusp or general-intelligence claims.
 
 The earliest computational implementation should **freeze slow developmental variables** and specify concrete forms for $\mathcal S$, $\mathcal M$, $\mathcal A$, $\mathrm{Gate}$, $f_j$ and $\mathcal B$. Meta-efficacy $\eta$, coherence $\chi$, homeostatic conditions $\mathbf h$, and $F^\star$ presently enter as inputs or slow latent quantities: their own update laws are open questions. Version 0.4 is therefore a *structured candidate theory*, not yet a closed, identifiable model; the developmental transitions and symbolic feedback system add particularly demanding identifiability and causal-inference requirements.
 
@@ -1553,13 +1614,38 @@ $$
 
 The tail exponent and lower threshold must be estimated; alternatives include lognormal and mixed distributions. This is **not** a universal 80:20 rule, a fixed three-class population model, or a psychometric intelligence score.
 
+**A20. Performance–viability divergence under internalised objectives**
+
+Retain the definitions in A1 and the independently specified viable range $\mathcal V$ in §10/A11. The logical non-implication
+
+$$
+\varepsilon_t\approx0
+\quad\not\Rightarrow\quad
+\mathbf h_t\in\mathcal V
+$$
+
+states that matching realised and anticipated burden does not logically establish viability. It does not assert that every accurately anticipated demand is harmful. A candidate divergence pattern for a specified person, domain and assessment interval is
+
+$$
+P_i^{\mathrm{perf}}\uparrow
+\quad\text{while}\quad
+\mathbf h_{i,t}\ \text{shows persistent or recurrent departures from }\mathcal V,
+$$
+
+with those departures established through independently specified observations of regulatory condition and recovery. $A_i^{\mathrm{rev}}$ must be measured separately: low authority is neither necessary nor sufficient for overload. High authority over one institutional layer may also coexist with restricted choice at another.
+
+$F^\star$ is a defended reference, not an independently certified boundary of health. A changing reference cannot be used to absorb observed strain and then declare restored viability. The viability assessment must remain distinct from fitting $F$, $G$ and $F^\star$; high performance and self-reported familiarity cannot provide the sole identifying observations.
+
+Accumulated allostatic costs would require a separately validated state/update law with recovery, timescale and observation assumptions. None is inferred from $\varepsilon$, the cusp potential, a single hormone measure or this qualitative divergence pattern. Causal attribution to internalisation additionally requires distinguishing it from workload, coercion, selection and baseline vulnerability, as specified in P26–P28.
+
 Operational decisions should be implemented on an explicit sampling/update schedule or as a specified coupled stochastic system to avoid algebraic circularity. The symbolic operators above cannot be fitted without defining compatible state spaces and observations.
 
 ## Appendix B. Notation and crucial distinctions
 
 | Quantity | Interpretation |
 |---|---|
-| $x=F-F^\star$ | Realised deviation from defended homeostatic reference |
+| $x=F-F^\star$ | Realised deviation from defended homeostatic reference; not by itself a damage index |
+| $\mathbf h_t,\mathcal V$ | Regulatory condition and independently specified viable range; distinct from prediction mismatch and defended reference |
 | $\xi=G-F^\star$ | Anticipated engagement relative to defended reference; cusp shape control |
 | $\varepsilon=F-G$ | Allostatic realised-versus-expected mismatch |
 | $\delta$ | Explore–exploit/convergent–divergent tilt |
@@ -1611,7 +1697,10 @@ Operational decisions should be implemented on an explicit sampling/update sched
 **Model collapse ≠ performative prediction ≠ ontological omission; these must be tested separately.**  
 **Engineering performance ≠ moral justification; an AI benchmark ≠ a machine's consciously endorsed value; technological enhancement ≠ proven loss of autonomy.**  
 **Experiential satisfaction ≠ necessarily fantasy or inauthenticity; competence within rules ≠ power to revise those rules.**  
-**Pareto-like concentrations and three adaptive positions are hypotheses, not established population classes.**
+**Pareto-like concentrations and three adaptive positions are hypotheses, not established population classes.**  
+**Small allostatic mismatch ≠ demonstrated viability; a defended reference ≠ an independently validated health boundary.**  
+**Internalised institutional goals ≠ necessarily controlled motivation; reduced autonomy ≠ necessarily physiological overload.**  
+**Short-term performance or acute cortisol change ≠ established long-term regulatory sustainability or allostatic damage.**
 
 ---
 
@@ -1619,11 +1708,11 @@ Operational decisions should be implemented on an explicit sampling/update sched
 
 ### Established or independently studied building blocks
 
-Neural avalanche and criticality phenomena; hierarchical modular and heterogeneous network models; hierarchical reinforcement-learning descriptions of learned action sequences; successor representations as predictive maps; distinct neural temporal integration windows; and broad empirical distinctions between novel reasoning, skills and accumulated knowledge.
+Neural avalanche and criticality phenomena; hierarchical modular and heterogeneous network models; hierarchical reinforcement-learning descriptions of learned action sequences; successor representations as predictive maps; distinct neural temporal integration windows; and broad empirical distinctions between novel reasoning, skills and accumulated knowledge. Adjacent building blocks for §11.10 include allostasis/allostatic load, autonomous versus controlled motivation, and goal-source memory under stress; these do not establish the proposed institutional feedback mechanism.
 
 ### Theoretical interpretations requiring direct testing
 
-That Trident-G's cusp variables track human homeostatic engagement; that the Ψ-band is an individually measurable region of adaptive near-critical operation; that Gf synthesis is specifically implemented through the stated four information-processing branches; that Gc-dominated processing preferentially recruits more subcritical and lower-cost dynamics; that a Griffiths phase causally improves Gf/Gc coordination; and that improved invariant learning produces durable, domain-general gains in intelligence.
+That Trident-G's cusp variables track human homeostatic engagement; that the Ψ-band is an individually measurable region of adaptive near-critical operation; that Gf synthesis is specifically implemented through the stated four information-processing branches; that Gc-dominated processing preferentially recruits more subcritical and lower-cost dynamics; that a Griffiths phase causally improves Gf/Gc coordination; and that improved invariant learning produces durable, domain-general gains in intelligence. The institutional-regulation extension additionally hypothesises that internal pressure and restricted objective revision can contribute to performance–viability divergence beyond workload and selection; neither that causal pathway nor a reciprocal stress–internalisation loop is established.
 
 ### Evidence audit: which neural findings support which claims?
 
@@ -1654,6 +1743,7 @@ This table grades the **strength and directness of the evidence for the stated c
 | Engineering and AI goal-setting | Tobin et al. (2017); Gabriel (2020); van de Poel (2020); Kellogg et al. (2020); Russell (2019); Turner et al. (2021) | **Robotics experiment, normative analysis, organisational synthesis and formal RL theorem** | A unified corporate–state objective, designers' demonstrated value assimilation, or general real-world power-seeking by deployed AI |
 | Technology-mediated human enhancement and freedom | Bostrom (2005; conceptual account) | **Philosophical transhumanist argument emphasising enhancement, choice and broad access** | That transhumanism necessarily entails technocratic control |
 | Three AI-mediated adaptive positions and epistemic capital concentration | Conceptual synthesis of §§11.6–11.9; Diehl et al. (2016), Barasch et al. (2018), Kellogg et al. (2020), Gabriel (2020) and Bostrom (2005) provide adjacent but nondecisive research | **Novel Trident-G socio-cognitive hypotheses, not a validated demographic distribution** | That the majority is subjectively pacified, that enjoyment implies false consciousness, or that design authority necessarily follows wealth or an exact Pareto law |
+| Internalisation, performance and regulatory sustainability | Ryan & Deci (2000; theory/research synthesis); McEwen (1998; allostatic account); Quirin et al. (2009; goal-source memory/cortisol); Steel et al. (2021; small randomised experiment) | **Adjacent theoretical, associative and acute experimental evidence** | Chronic institutional internalisation causing overload, a reciprocal causal loop, a unique cusp mechanism, or equivalence between low autonomy and physiological dysregulation |
 
 **Methodological principle:** fMRI functional connectivity, behavioural Gf/Gc scores, EEG criticality proxies, neuronal spiking, neuromodulatory activity, and subjective effort are distinct measurements. Treating them as different observations of the *same* latent control system requires a model with independently validated links. A high neural–behavioural correlation is not in itself proof of a Griffiths phase or improved intelligence.
 
@@ -1746,6 +1836,15 @@ Shumailov et al. (2024) and Perdomo et al. (2020) are listed above under **Recur
 
 **Evidence boundary:** These works support specified robotics transfer, philosophical value-alignment distinctions, observed organisational control mechanisms and some formal policy-optimisation incentives. **They do not establish that AI–corporate–state systems constitute one coordinated actor, that designers already internalise AI benchmarks as personal values, or that technological augmentation necessarily leads to institutional assimilation.** The latter remain conditional, testable Trident-G hypotheses; the original transhumanist literature also affirms voluntary enhancement and autonomy.
 
+### Internalised objectives, motivation and allostatic divergence (§11.10)
+
+- **McEwen, B. S. (1998).** Stress, adaptation, and disease: Allostasis and allostatic load. *Annals of the New York Academy of Sciences*. https://pubmed.ncbi.nlm.nih.gov/9629234/
+- **Ryan, R. M., & Deci, E. L. (2000).** Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. *American Psychologist, 55*(1), 68–78. https://doi.org/10.1037/0003-066X.55.1.68
+- **Quirin, M., Koole, S. L., Baumann, N., Kazén, M., & Kuhl, J. (2009).** You can't always remember what you want: The role of cortisol in self-ascription of assigned goals. *Journal of Research in Personality, 43*(6), 1026–1032. https://doi.org/10.1016/j.jrp.2009.06.001
+- **Steel, R. P., Bishop, N. C., & Taylor, I. M. (2021).** The effect of autonomous and controlled motivation on self-control performance and the acute cortisol response. *Psychophysiology, 58*(11), e13915. https://doi.org/10.1111/psyp.13915
+
+**Evidence boundary:** These sources support distinctions between forms of motivation, acute performance/stress responses, goal-source memory and the costs of sustained regulation. They do not establish that institutional internalisation necessarily damages health, that an acute cortisol response demonstrates allostatic load, or that restricted goal authority entails physiological dysregulation. The proposed institutional feedback pathways require independent longitudinal and causal tests.
+
 ### Photography, social validation and the representation of experience (Section 11.6)
 
 - **Diehl, K., Zauberman, G., & Barasch, A. (2016).** How taking photos increases enjoyment of experiences. *Journal of Personality and Social Psychology, 111*(2), 119–140. https://doi.org/10.1037/pspa0000055
@@ -1794,8 +1893,11 @@ The proposed stratification of experience, rewarded performance and objective-se
 
 A further Stage III conjecture is that engineering efficacy can strengthen the reality of an engineered social niche while its designers and participants become differently empowered to revise that niche. Repeated technical and institutional optimisation may shape the designers' own purposes, but objective convergence and any assimilative transhumanist trajectory require direct evidence rather than inference from technical success.
 
+The regulatory-divergence extension asks whether internalised institutional objectives can improve performance while undermining recovery or narrowing effective goal revision. Familiarity with demands and reduced prediction mismatch do not establish viability. Beneficial goal integration and low-authority participation without overload remain alternative outcomes; performance, sustainability and autonomy require separate evidence.
+
 The Stage III objectivity extension adds a further constraint: invariant representations must be evaluated for **source independence and unrepresented dimensions**, not merely agreement under model-generated transformations; recursive public modelling can be informative or epistemically self-sealing depending on independent audit and revisability.
 
 The extension to mediated subjectivity adds a complementary, non-neural research question: whether the ability to represent experiences publicly creates feedback that preserves, enriches or displaces the person's reflectively endorsed purposes. Its primary outcomes are experiential, interpersonal and practical, rather than an automatic change in psychometric $g$.
 
 **The next decisive step is computational and empirical.** The existing hierarchical, cusp and Griffiths-phase hypotheses should be separately ablated; the new developmental extension additionally requires multi-agent experiments determining whether communicative repair and cross-perspective invariants produce reusable object reference, and whether recursively generated public models preserve independent calibration and revisability. Stronger theory should follow demonstrated discriminating predictions, not additional untested modules.
+
